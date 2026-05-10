@@ -1,0 +1,19 @@
+[project]
+name = "shotrip-operation"
+version = "0.1.0"
+description = "Data ingestion pipeline"
+authors = [
+    {name = "shota harita",email = "arsenal14xaka@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "openai (>=2.24.0,<3.0.0)",
+    "boto3 (>=1.42.59,<2.0.0)",
+    "pinecone (>=8.1.0,<9.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
