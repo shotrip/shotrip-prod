@@ -1,0 +1,190 @@
+[
+  {
+    "slug": "sushi-etiquette-guide",
+    "title": "THIS IS 2nd TEST ARTICLE!",
+    "excerpt": "this is the essentials food test article. Can you see me?",
+    "thumbnail": "/images/categories/food.jpg",
+    "date": "2026-03-16",
+    "type": "essentials",
+    "category": "food"
+  },
+  {
+    "slug": "about-crowded-train",
+    "title": "Tips for when riding a crowded train",
+    "excerpt": "This is the 1st test article in this category.",
+    "thumbnail": "/images/categories/transportation/hero-1.jpg",
+    "date": "2026-03-20",
+    "type": "essentials",
+    "category": "transportation"
+  },
+  {
+    "slug": "about-japanese-ship",
+    "title": "How to ride ships in Japan",
+    "excerpt": "This is the 2nd test article in this category.",
+    "thumbnail": "/images/categories/transportation/hero-1.jpg",
+    "date": "2026-03-21",
+    "type": "essentials",
+    "category": "transportation"
+  },
+  {
+    "slug": "about-overnight-bus",
+    "title": "How to take an overnight bus in Japan",
+    "excerpt": "This is the 3rd test article in this category.",
+    "thumbnail": "/images/categories/transportation/hero-1.jpg",
+    "date": "2026-03-20",
+    "type": "essentials",
+    "category": "transportation"
+  },
+  {
+    "slug": "about-rental-car",
+    "title": "How to use rental car in Japan and what is required",
+    "excerpt": "This is the 4th test article in this category.",
+    "thumbnail": "/images/categories/transportation/hero-1.jpg",
+    "date": "2026-03-20",
+    "type": "essentials",
+    "category": "transportation"
+  },
+  {
+    "slug": "about-rental-cycle",
+    "title": "How to use a rental bike",
+    "excerpt": "This is the 5th test article in this category.",
+    "thumbnail": "/images/categories/transportation/hero-1.jpg",
+    "date": "2026-03-20",
+    "type": "essentials",
+    "category": "transportation"
+  },
+  {
+    "slug": "buy-train-ticket",
+    "title": "How to buy train tickets",
+    "excerpt": "This is the 6th test article in this category.",
+    "thumbnail": "/images/categories/transportation/hero-1.jpg",
+    "date": "2026-03-20",
+    "type": "essentials",
+    "category": "transportation"
+  },
+  {
+    "slug": "japan-ic-cards",
+    "title": "How to Use IC Cards (Suica & Pasmo)",
+    "excerpt": "Mastering Japan's public transport starts with getting an IC card. Learn how to buy, charge, and use them for trains and buses.",
+    "thumbnail": "/images/categories/transportation/hero-1.jpg",
+    "date": "2026-03-25",
+    "type": "essentials",
+    "category": "transportation"
+  },
+  {
+    "slug": "japanese-local-bus",
+    "title": "Challenges on local bus companies in Japan",
+    "excerpt": "This is the 7th test article in this category.",
+    "thumbnail": "/images/categories/transportation/hero-1.jpg",
+    "date": "2026-03-30",
+    "type": "essentials",
+    "category": "transportation"
+  },
+  {
+    "slug": "riding-bullet-train",
+    "title": "Do you know how easy to take japanese bullet train?",
+    "excerpt": "This is the 8th test article in this category.",
+    "thumbnail": "/images/categories/transportation/hero-1.jpg",
+    "date": "2026-03-25",
+    "type": "essentials",
+    "category": "transportation"
+  },
+  {
+    "slug": "riding-japanese-taxi",
+    "title": "Tips for when you ride a japanse taxi",
+    "excerpt": "This is the 9th test article in this category.",
+    "thumbnail": "/images/categories/transportation/hero-1.jpg",
+    "date": "2026-03-31",
+    "type": "essentials",
+    "category": "transportation"
+  },
+  {
+    "slug": "weather-and-transportation",
+    "title": "Relations between weather and Japanese trains",
+    "excerpt": "This is the 10th test article in this category.",
+    "thumbnail": "/images/categories/transportation/hero-1.jpg",
+    "date": "2026-03-27",
+    "type": "essentials",
+    "category": "transportation"
+  },
+  {
+    "slug": "yokohama-minato-mirai",
+    "title": "Walking Through Yokohama Minato Mirai",
+    "excerpt": "A guide to the seaside urban area of Yokohama, featuring the Landmark Tower, Cosmo World, and beautiful night views.",
+    "thumbnail": "/images/prefectures/kanagawa/thumb.jpg",
+    "date": "2026-03-22",
+    "type": "regional",
+    "region": "kanto",
+    "prefecture": "kanagawa"
+  },
+  {
+    "slug": "shinjuku-gyoen-park",
+    "title": "Shinjuku Gyoen: An Oasis in the Heart of Tokyo",
+    "excerpt": "Discover the tranquility of Shinjuku Gyoen, one of Tokyo's largest and most popular parks, offering a blend of Japanese, English, and French garden styles.",
+    "thumbnail": "/images/prefectures/tokyo/thumb.jpg",
+    "date": "2026-03-20",
+    "type": "regional",
+    "region": "kanto",
+    "prefecture": "tokyo"
+  },
+  {
+    "slug": "tokyo-delicious-food",
+    "title": "Tokyo Delicious Food",
+    "excerpt": "this is the test article. Can you see me?",
+    "thumbnail": "/images/common/placeholder.jpg",
+    "date": "2026-03-17",
+    "type": "regional",
+    "region": "kanto",
+    "prefecture": "tokyo"
+  },
+  {
+    "slug": "tokyo-hidden-cafes",
+    "title": "Tokyo Hidden Cafes",
+    "excerpt": "this is the test article. Can you see me?",
+    "thumbnail": "/images/common/placeholder.jpg",
+    "date": "2026-03-15",
+    "type": "regional",
+    "region": "kanto",
+    "prefecture": "tokyo"
+  },
+  {
+    "slug": "tokyo-history-exploration",
+    "title": "Tokyo History Exploration",
+    "excerpt": "this is the test article. Can you see me?",
+    "thumbnail": "/images/common/placeholder.jpg",
+    "date": "2026-03-18",
+    "type": "regional",
+    "region": "kanto",
+    "prefecture": "tokyo"
+  },
+  {
+    "slug": "tokyo-izakaya-hopping",
+    "title": "Tokyo Izakaya Hopping",
+    "excerpt": "this is the test article. Can you see me?",
+    "thumbnail": "/images/common/placeholder.jpg",
+    "date": "2026-03-25",
+    "type": "regional",
+    "region": "kanto",
+    "prefecture": "tokyo"
+  },
+  {
+    "slug": "tokyo-landmark-hopping",
+    "title": "Tokyo Landmark Hopping",
+    "excerpt": "this is the test article. Can you see me?",
+    "thumbnail": "/images/common/placeholder.jpg",
+    "date": "2026-03-28",
+    "type": "regional",
+    "region": "kanto",
+    "prefecture": "tokyo"
+  },
+  {
+    "slug": "tokyo-walking-course",
+    "title": "Tokyo Walking Course",
+    "excerpt": "this is the test article. Can you see me?",
+    "thumbnail": "/images/common/placeholder.jpg",
+    "date": "2026-03-30",
+    "type": "regional",
+    "region": "kanto",
+    "prefecture": "tokyo"
+  }
+]

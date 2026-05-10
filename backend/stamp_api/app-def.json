@@ -1,0 +1,40 @@
+{
+    "family": "shotrip-prod-stamp",
+    "containerDefinitions": [
+        {
+            "name": "stamp",
+            "image": "836533915016.dkr.ecr.ap-northeast-1.amazonaws.com/shotrip-prod/shotrip-prod-stamp:latest",
+            "cpu": 0,
+            "portMappings": [
+                { "containerPort": 8000, "hostPort": 8000, "protocol": "tcp", "name": "stamp", "appProtocol": "http" }
+            ],
+            "essential": true,
+            "environment": [
+                { "name": "AWS_REGION", "value": "ap-northeast-1" },
+                { "name": "DB_HOST", "value": "shotrip-prod.cluster-cxicooisy9to.ap-northeast-1.rds.amazonaws.com" },
+                { "name": "DB_PORT", "value": "5432" },
+                { "name": "DB_USER", "value": "shotrip-prod-stamp" },
+                { "name": "DB_NAME", "value": "postgres" },
+                { "name": "BUCKET_NAME", "value": "shotrip-prod-stamp-pics" },
+                { "name": "SSLMODE", "value": "verify-full" },
+                { "name": "SSLROOTCERT", "value": "/root/.postgresql/root.crt" }
+            ],
+            "logConfiguration": {
+                "logDriver": "awslogs",
+                "options": {
+                    "awslogs-group": "/ecs/shotrip-prod-stamp",
+                    "awslogs-create-group": "true",
+                    "awslogs-region": "ap-northeast-1",
+                    "awslogs-stream-prefix": "ecs"
+                }
+            }
+        }
+    ],
+    "taskRoleArn": "arn:aws:iam::836533915016:role/shotrip-prod-ecs-task-role",
+    "executionRoleArn": "arn:aws:iam::836533915016:role/shotrip-prod-ecs-exec-role",
+    "networkMode": "awsvpc",
+    "requiresCompatibilities": ["FARGATE"],
+    "cpu": "1024",
+    "memory": "2048",
+    "runtimePlatform": { "cpuArchitecture": "X86_64", "operatingSystemFamily": "LINUX" }
+}

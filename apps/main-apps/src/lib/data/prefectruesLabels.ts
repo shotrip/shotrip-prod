@@ -1,0 +1,73 @@
+export const PREFECTURES_LIST = {
+  hokkaido: [
+    { key: "central_hokkaido", label: "Central Hokkaido" },
+    { key: "southern_hokkaido", label: "Southern Hokkaido" },
+    { key: "northern_hokkaido", label: "Northern Hokkaido" },
+    { key: "eastern_hokkaido", label: "Eastern Hokkaido" },
+  ],
+  kanto: [
+    { key: "tokyo", label: "Tokyo" },
+    { key: "chiba", label: "Chiba" },
+    { key: "kanagawa", label: "Kanagawa" },
+    { key: "saitama", label: "Saitama" },
+    { key: "ibaraki", label: "Ibaraki" },
+    { key: "tochigi", label: "Tochigi" },
+    { key: "gunma", label: "Gunma" },
+  ],
+  tohoku: [
+    { key: "aomori", label: "Aomori" },
+    { key: "akita", label: "Akita" },
+    { key: "iwate", label: "Iwate" },
+    { key: "miyagi", label: "Miyagi" },
+    { key: "yamagata", label: "Yamagata" },
+    { key: "fukushima", label: "Fukushima" },
+  ],
+  hokuriku: [
+    { key: "toyama", label: "Toyama" },
+    { key: "ishikawa", label: "Ishikawa" },
+    { key: "fukui", label: "Fukui" },
+    { key: "nigata", label: "Nigata" },
+  ],
+  chubu: [
+    { key: "yamanashi", label: "Yamanashi" },
+    { key: "shizuoka", label: "Shizuoka" },
+    { key: "nagano", label: "Nagano" },
+    { key: "aichi", label: "Aichi" },
+    { key: "gifu", label: "Gifu" },
+  ],
+  kansai: [
+    { key: "osaka", label: "Osaka" },
+    { key: "kyoto", label: "Kyoto" },
+    { key: "hyogo", label: "Hyogo" },
+    { key: "shiga", label: "Shiga" },
+    { key: "mie", label: "Mie" },
+    { key: "nara", label: "Nara" },
+    { key: "wakayama", label: "Wakayama" },
+  ],
+  chugoku: [
+    { key: "okayama", label: "Okayama" },
+    { key: "hiroshima", label: "Hiroshima" },
+    { key: "yamaguchi", label: "Yamaguchi" },
+    { key: "tottori", label: "Tottori" },
+    { key: "shimane", label: "Shimane" }
+  ],
+  shikoku: [
+    { key: "kagawa", label: "Kagawa" },
+    { key: "ehime", label: "Ehime" },
+    { key: "kochi", label: "Kochi" },
+    { key: "tokushima", label: "Tokushima" },
+  ],
+  kyushu: [
+    { key: "fukuoka", label: "Fukuoka" },
+    { key: "oita", label: "Oita" },
+    { key: "miyazaki", label: "Miyazaki" },
+    { key: "saga", label: "Saga" },
+    { key: "nagasaki", label: "Nagasaki" },
+    { key: "kumamoto", label: "Kumamoto" },
+    { key: "kagoshima", label: "Kagoshima" },
+  ],
+  okinawa: [
+    { key: "main_island", label: "Okinawa Main Island" },
+    { key: "remote_islands", label: "Okinawa Remote Islands" },
+  ],
+} as const;

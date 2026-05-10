@@ -1,0 +1,1 @@
+export type ProfileRegistrationModalStep = "form" | "welcome" | null;
