@@ -1,6 +1,5 @@
 export const ENV = {
   // Site URLs
-  SITE_URL: process.env.NEXT_PUBLIC_SITE_URL || '',
   PROD_URL: process.env.NEXT_PUBLIC_PROD_URL || '',
 
   // API Gateway
