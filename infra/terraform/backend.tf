@@ -4,7 +4,7 @@ terraform {
     key = "prod/terraform.tfstate"
     region = "ap-northeast-1"
     use_lockfile = true
-    # profile = "shotrip-prod"
+    profile = "shotrip-prod"
     encrypt = true
   }
 }
