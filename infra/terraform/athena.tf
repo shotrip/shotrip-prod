@@ -5,7 +5,7 @@ resource "aws_athena_data_catalog" "glue_catalog" {
   type        = "GLUE"
 
   parameters = {
-    "catalog-id" = var.aws_account_id
+    "catalog-id" = data.aws_caller_identity.current.account_id
   }
 }
 

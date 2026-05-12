@@ -1,8 +1,3 @@
-variable "aws_account_id" {
-  type = string
-  default = "836533915016"
-}
-
 variable "github_prod_repo" {
   type = string
   default = "shotrip/shotrip-prod"

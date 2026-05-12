@@ -70,7 +70,7 @@ resource "aws_sns_topic_policy" "aurora_notification_policy" {
         Action = ["SNS:Publish", "SNS:RemovePermission", "SNS:SetTopicAttributes", "SNS:DeleteTopic", "SNS:ListSubscriptionsByTopic", "SNS:GetTopicAttributes", "SNS:AddPermission", "SNS:Subscribe"]
         Resource = aws_sns_topic.aurora_notification.arn
         Condition = {
-          StringEquals = { "AWS:SourceAccount" = var.aws_account_id }
+          StringEquals = { "AWS:SourceAccount" = data.aws_caller_identity.current.account_id }
         }
       }
     ]
@@ -104,7 +104,7 @@ resource "aws_sns_topic_policy" "urgent_alert_policy" {
         Action = ["SNS:Publish", "SNS:RemovePermission", "SNS:SetTopicAttributes", "SNS:DeleteTopic", "SNS:ListSubscriptionsByTopic", "SNS:GetTopicAttributes", "SNS:AddPermission", "SNS:Subscribe"]
         Resource = aws_sns_topic.urgent_alert.arn
         Condition = {
-          StringEquals = { "AWS:SourceAccount" = var.aws_account_id }
+          StringEquals = { "AWS:SourceAccount" = data.aws_caller_identity.current.account_id }
         }
       }
     ]
@@ -132,7 +132,7 @@ resource "aws_sns_topic_policy" "urgent_alert_global_policy" {
         Action = ["SNS:Publish", "SNS:RemovePermission", "SNS:SetTopicAttributes", "SNS:DeleteTopic", "SNS:ListSubscriptionsByTopic", "SNS:GetTopicAttributes", "SNS:AddPermission", "SNS:Subscribe"]
         Resource = aws_sns_topic.urgent_alert_global.arn
         Condition = {
-          StringEquals = { "AWS:SourceAccount" = var.aws_account_id }
+          StringEquals = { "AWS:SourceAccount" = data.aws_caller_identity.current.account_id }
         }
       }
     ]

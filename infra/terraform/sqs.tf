@@ -27,7 +27,7 @@ resource "aws_sqs_queue_policy" "aurorauser_sync" {
       Resource  = aws_sqs_queue.aurorauser_sync.arn
       Condition = {
         ArnEquals = {
-          "aws:SourceArn" = "arn:aws:events:${data.aws_region.current.region}:${var.aws_account_id}:rule/${aws_cloudwatch_event_rule.aurorauser_sync.name}"
+          "aws:SourceArn" = "arn:aws:events:${data.aws_region.current.region}:${data.aws_caller_identity.current.account_id}:rule/${aws_cloudwatch_event_rule.aurorauser_sync.name}"
         }
       }
     }]
@@ -115,7 +115,7 @@ resource "aws_sqs_queue_policy" "dynamouser_sync" {
       Resource  = aws_sqs_queue.dynamouser_sync.arn
       Condition = {
         ArnEquals = {
-          "aws:SourceArn" = "arn:aws:events:${data.aws_region.current.region}:${var.aws_account_id}:rule/${aws_cloudwatch_event_rule.dynamodbuser_sync.name}"
+          "aws:SourceArn" = "arn:aws:events:${data.aws_region.current.region}:${data.aws_caller_identity.current.account_id}:rule/${aws_cloudwatch_event_rule.dynamodbuser_sync.name}"
         }
       }
     }]
@@ -171,9 +171,9 @@ resource "aws_sqs_queue_policy" "aurorauser_sync_dlq" {
     Statement = [{
       Sid       = "OwnerAccess"
       Effect    = "Allow"
-      Principal = { AWS = "arn:aws:iam::${var.aws_account_id}:root" }
+      Principal = { AWS = "arn:aws:iam::${data.aws_caller_identity.current.account_id}:root" }
       Action    = "SQS:*"
-      Resource  = "arn:aws:sqs:${data.aws_region.current.region}:${var.aws_account_id}:shotrip-prod-*-dlq"
+      Resource  = "arn:aws:sqs:${data.aws_region.current.region}:${data.aws_caller_identity.current.account_id}:shotrip-prod-*-dlq"
     }]
   })
 }
@@ -202,9 +202,9 @@ resource "aws_sqs_queue_policy" "ragotherdata_dlq" {
     Statement = [{
       Sid       = "OwnerAccess"
       Effect    = "Allow"
-      Principal = { AWS = "arn:aws:iam::${var.aws_account_id}:root" }
+      Principal = { AWS = "arn:aws:iam::${data.aws_caller_identity.current.account_id}:root" }
       Action    = "SQS:*"
-      Resource  = "arn:aws:sqs:${data.aws_region.current.region}:${var.aws_account_id}:shotrip-prod-*-dlq"
+      Resource  = "arn:aws:sqs:${data.aws_region.current.region}:${data.aws_caller_identity.current.account_id}:shotrip-prod-*-dlq"
     }]
   })
 }
@@ -233,9 +233,9 @@ resource "aws_sqs_queue_policy" "ragspotdata_dlq" {
     Statement = [{
       Sid       = "OwnerAccess"
       Effect    = "Allow"
-      Principal = { AWS = "arn:aws:iam::${var.aws_account_id}:root" }
+      Principal = { AWS = "arn:aws:iam::${data.aws_caller_identity.current.account_id}:root" }
       Action    = "SQS:*"
-      Resource  = "arn:aws:sqs:${data.aws_region.current.region}:${var.aws_account_id}:shotrip-prod-*-dlq"
+      Resource  = "arn:aws:sqs:${data.aws_region.current.region}:${data.aws_caller_identity.current.account_id}:shotrip-prod-*-dlq"
     }]
   })
 }
@@ -264,9 +264,9 @@ resource "aws_sqs_queue_policy" "dynamouser_sync_dlq" {
     Statement = [{
       Sid       = "OwnerAccess"
       Effect    = "Allow"
-      Principal = { AWS = "arn:aws:iam::${var.aws_account_id}:root" }
+      Principal = { AWS = "arn:aws:iam::${data.aws_caller_identity.current.account_id}:root" }
       Action    = "SQS:*"
-      Resource  = "arn:aws:sqs:${data.aws_region.current.region}:${var.aws_account_id}:shotrip-prod-*-dlq"
+      Resource  = "arn:aws:sqs:${data.aws_region.current.region}:${data.aws_caller_identity.current.account_id}:shotrip-prod-*-dlq"
     }]
   })
 }
@@ -295,9 +295,9 @@ resource "aws_sqs_queue_policy" "lenstoken_reset_dlq" {
     Statement = [{
       Sid       = "OwnerAccess"
       Effect    = "Allow"
-      Principal = { AWS = "arn:aws:iam::${var.aws_account_id}:root" }
+      Principal = { AWS = "arn:aws:iam::${data.aws_caller_identity.current.account_id}:root" }
       Action    = "SQS:*"
-      Resource  = "arn:aws:sqs:${data.aws_region.current.region}:${var.aws_account_id}:shotrip-prod-*-dlq"
+      Resource  = "arn:aws:sqs:${data.aws_region.current.region}:${data.aws_caller_identity.current.account_id}:shotrip-prod-*-dlq"
     }]
   })
 }

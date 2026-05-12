@@ -137,7 +137,7 @@ resource "aws_api_gateway_integration" "chat_post" {
   http_method             = aws_api_gateway_method.chat_post.http_method
   integration_http_method = "POST"
   type                    = "AWS_PROXY"
-  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${data.aws_region.current.region}:${var.aws_account_id}:function:${aws_lambda_function.chatbot_api.function_name}/invocations"
+  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${data.aws_region.current.region}:${data.aws_caller_identity.current.account_id}:function:${aws_lambda_function.chatbot_api.function_name}/invocations"
 }
 
 # ==========================================
@@ -201,7 +201,7 @@ resource "aws_api_gateway_integration" "chat_like_put" {
   http_method             = aws_api_gateway_method.chat_like_put.http_method
   integration_http_method = "POST"
   type                    = "AWS_PROXY"
-  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${data.aws_region.current.region}:${var.aws_account_id}:function:${aws_lambda_function.chatbot_api.function_name}/invocations"
+  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${data.aws_region.current.region}:${data.aws_caller_identity.current.account_id}:function:${aws_lambda_function.chatbot_api.function_name}/invocations"
 }
 
 # ==========================================
@@ -265,7 +265,7 @@ resource "aws_api_gateway_integration" "history_get" {
   http_method             = aws_api_gateway_method.history_get.http_method
   integration_http_method = "POST"
   type                    = "AWS_PROXY"
-  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${data.aws_region.current.region}:${var.aws_account_id}:function:${aws_lambda_function.chatbot_api.function_name}/invocations"
+  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${data.aws_region.current.region}:${data.aws_caller_identity.current.account_id}:function:${aws_lambda_function.chatbot_api.function_name}/invocations"
 }
 
 # ==========================================
@@ -329,7 +329,7 @@ resource "aws_api_gateway_integration" "prepare_post" {
   http_method             = aws_api_gateway_method.prepare_post.http_method
   integration_http_method = "POST"
   type                    = "AWS_PROXY"
-  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${data.aws_region.current.region}:${var.aws_account_id}:function:${aws_lambda_function.chatbot_payment.function_name}/invocations"
+  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${data.aws_region.current.region}:${data.aws_caller_identity.current.account_id}:function:${aws_lambda_function.chatbot_payment.function_name}/invocations"
 }
 
 # ==========================================
@@ -438,7 +438,7 @@ resource "aws_api_gateway_integration" "spot_fav_get" {
   http_method             = aws_api_gateway_method.spot_fav_get.http_method
   integration_http_method = "POST"
   type                    = "AWS_PROXY"
-  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${data.aws_region.current.region}:${var.aws_account_id}:function:${aws_lambda_function.rag_spot_fav.function_name}/invocations"
+  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${data.aws_region.current.region}:${data.aws_caller_identity.current.account_id}:function:${aws_lambda_function.rag_spot_fav.function_name}/invocations"
 }
 
 # PUT
@@ -457,7 +457,7 @@ resource "aws_api_gateway_integration" "spot_fav_put" {
   http_method             = aws_api_gateway_method.spot_fav_put.http_method
   integration_http_method = "POST"
   type                    = "AWS_PROXY"
-  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${data.aws_region.current.region}:${var.aws_account_id}:function:${aws_lambda_function.rag_spot_fav.function_name}/invocations"
+  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${data.aws_region.current.region}:${data.aws_caller_identity.current.account_id}:function:${aws_lambda_function.rag_spot_fav.function_name}/invocations"
 }
 
 
@@ -693,7 +693,7 @@ resource "aws_api_gateway_integration" "user_me_get" {
   http_method             = aws_api_gateway_method.user_me_get.http_method
   integration_http_method = "POST"
   type                    = "AWS_PROXY"
-  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${data.aws_region.current.region}:${var.aws_account_id}:function:${aws_lambda_function.chatbot_api.function_name}/invocations"
+  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${data.aws_region.current.region}:${data.aws_caller_identity.current.account_id}:function:${aws_lambda_function.chatbot_api.function_name}/invocations"
 }
 
 # ==========================================
@@ -759,7 +759,7 @@ resource "aws_api_gateway_integration" "user_me_delete_delete" {
   http_method             = aws_api_gateway_method.user_me_delete_delete.http_method
   integration_http_method = "POST"
   type                    = "AWS_PROXY"
-  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${data.aws_region.current.region}:${var.aws_account_id}:function:${aws_lambda_function.delete_cognitouser.function_name}/invocations"
+  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${data.aws_region.current.region}:${data.aws_caller_identity.current.account_id}:function:${aws_lambda_function.delete_cognitouser.function_name}/invocations"
 }
 
 # PUT
@@ -778,7 +778,7 @@ resource "aws_api_gateway_integration" "user_me_delete_put" {
   http_method             = aws_api_gateway_method.user_me_delete_put.http_method
   integration_http_method = "POST"
   type                    = "AWS_PROXY"
-  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${data.aws_region.current.region}:${var.aws_account_id}:function:${aws_lambda_function.delete_dynamodbuser.function_name}/invocations"
+  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${data.aws_region.current.region}:${data.aws_caller_identity.current.account_id}:function:${aws_lambda_function.delete_dynamodbuser.function_name}/invocations"
 }
 
 # ==========================================
@@ -844,7 +844,7 @@ resource "aws_api_gateway_integration" "user_profile_update_put" {
   http_method             = aws_api_gateway_method.user_profile_update_put.http_method
   integration_http_method = "POST"
   type                    = "AWS_PROXY"
-  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${data.aws_region.current.region}:${var.aws_account_id}:function:${aws_lambda_function.dynamodbuser_update.function_name}/invocations"
+  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${data.aws_region.current.region}:${data.aws_caller_identity.current.account_id}:function:${aws_lambda_function.dynamodbuser_update.function_name}/invocations"
 }
 
 # ==========================================
@@ -910,7 +910,7 @@ resource "aws_api_gateway_integration" "user_tokens_get" {
   http_method             = aws_api_gateway_method.user_tokens_get.http_method
   integration_http_method = "POST"
   type                    = "AWS_PROXY"
-  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${data.aws_region.current.region}:${var.aws_account_id}:function:${aws_lambda_function.chatbot_api.function_name}/invocations"
+  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${data.aws_region.current.region}:${data.aws_caller_identity.current.account_id}:function:${aws_lambda_function.chatbot_api.function_name}/invocations"
 }
 
 # ==========================================
@@ -976,7 +976,7 @@ resource "aws_api_gateway_integration" "user_tokens_consume_post" {
   http_method             = aws_api_gateway_method.user_tokens_consume_post.http_method
   integration_http_method = "POST"
   type                    = "AWS_PROXY"
-  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${data.aws_region.current.region}:${var.aws_account_id}:function:${aws_lambda_function.chatbot_api.function_name}/invocations"
+  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${data.aws_region.current.region}:${data.aws_caller_identity.current.account_id}:function:${aws_lambda_function.chatbot_api.function_name}/invocations"
 }
 
 # ==========================================
@@ -1089,7 +1089,7 @@ resource "aws_api_gateway_integration" "webhook_stripe_post" {
   http_method             = aws_api_gateway_method.webhook_stripe_post.http_method
   integration_http_method = "POST"
   type                    = "AWS_PROXY"
-  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${data.aws_region.current.region}:${var.aws_account_id}:function:${aws_lambda_function.chatbot_payment.function_name}/invocations"
+  uri                     = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${data.aws_region.current.region}:${data.aws_caller_identity.current.account_id}:function:${aws_lambda_function.chatbot_payment.function_name}/invocations"
 }
 
 # --- Deployment ---

@@ -12,7 +12,7 @@ resource "aws_iam_policy" "common_logging" {
             "logs:CreateLogStream",
             "logs:PutLogEvents"
         ]
-        Resource = "arn:aws:logs:ap-northeast-1:${var.aws_account_id}:log-group:/shotrip/prod/*"
+        Resource = "arn:aws:logs:ap-northeast-1:${data.aws_caller_identity.current.account_id}:log-group:/shotrip/prod/*"
     }]
   })
 }
@@ -50,7 +50,7 @@ resource "aws_iam_policy" "data_access" {
             "dynamodb:BatchWriteItem",
             "dynamodb:DescribeTable"
         ]
-        Resource = "arn:aws:dynamodb:ap-northeast-1:${var.aws_account_id}:table/shotrip-prod-*"
+        Resource = "arn:aws:dynamodb:ap-northeast-1:${data.aws_caller_identity.current.account_id}:table/shotrip-prod-*"
       },
       {
         Sid      = "DynamoDBStreamAccess"
@@ -61,7 +61,7 @@ resource "aws_iam_policy" "data_access" {
             "dynamodb:DescribeStream",
             "dynamodb:ListStreams"
         ]
-        Resource = "arn:aws:dynamodb:ap-northeast-1:${var.aws_account_id}:table/shotrip-prod-*/stream/*"
+        Resource = "arn:aws:dynamodb:ap-northeast-1:${data.aws_caller_identity.current.account_id}:table/shotrip-prod-*/stream/*"
       },
       {
         Sid      = "SQSAccess"
@@ -72,13 +72,13 @@ resource "aws_iam_policy" "data_access" {
             "sqs:DeleteMessage",
             "sqs:GetQueueAttributes"
         ]
-        Resource = "arn:aws:sqs:ap-northeast-1:${var.aws_account_id}:shotrip-prod-*"
+        Resource = "arn:aws:sqs:ap-northeast-1:${data.aws_caller_identity.current.account_id}:shotrip-prod-*"
       },
       {
         Sid      = "AuroraIAMAuth"
         Effect   = "Allow"
         Action   = "rds-db:connect"
-        Resource = "arn:aws:rds-db:ap-northeast-1:${var.aws_account_id}:dbuser:*/*"
+        Resource = "arn:aws:rds-db:ap-northeast-1:${data.aws_caller_identity.current.account_id}:dbuser:*/*"
       }
     ]
   })
@@ -99,7 +99,7 @@ resource "aws_iam_policy" "identity_access" {
         "cognito-idp:ListUsers",
         "cognito-idp:AdminSetUserPassword"
       ]
-      Resource = "arn:aws:cognito-idp:ap-northeast-1:${var.aws_account_id}:userpool/*"
+      Resource = "arn:aws:cognito-idp:ap-northeast-1:${data.aws_caller_identity.current.account_id}:userpool/*"
     }]
   })
 }
@@ -117,7 +117,7 @@ resource "aws_iam_policy" "config_access" {
             "ssm:GetParameters",
             "ssm:GetParametersByPath"
         ],
-        "Resource" : "arn:aws:ssm:ap-northeast-1:${var.aws_account_id}:parameter/shotrip/prod/*"
+        "Resource" : "arn:aws:ssm:ap-northeast-1:${data.aws_caller_identity.current.account_id}:parameter/shotrip/prod/*"
       }
     ]
   })
@@ -132,13 +132,13 @@ resource "aws_iam_policy" "eventbridge_invoke" {
         "Sid" : "InvokeLambda",
         "Effect" : "Allow",
         "Action" : "lambda:InvokeFunction",
-        "Resource" : "arn:aws:lambda:ap-northeast-1:${var.aws_account_id}:function:shotrip-prod-*"
+        "Resource" : "arn:aws:lambda:ap-northeast-1:${data.aws_caller_identity.current.account_id}:function:shotrip-prod-*"
       },
       {
         "Sid" : "SendMessageToSQS",
         "Effect" : "Allow",
         "Action" : "sqs:SendMessage",
-        "Resource" : "arn:aws:sqs:ap-northeast-1:${var.aws_account_id}:shotrip-prod-*"
+        "Resource" : "arn:aws:sqs:ap-northeast-1:${data.aws_caller_identity.current.account_id}:shotrip-prod-*"
       }
     ]
   })

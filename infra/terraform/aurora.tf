@@ -76,7 +76,7 @@ resource "aws_rds_cluster_instance" "main" {
   performance_insights_retention_period = 7
   
   monitoring_interval = 60
-  monitoring_role_arn = "arn:aws:iam::${var.aws_account_id}:role/${aws_iam_role.rds_monitorting_role.name}"
+  monitoring_role_arn = "arn:aws:iam::${data.aws_caller_identity.current.account_id}:role/${aws_iam_role.rds_monitorting_role.name}"
 
   tags = {
     Name    = "shotrip-prod-instance-1"
