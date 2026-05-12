@@ -23,13 +23,13 @@ jobs:
     env:
       AWS_REGION: "ap-northeast-1"
       AWS_DEFAULT_REGION: "ap-northeast-1"
+      TF_VAR_bastion_allowed_ip: ${{ secrets.BASTION_IP }}
 
     steps:
       - name: Maximize build space (Swap extension)
         run: |
           sudo swapoff -a || true
           sudo rm -f /swapfile || true
-
           sudo dd if=/dev/zero of=/swapfile bs=1M count=4096
           sudo chmod 600 /swapfile
           sudo mkswap /swapfile
@@ -64,6 +64,4 @@ jobs:
         run: |
           terraform plan -no-color -out=tfplan > plan_console_output.log
           terraform apply -auto-approve -no-color -parallelism=5 tfplan
-        env:
-          TF_VAR_bastion_allowed_ip: ${{ secrets.BASTION_IP }}
         working-directory: ./infra/terraform

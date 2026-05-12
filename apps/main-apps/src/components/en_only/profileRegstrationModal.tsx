@@ -181,7 +181,7 @@ export const ProfileRegistrationModal = () => {
             }}
             className="w-full rounded-xl bg-stone-800 py-4 font-bold text-white hover:bg-black transition-all"
           >
-            Enjoy Shotrip!
+            Enjoy Shotrip
           </button>
         </div>
       )}

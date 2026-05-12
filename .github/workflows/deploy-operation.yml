@@ -6,11 +6,6 @@ on:
       - main
     paths:
       - 'operations/**'
-  
-  workflow_run:
-    workflows: ["Terraform Production"]
-    types:
-      - completed
 
 permissions:
   id-token: write
@@ -18,29 +13,33 @@ permissions:
   actions: read
 
 jobs:
-  gatekeeper:
+  wait-for-terraform:
+    name: Wait for Terraform
     runs-on: ubuntu-latest
-    outputs:
-      skip_push: ${{ steps.check.outputs.skip_push }}
     steps:
-      - id: check
+      - name: Check and Wait
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          RUNNING_TERRAFORM=$(gh run list --workflow "Terraform Production" --status in_progress --limit 1 --json databaseId --jq 'length')
+          RUN_ID=$(gh run list --workflow "Terraform Production" --status in_progress --limit 1 --json databaseId --jq '.[0].databaseId')
           
-          if [[ "${{ github.event_name }}" == "push" && "$RUNNING_TERRAFORM" -gt 0 ]]; then
-            echo "Terraform is running. Skipping this push-triggered run to wait for workflow_run."
-            echo "skip_push=true" >> $GITHUB_OUTPUT
+          if [ "$RUN_ID" != "null" ] && [ -n "$RUN_ID" ]; then
+            echo "Terraform is currently running (ID: $RUN_ID). Waiting for it to finish..."
+            
+            gh run watch $RUN_ID
+            
+            CONCLUSION=$(gh run view $RUN_ID --json conclusion --jq '.conclusion')
+            if [ "$CONCLUSION" != "success" ]; then
+              echo "Terraform workflow did not succeed (Status: $CONCLUSION). Aborting deployment."
+              exit 1
+            fi
+            echo "Terraform finished successfully. Proceeding!"
           else
-            echo "skip_push=false" >> $GITHUB_OUTPUT
+            echo "No Terraform runs in progress. Proceeding with deployment."
           fi
 
   deploy:
-    needs: gatekeeper
-    if: |
-      (github.event_name == 'push' && needs.gatekeeper.outputs.skip_push == 'false') ||
-      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
+    needs: wait-for-terraform
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository

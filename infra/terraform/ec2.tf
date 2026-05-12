@@ -34,7 +34,7 @@ resource "aws_instance" "bastion" {
 
 resource "aws_key_pair" "bastion" {
   key_name   = "shotrip-prod-bastion-key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDVpboB5SBInbgg6OF4cNu8VkvyU/Gan3XNqczUb8T9cmDewzftMfSv1o5Xz/zR5l66QNM5ZYm152/1KruYzh1WmTOHIAUXrslWYQdZTMCKl01nAzgD6O8U2CBMINuDHb6eK12a1ujFF3a/QLNbxljQux7xjoa2Lcc22yzQ3rH6+jrq4Cl+GjYc4Jj5Q1OWxbZbIWl9pztOZ7OL46xOs5LoVphHEaNpnj5IKSeBzcOospk7Vtyr665BDWzJQyXOGAiLHKzXPRXYth/6cpKN9TJwopRUU6scSwAe7llu9bhg+7zljb9ZqO4UWbMUlhkKLl7ADCtC/pbKyJG/LRTtg0Cf shotrip-prod-bastion-key" 
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDAFPo+y2MhNwLgcBq9l7mn0aKLQT+FzQJb64y0hKYF5CavG3/yHg/Wavh1tEMccc+OvVcWkPvzHPmVqs3eDPyJ83MctwV+gHu+l9r1blgxwp/PtKbXE4EHKJ7GXYSGy5ZLMNyAYI69+VEXfdIc74Q55Wz+1setI8UuGSyJrJjy+WOhTWkxqgZMAMHf8Q08sJvulXEEv8WKgeGZDDdSfQak81rJXzhqiBvQK+oCJS64vhsp210B4rgtCJLKpPUtZL0ZFoMnv0/0/Pj97MZUbH2pwZ4MmSOtIcI8kb+0V64uNTY2f4Qa+OSKLG4SM2Ce2ZZgSBPbnlFQ+8B2VBKPZ3dR shotrip-prod-bastion-key" 
   region     = "ap-northeast-1"
 }
 

@@ -3,7 +3,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import create_engine, select
 from sqlalchemy.orm import sessionmaker, Session
 from sqlalchemy.ext.declarative import declarative_base
-from starlette.middleware.base import BaseHTTPMiddleware
 from pydantic import BaseModel
 from botocore.config import Config
 from botocore.exceptions import ClientError
