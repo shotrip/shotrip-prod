@@ -170,11 +170,6 @@ resource "aws_route_table" "public" {
 resource "aws_route_table" "alb" {
   vpc_id = aws_vpc.main.id
 
-  route {
-    cidr_block     = "0.0.0.0/0"
-    # nat_gateway_id = aws_nat_gateway.main.id
-  }
-
   tags = {
     Name    = "shotrip-prod-route-alb"
     Project = var.project
@@ -192,11 +187,6 @@ resource "aws_route" "alb_to_nat" {
 # 3. shotrip-prod-route-private
 resource "aws_route_table" "private" {
   vpc_id = aws_vpc.main.id
-
-  route {
-    cidr_block     = "0.0.0.0/0"
-    # nat_gateway_id = aws_nat_gateway.main.id
-  }
 
   tags = {
     Name    = "shotrip-prod-route-private"
