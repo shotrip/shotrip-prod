@@ -291,7 +291,7 @@ async def chat_endpoint(user_data: ChatRequest, raw_request: Request):
             current_spot = last_ai_msg["source_nodes"][0].get("name", "None")
         allowed_areas_text = "\n".join([f"- {reg}: {', '.join(prefs)}" for reg, prefs in region_to_prefs.items()])
 
-        #(--- Context text ---")
+        #(----- Context text -----")
         prompt = f"""
         # Role
         You are "ShotripLens", a concierge that provides concise travel highlights.

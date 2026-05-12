@@ -32,6 +32,7 @@ resource "aws_instance" "bastion" {
   }
 }
 
+#
 resource "aws_key_pair" "bastion" {
   key_name   = "shotrip-prod-bastion-key"
   public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDAFPo+y2MhNwLgcBq9l7mn0aKLQT+FzQJb64y0hKYF5CavG3/yHg/Wavh1tEMccc+OvVcWkPvzHPmVqs3eDPyJ83MctwV+gHu+l9r1blgxwp/PtKbXE4EHKJ7GXYSGy5ZLMNyAYI69+VEXfdIc74Q55Wz+1setI8UuGSyJrJjy+WOhTWkxqgZMAMHf8Q08sJvulXEEv8WKgeGZDDdSfQak81rJXzhqiBvQK+oCJS64vhsp210B4rgtCJLKpPUtZL0ZFoMnv0/0/Pj97MZUbH2pwZ4MmSOtIcI8kb+0V64uNTY2f4Qa+OSKLG4SM2Ce2ZZgSBPbnlFQ+8B2VBKPZ3dR shotrip-prod-bastion-key" 
