@@ -48,6 +48,28 @@ resource "aws_cloudwatch_event_target" "dynamouser_sync_target" {
   role_arn  = aws_iam_role.eventbridge_role.arn
 }
 
+resource "aws_cloudwatch_event_rule" "guardduty_finding" {
+  name        = "shotrip-prod-guardduty-finding-rule"
+  description = "GuardDuty detection events"
+
+  event_pattern = jsonencode({
+    source      = ["aws.guardduty"]
+    detail-type = ["GuardDuty Finding"]
+  })
+
+  tags = {
+    Project       = var.project
+    Env           = var.env
+    SecurityLevel = title(var.securitylevel)
+  }
+}
+
+resource "aws_cloudwatch_event_target" "guardduty_sns_target" {
+  rule      = aws_cloudwatch_event_rule.guardduty_finding.name
+  target_id = "SendToUrgentAlert"
+  arn       = aws_sns_topic.urgent_alert.arn
+}
+
 # --- EventBridge Scheduler ---
 resource "aws_scheduler_schedule" "lenstoken_reset" {
   name       = "shotrip-prod-lenstoken-reset-event"

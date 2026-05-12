@@ -91,6 +91,13 @@ resource "aws_sns_topic_policy" "urgent_alert_policy" {
         Resource = aws_sns_topic.urgent_alert.arn
       },
       {
+        Sid    = "Allow_Publish_Events"
+        Effect = "Allow"
+        Principal = { Service = "events.amazonaws.com" }
+        Action   = "sns:Publish"
+        Resource = aws_sns_topic.urgent_alert.arn
+      },
+      {
         Sid    = "Default_Statement"
         Effect = "Allow"
         Principal = { AWS = "*" }
