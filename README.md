@@ -13,19 +13,20 @@ I built **Shotrip** to fix this. By leveraging my extensive travel experience, c
 ### 3. Engineering Strategy & Trade-offs
 Decision-making focused on the July 2026 release and business viability.
 
-* **Pay-as-you-go Efficiency**:Prioritized serverless architecture to minimize operational costs while maintaining high scalability.
-* **Performance via SSG**:Eschewed SSR in favor of SSG (S3 + CloudFront) to achieve superior SEO performance and zero-server maintenance.
-* **Pragmatic Containerization**:Integrated ECS Fargate for specific app components to balance modern container orchestration with serverless simplicity.
-* **Relational Data Integrity**:Selected Aurora for features requiring complex relations (e.g., Stamp Rally/Quiz), ensuring data consistency.
-* **Risk-Based Security**:Utilized IAM authentication for Aurora access; deliberately skipped unnecessary environment variable encryption where IAM roles already ensure secure access.
-* **Cost-Priority Availability**:Adopted a Single-AZ configuration for non-core features to optimize the budget without sacrificing core business logic.
+* **Pay-as-you-go Efficiency**: Prioritized serverless architecture to minimize operational costs while maintaining high scalability.
+* **Performance via SSG**: Eschewed SSR in favor of SSG (S3 + CloudFront) to achieve superior SEO performance and zero-server maintenance.
+* **Pragmatic Containerization**: Integrated ECS Fargate for specific app components to balance modern container orchestration with serverless simplicity.
+* **Relational Data Integrity**: Selected Aurora for features requiring complex relations (e.g., Stamp Rally/Quiz), ensuring data consistency.
+* **Risk-Based Security**: Utilized IAM authentication for Aurora access; deliberately skipped unnecessary environment variable encryption where IAM roles already ensure secure access.
+* **Cost-Priority Availability**: Adopted a Single-AZ configuration for non-core features to optimize the budget without sacrificing core business logic.
 
 ### 4. Current Status & Roadmap
 *Recognized gaps being recognized:*
-* **RAG Precision**:Continuous tuning of embedding logic and prompt engineering.
-* **Security Ops**:Some WAF rules are currently managed manually for real-time adjustment.
-* **IAM Permissions**:Utilizing provisional roles for rapid development; least-privilege refactoring planned for production.
-* **Documentation**:Ongoing reverse-documentation and in-code commenting.
+* **RAG Precision**: Continuous tuning of embedding logic and prompt engineering.
+* **Security Ops**: Some WAF rules are currently managed manually for real-time adjustment.
+* **IAM Permissions**: Utilizing provisional roles for rapid development; least-privilege refactoring planned for production.
+* **Documentation**: Ongoing reverse-documentation and in-code commenting.
+* **Picture Data Size**: Any pictures on this system have yet to be optimized because they still exist just for tetsting. Resizing will be done until official release.
 
 ---
 
