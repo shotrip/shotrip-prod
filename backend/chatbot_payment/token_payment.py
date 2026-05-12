@@ -247,7 +247,7 @@ def update_status(user_id: str, sk: str, status: str, tx_id: str):
         return True
     except ClientError as e:
         if e.response["Error"]["Code"] == "ConditionalCheckFailedException":
-            print(f"Update skipped for {sk}: Status is already finalized.")
+            print(f"Update skipped for {sk}: Status is already finalized or same.")
             return False
         raise e
 

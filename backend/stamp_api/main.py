@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Response, Request, Depends, HTTPException, Header, APIRouter, status
+from fastapi import FastAPI, Response, Request, Depends, HTTPException, Header, status
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import create_engine, select
 from sqlalchemy.orm import sessionmaker, Session
