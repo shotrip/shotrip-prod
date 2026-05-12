@@ -60,10 +60,7 @@ jobs:
           aws lambda update-function-code --function-name shotrip-prod-chatbot-api --image-uri ${{ steps.login-ecr.outputs.registry }}/shotrip-prod/shotrip-prod-chatbot-api:latest
 
   deploy-payment:
-    needs: gatekeeper
-    if: |
-      (github.event_name == 'push' && needs.gatekeeper.outputs.skip_push == 'false') ||
-      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
+    needs: wait-for-terraform
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -80,10 +77,7 @@ jobs:
           aws lambda update-function-code --function-name shotrip-prod-chatbot-payment --image-uri ${{ steps.login-ecr.outputs.registry }}/shotrip-prod/shotrip-prod-chatbot-payment:latest
 
   deploy-spot:
-    needs: gatekeeper
-    if: |
-      (github.event_name == 'push' && needs.gatekeeper.outputs.skip_push == 'false') ||
-      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
+    needs: wait-for-terraform
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

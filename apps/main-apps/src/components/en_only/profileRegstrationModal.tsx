@@ -173,7 +173,7 @@ export const ProfileRegistrationModal = () => {
         <div className="w-full max-w-sm rounded-3xl bg-white p-10 text-center shadow-2xl animate-in zoom-in-95 duration-300">
           <div className="text-4xl mb-4">🎉</div>
           <h2 className="text-2xl font-black text-stone-800">Welcome!</h2>
-          <p className="text-stone-500 mt-2 mb-8">Your profile is ready. Let&apos;s start your journey.</p>
+          <p className="text-stone-500 mt-2 mb-8">Your profile is ready. Let&apos;s start your journey!</p>
           <button
             onClick={() => {
               setModalStep(null);

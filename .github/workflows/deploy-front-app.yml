@@ -93,14 +93,5 @@ jobs:
 
       - name: CloudFront Invalidation
         run: |
-          DISTRIBUTION_ID=$(aws cloudfront list-distributions \
-            --query "DistributionList.Items[?Comment=='shotrip-prod'].Id | [0]" \
-            --output text)
-
-          if [ "$DISTRIBUTION_ID" != "None" ] && [ -n "$DISTRIBUTION_ID" ]; then
-            echo "Target Distribution ID: $DISTRIBUTION_ID"
-            aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID --paths "/*"
-          else
-            echo "Error: Target CloudFront distribution not found."
-            exit 1
-          fi
+          DISTRIBUTION_ID=$(aws cloudfront list-distributions --output json | jq -r '.DistributionList.Items[0].Id')
+          aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID --paths "/*"
