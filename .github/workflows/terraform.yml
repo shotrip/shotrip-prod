@@ -23,7 +23,7 @@ jobs:
     env:
       AWS_REGION: "ap-northeast-1"
       AWS_DEFAULT_REGION: "ap-northeast-1"
-      TF_VAR_bastion_allowed_ip: ${{ vars.BASTION_IP }}
+      TF_VAR_bastion_allowed_ip: ${{ secrets.BASTION_IP }}
 
     steps:
       - name: Maximize build space (Swap extension)
