@@ -26,7 +26,7 @@ Decision-making focused on the July 2026 release and business viability.
 * **Security Ops**: Some WAF rules are currently managed manually for real-time adjustment.
 * **IAM Permissions**: Utilizing provisional roles for rapid development; least-privilege refactoring planned for production.
 * **Documentation**: Ongoing reverse-documentation and in-code commenting.
-* **Picture Data Size**: Any pictures on this system have yet to be optimized because they still exist just for tetsting. Resizing will be done until official release.
+* **Picture Data Size**: Any pictures on this system have yet to be optimized because they still exist just for tetsting. Resizing will be done by official release.
 
 ---
 
