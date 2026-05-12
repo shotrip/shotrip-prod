@@ -27,6 +27,7 @@ Decision-making focused on the July 2026 release and business viability.
 * **IAM Permissions**: Utilizing provisional roles for rapid development; least-privilege refactoring planned for production.
 * **Documentation**: Ongoing reverse-documentation and in-code commenting.
 * **Picture Data Size**: Any pictures on this system have yet to be optimized because they still exist just for tetsting. Resizing will be done by official release.
+* **Code on Terraform for zipped Lambda**: Zipped Lambda code will be deployed manually, so codes on Terraform for them are dummy. (To avoid having backend code in IaC)
 
 ---
 
@@ -51,4 +52,4 @@ Decision-making focused on the July 2026 release and business viability.
 * **シングルAZ**: 現状のビジネス優先度に基づき、付随機能はコスト優先で構成。
 
 ### 4. ステータス
-リリースに向け、RAG精度向上やセキュリティ運用、権限管理の最適化を順次実施予定。
+リリースに向け、RAG精度向上やセキュリティ運用、権限管理の最適化を順次実施予定。(詳細は上記英文を確認お願いします。)
