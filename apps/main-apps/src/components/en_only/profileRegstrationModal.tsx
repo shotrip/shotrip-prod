@@ -34,7 +34,7 @@ export const ProfileRegistrationModal = () => {
 
         const attrs = await fetchUserAttributes();
         if (
-          !attrs["nickname"] ||
+          !attrs["custom:display_name"] ||
           !attrs["custom:nationality"] ||
           !attrs["custom:honorific"] ||
           !attrs["custom:age"]
@@ -54,7 +54,7 @@ export const ProfileRegistrationModal = () => {
     try {
       await updateUserAttributes({
         userAttributes: {
-          "nickname": data.nickname,
+          "custom:display_name": data.nickname,
           "custom:nationality": data.nationality,
           "custom:honorific": data.honorific,
           "custom:age": data.age,
@@ -181,7 +181,7 @@ export const ProfileRegistrationModal = () => {
             }}
             className="w-full rounded-xl bg-stone-800 py-4 font-bold text-white hover:bg-black transition-all"
           >
-            Enjoy Application
+            Enjoy Shotrip!
           </button>
         </div>
       )}

@@ -64,4 +64,6 @@ jobs:
         run: |
           terraform plan -no-color -out=tfplan > plan_console_output.log
           terraform apply -auto-approve -no-color -parallelism=5 tfplan
+        env:
+          TF_VAR_bastion_allowed_ip: ${{ secrets.BASTION_IP }}
         working-directory: ./infra/terraform

@@ -8,7 +8,6 @@ from pydantic import BaseModel
 from botocore.config import Config
 from botocore.exceptions import ClientError
 from jose import jwt
-import json
 import os
 import boto3
 from typing import Annotated, List, Optional

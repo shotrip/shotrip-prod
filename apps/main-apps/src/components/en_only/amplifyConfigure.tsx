@@ -12,8 +12,8 @@ Amplify.configure({
         oauth: {
           domain: `${ENV.COGNITO.DOMAIN}`,
           scopes: ['openid', 'email', 'profile', 'aws.cognito.signin.user.admin'],
-          redirectSignIn:[`${ENV.SITE_URL}/auth-callback`],
-          redirectSignOut: [`${ENV.SITE_URL}`],
+          redirectSignIn:[`${ENV.PROD_URL}/auth-callback`],
+          redirectSignOut: [`${ENV.PROD_URL}`],
           responseType: "code",
         }
       }

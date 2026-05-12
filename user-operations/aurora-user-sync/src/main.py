@@ -21,6 +21,7 @@ def get_db_token():
     )
     return token
 
+#conn creation
 def get_db_connection():
     global _conn
 

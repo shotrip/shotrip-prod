@@ -7,6 +7,7 @@ from pinecone import Pinecone
 
 ssm = boto3.client('ssm', region_name='ap-northeast-1')
 
+#ssm cache creation
 _ssm_cache = {}
 def get_ssm_param(name, decrypt=False):
     ttl = int(os.environ.get('SSM_PARAMETER_STORE_TTL', 300))

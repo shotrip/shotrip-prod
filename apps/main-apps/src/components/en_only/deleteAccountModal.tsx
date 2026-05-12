@@ -115,7 +115,7 @@ export default function DeleteAccountModal({
               Thank you for using our service.
             </p>
             <Link
-              href={ENV.SITE_URL}
+              href={ENV.PROD_URL}
               className="block w-full py-3 bg-stone-800 text-white text-xs font-bold rounded-xl"
             >
               Return to Top

@@ -1,0 +1,99 @@
+name: Deploy Chatbot API to Lambda
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "backend/chatbot_payment/**"
+      - "backend/spot_fav/**"
+      - "backend/chatbot_main/**"
+
+  workflow_run:
+    workflows: ["Terraform Production"]
+    types:
+      - completed
+
+permissions:
+  id-token: write
+  contents: read
+  actions: read
+
+jobs:
+  gatekeeper:
+    runs-on: ubuntu-latest
+    outputs:
+      skip_push: ${{ steps.check.outputs.skip_push }}
+    steps:
+      - id: check
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          RUNNING_TERRAFORM=$(gh run list --workflow "Terraform Production" --status in_progress --limit 1 --json databaseId --jq 'length')
+
+          if [[ "${{ github.event_name }}" == "push" && "$RUNNING_TERRAFORM" -gt 0 ]]; then
+            echo "Terraform is running. Skipping this push-triggered run to wait for workflow_run."
+            echo "skip_push=true" >> $GITHUB_OUTPUT
+          else
+            echo "skip_push=false" >> $GITHUB_OUTPUT
+          fi
+
+  deploy-main:
+    needs: gatekeeper
+    if: |
+      (github.event_name == 'push' && needs.gatekeeper.outputs.skip_push == 'false') ||
+      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: ap-northeast-1
+      - id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v2
+      - name: Build and Push Main
+        run: |
+          docker build -t ${{ steps.login-ecr.outputs.registry }}/shotrip-prod/shotrip-prod-chatbot-api:latest ./backend/chatbot_main
+          docker push ${{ steps.login-ecr.outputs.registry }}/shotrip-prod/shotrip-prod-chatbot-api:latest
+          aws lambda update-function-code --function-name shotrip-prod-chatbot-api --image-uri ${{ steps.login-ecr.outputs.registry }}/shotrip-prod/shotrip-prod-chatbot-api:latest
+
+  deploy-payment:
+    needs: gatekeeper
+    if: |
+      (github.event_name == 'push' && needs.gatekeeper.outputs.skip_push == 'false') ||
+      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: ap-northeast-1
+      - id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v2
+      - name: Build and Push Payment
+        run: |
+          docker build -t ${{ steps.login-ecr.outputs.registry }}/shotrip-prod/shotrip-prod-chatbot-payment:latest ./backend/chatbot_payment
+          docker push ${{ steps.login-ecr.outputs.registry }}/shotrip-prod/shotrip-prod-chatbot-payment:latest
+          aws lambda update-function-code --function-name shotrip-prod-chatbot-payment --image-uri ${{ steps.login-ecr.outputs.registry }}/shotrip-prod/shotrip-prod-chatbot-payment:latest
+
+  deploy-spot:
+    needs: gatekeeper
+    if: |
+      (github.event_name == 'push' && needs.gatekeeper.outputs.skip_push == 'false') ||
+      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: ap-northeast-1
+      - id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v2
+      - name: Build and Push SpotFav
+        run: |
+          docker build -t ${{ steps.login-ecr.outputs.registry }}/shotrip-prod/shotrip-prod-rag-spot-fav:latest ./backend/spot_fav
+          docker push ${{ steps.login-ecr.outputs.registry }}/shotrip-prod/shotrip-prod-rag-spot-fav:latest
+          aws lambda update-function-code --function-name shotrip-prod-rag-spot-fav --image-uri ${{ steps.login-ecr.outputs.registry }}/shotrip-prod/shotrip-prod-rag-spot-fav:latest

@@ -10,7 +10,7 @@ export const useAuthActions = () => {
   const handleLogin = () => {
     const currentUrl = window.location.href;
     router.push(
-      `${ENV.SITE_URL}/auth-callback?return_to=${encodeURIComponent(currentUrl)}`,
+      `${ENV.PROD_URL}/auth-callback?return_to=${encodeURIComponent(currentUrl)}`,
     );
   };
 

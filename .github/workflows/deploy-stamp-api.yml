@@ -1,0 +1,89 @@
+name: Deploy Stamp API
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "backend/stamp_api/**"
+
+  workflow_run:
+    workflows: ["Terraform Production"]
+    types:
+      - completed
+
+permissions:
+  id-token: write
+  contents: read
+  actions: read
+
+jobs:
+  gatekeeper:
+    runs-on: ubuntu-latest
+    outputs:
+      skip_push: ${{ steps.check.outputs.skip_push }}
+    steps:
+      - id: check
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          RUNNING_TERRAFORM=$(gh run list --workflow "Terraform Production" --status in_progress --limit 1 --json databaseId --jq 'length')
+          
+          if [[ "${{ github.event_name }}" == "push" && "$RUNNING_TERRAFORM" -gt 0 ]]; then
+            echo "Terraform is running. Skipping this push-triggered run to wait for workflow_run."
+            echo "skip_push=true" >> $GITHUB_OUTPUT
+          else
+            echo "skip_push=false" >> $GITHUB_OUTPUT
+          fi
+
+  deploy:
+    needs: gatekeeper
+    if: |
+      (github.event_name == 'push' && needs.gatekeeper.outputs.skip_push == 'false') ||
+      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: ap-northeast-1
+      
+      - name: Login to ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v2
+
+      - name: Build and push
+        run: |
+          docker build -t ${{ steps.login-ecr.outputs.registry }}/shotrip-prod/shotrip-prod-stamp:latest ./backend/stamp_api
+          docker push ${{ steps.login-ecr.outputs.registry }}/shotrip-prod/shotrip-prod-stamp:latest
+      
+      - name: Update Task Definition with Dynamic DB Host
+        run: |
+          DB_HOST=$(aws rds describe-db-clusters \
+            --db-cluster-identifier shotrip-prod \
+            --query "DBClusters[0].Endpoint" \
+            --output text)
+
+          if [ "$DB_HOST" == "None" ] || [ -z "$DB_HOST" ]; then
+            echo "Error: DB Cluster 'shotrip-prod' not found."
+            exit 1
+          fi
+
+          echo "Target DB_HOST: $DB_HOST"
+
+          jq --arg host "$DB_HOST" \
+            '(.containerDefinitions[0].environment[] | select(.name == "DB_HOST")).value = $host' \
+            backend/stamp_api/app-def.json > backend/stamp_api/app-def.json.tmp
+          
+          mv backend/stamp_api/app-def.json.tmp backend/stamp_api/app-def.json
+
+      - name: Deploy to ECS
+        run: |
+          APP_ARN=$(aws ecs register-task-definition --cli-input-json file://backend/stamp_api/app-def.json --query 'taskDefinition.taskDefinitionArn' --output text)
+
+          aws ecs update-service \
+            --cluster shotrip-prod \
+            --service shotrip-prod-stamp \
+            --task-definition $APP_ARN \
+            --force-new-deployment

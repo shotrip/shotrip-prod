@@ -253,7 +253,6 @@ def update_status(user_id: str, sk: str, status: str, tx_id: str):
 
 
 def apply_usage(user_id: str, sk: str):
-    # def update_payment_and_usage(user_id: str, sk: str, tx_id: str):
     now = datetime.now(timezone.utc).isoformat()
     try:
         res = table.get_item(Key={"PK": f"USER#{user_id}", "SK": sk})

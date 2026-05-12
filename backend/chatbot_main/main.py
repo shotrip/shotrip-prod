@@ -291,7 +291,7 @@ async def chat_endpoint(user_data: ChatRequest, raw_request: Request):
             current_spot = last_ai_msg["source_nodes"][0].get("name", "None")
         allowed_areas_text = "\n".join([f"- {reg}: {', '.join(prefs)}" for reg, prefs in region_to_prefs.items()])
 
-        # print(f"--- DEBUG: Context text ---\n{context_text}\n--------------------------")
+        #(--- Context text ---")
         prompt = f"""
         # Role
         You are "ShotripLens", a concierge that provides concise travel highlights.
@@ -574,7 +574,7 @@ async def get_user_profile(raw_request: Request):
     claims = event.get("requestContext", {}).get("authorizer", {}).get("claims", {})
 
     return {
-        "nickname": claims.get("nickname", ""),
+        "nickname": claims.get("custom:display_name", ""),
         "honorific": claims.get("custom:honorific", ""),
         "nationality": claims.get("custom:nationality", ""),
         "age": claims.get("custom:age", ""),

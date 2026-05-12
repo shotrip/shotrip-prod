@@ -44,7 +44,7 @@ function AuthCallbackHandler() {
 
           localStorage.removeItem("return_to");
           
-          const targetUrl = returnTo || `${ENV.SITE_URL}`;
+          const targetUrl = returnTo || `${ENV.PROD_URL}`;
           const url = new URL(targetUrl);
 
           

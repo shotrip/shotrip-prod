@@ -53,5 +53,9 @@ variable "google_client_secret" {
 variable "bastion_allowed_ip" {
   type        = string
   sensitive   = true
-  default = "162.120.184.18/32"
+}
+
+variable "enable_nat_gateway" {
+  type = bool
+  default = true
 }

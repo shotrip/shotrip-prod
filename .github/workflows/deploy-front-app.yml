@@ -1,0 +1,104 @@
+name: Deploy Main App to S3/CloudFront
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'apps/main-apps/**'
+      - 'pnpm-lock.yaml'
+      
+  workflow_run:
+    workflows: ["Terraform Production"]
+    types:
+      - completed
+
+permissions:
+  id-token: write
+  contents: read
+  actions: read
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  gatekeeper:
+    runs-on: ubuntu-latest
+    outputs:
+      skip_push: ${{ steps.check.outputs.skip_push }}
+    steps:
+      - id: check
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          RUNNING_TERRAFORM=$(gh run list --workflow "Terraform Production" --status in_progress --limit 1 --json databaseId --jq 'length')
+          
+          if [[ "${{ github.event_name }}" == "push" && "$RUNNING_TERRAFORM" -gt 0 ]]; then
+            echo "Terraform is running. Skipping this push-triggered run to wait for workflow_run."
+            echo "skip_push=true" >> $GITHUB_OUTPUT
+          else
+            echo "skip_push=false" >> $GITHUB_OUTPUT
+          fi
+
+  deploy:
+    needs: gatekeeper
+    if: |
+      (github.event_name == 'push' && needs.gatekeeper.outputs.skip_push == 'false') ||
+      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.28.0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build
+        env:
+          NEXT_PUBLIC_COGNITO_USER_POOL_ID: ${{ vars.NEXT_PUBLIC_COGNITO_USER_POOL_ID }}
+          NEXT_PUBLIC_COGNITO_CLIENT_ID: ${{ vars.NEXT_PUBLIC_COGNITO_CLIENT_ID }}
+          NEXT_PUBLIC_COGNITO_DOMAIN: ${{ vars.NEXT_PUBLIC_COGNITO_DOMAIN }}
+          NEXT_PUBLIC_API_GW_BASE_URL: ${{ vars.NEXT_PUBLIC_API_GW_BASE_URL }}
+          NEXT_PUBLIC_API_KEY: ${{ secrets.NEXT_PUBLIC_API_KEY }}
+          NEXT_PUBLIC_BUY_ME_A_COFFEE_URL: ${{ vars.NEXT_PUBLIC_BUY_ME_A_COFFEE_URL }}
+          NEXT_PUBLIC_GAS_URL: ${{ vars.NEXT_PUBLIC_GAS_URL }}
+          NEXT_PUBLIC_LENS_NAMESPACE: ${{ vars.NEXT_PUBLIC_LENS_NAMESPACE }}
+          NEXT_PUBLIC_LENS_TENANT_ID: ${{ vars.NEXT_PUBLIC_LENS_TENANT_ID }}
+          NEXT_PUBLIC_LENS_TOKEN: ${{ vars.NEXT_PUBLIC_LENS_TOKEN }}
+          NEXT_PUBLIC_PROD_URL: ${{ vars.NEXT_PUBLIC_PROD_URL }}
+          NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
+        run: pnpm --filter frontend_v1 build 
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v5
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: ap-northeast-1
+
+      - name: S3 Sync
+        run: |
+          aws s3 sync apps/main-apps/out/ s3://shotrip-prod-web-hosting --delete
+
+      - name: CloudFront Invalidation
+        run: |
+          DISTRIBUTION_ID=$(aws cloudfront list-distributions \
+            --query "DistributionList.Items[?Origins.Items[?DomainName=='shotrip-prod-web-hosting.s3.amazonaws.com']].Id | [0]" \
+            --output text)
+
+          if [ "$DISTRIBUTION_ID" != "None" ]; then
+            aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID --paths "/*"
+          else
+            echo "Error: Target CloudFront distribution not found."
+            exit 1
+          fi
