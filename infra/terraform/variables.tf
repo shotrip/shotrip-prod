@@ -57,5 +57,5 @@ variable "alert_email_address" {
 
 variable "enable_nat_gateway" {
   type = bool
-  default = false
+  default = true
 }
