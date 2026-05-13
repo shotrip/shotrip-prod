@@ -117,7 +117,7 @@ resource "aws_iam_policy" "config_access" {
             "ssm:GetParameters",
             "ssm:GetParametersByPath"
         ],
-        "Resource" : "arn:aws:ssm:ap-northeast-1:${data.aws_caller_identity.current.account_id}:parameter/shotrip/prod/*"
+        "Resource" : "arn:aws:ssm:ap-northeast-1:${data.aws_caller_identity.current.account_id}:parameter/prod/*"
       }
     ]
   })
