@@ -60,6 +60,7 @@ resource "aws_lambda_function" "chatbot_api" {
   
   memory_size = 512
   timeout     = 29
+  reserved_concurrent_executions = 350
 
   environment {
     variables = {
