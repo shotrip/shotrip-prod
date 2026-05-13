@@ -9,7 +9,7 @@ resource "aws_lambda_function" "aurorauser_sync" {
   
   memory_size                    = 256
   timeout                        = 30
-  # reserved_concurrent_executions = 20
+  reserved_concurrent_executions = 20
 
   vpc_config {
     subnet_ids         = [aws_subnet.fargate_private.id]
@@ -100,7 +100,7 @@ resource "aws_lambda_function" "chatbot_payment" {
   
   memory_size                    = 512
   timeout                        = 29
-  # reserved_concurrent_executions = 50
+  reserved_concurrent_executions = 50
 
   image_config {
     command = ["token_payment.handler"]
@@ -143,12 +143,12 @@ resource "aws_lambda_function" "delete_cognitouser" {
   
   package_type  = "Zip"
   filename      = data.archive_file.dummy.output_path
-  handler       = "index.handler"
+  handler       = "index.lambda_handler"
   runtime       = "python3.14"
 
   memory_size                    = 256
   timeout                        = 10
-  # reserved_concurrent_executions = 10
+  reserved_concurrent_executions = 10
 
   environment {
     variables = {
@@ -189,12 +189,12 @@ resource "aws_lambda_function" "lenshistory_archiver" {
   
   package_type  = "Zip"
   filename      = data.archive_file.dummy.output_path
-  handler       = "index.handler"
+  handler       = "index.lambda_handler"
   runtime       = "python3.14"
 
   memory_size                    = 256
   timeout                        = 60
-  # reserved_concurrent_executions = 50
+  reserved_concurrent_executions = 50
 
   tags = {
     Project = var.project
@@ -230,7 +230,7 @@ resource "aws_lambda_function" "rag_otherdata_prep" {
   
   package_type  = "Zip"
   filename      = data.archive_file.dummy.output_path
-  handler       = "index.handler"
+  handler       = "index.lambda_handler"
   runtime       = "python3.14"
 
   memory_size = 512
@@ -320,7 +320,7 @@ resource "aws_lambda_function" "rag_spot_fav" {
   
   memory_size                    = 512
   timeout                        = 29
-  # reserved_concurrent_executions = 150
+  reserved_concurrent_executions = 150
 
   image_config {
     command = ["spot_fav.handler"]
@@ -364,7 +364,7 @@ resource "aws_lambda_function" "rag_spotdata_prep" {
   
   package_type  = "Zip"
   filename      = data.archive_file.dummy.output_path
-  handler       = "index.handler"
+  handler       = "index.lambda_handler"
   runtime       = "python3.14"
 
   memory_size = 512
@@ -449,12 +449,12 @@ resource "aws_lambda_function" "delete_dynamodbuser" {
   
   package_type  = "Zip"
   filename      = data.archive_file.dummy.output_path
-  handler       = "index.handler"
+  handler       = "index.lambda_handler"
   runtime       = "python3.14"
 
   memory_size                    = 256
   timeout                        = 10
-  # reserved_concurrent_executions = 10
+  reserved_concurrent_executions = 10
 
   environment {
     variables = {
@@ -495,12 +495,12 @@ resource "aws_lambda_function" "user_registration" {
   
   package_type  = "Zip"
   filename      = data.archive_file.dummy.output_path
-  handler       = "index.handler"
+  handler       = "index.lambda_handler"
   runtime       = "python3.14"
 
   memory_size                    = 512
   timeout                        = 5
-  # reserved_concurrent_executions = 10
+  reserved_concurrent_executions = 10
 
   tags = {
     Project = var.project
@@ -535,11 +535,11 @@ resource "aws_lambda_function" "dynamodbuser_sync" {
   role                           = aws_iam_role.backend_role.arn
   package_type                   = "Zip"
   filename                       = data.archive_file.dummy.output_path
-  handler                        = "index.handler"
+  handler                        = "index.lambda_handler"
   runtime                        = "python3.14"
   memory_size                    = 256
   timeout                        = 30
-  # reserved_concurrent_executions = 20
+  reserved_concurrent_executions = 20
 
   environment {
     variables = {
@@ -578,11 +578,11 @@ resource "aws_lambda_function" "dynamodbuser_update" {
   role                           = aws_iam_role.backend_role.arn
   package_type                   = "Zip"
   filename                       = data.archive_file.dummy.output_path
-  handler                        = "index.handler"
+  handler                        = "index.lambda_handler"
   runtime                        = "python3.14"
   memory_size                    = 256
   timeout                        = 10
-  # reserved_concurrent_executions = 20
+  reserved_concurrent_executions = 20
 
   environment {
     variables = {
@@ -623,7 +623,7 @@ resource "aws_lambda_function" "lenstoken_scan" {
   role          = aws_iam_role.backend_role.arn
   package_type  = "Zip"
   filename      = data.archive_file.dummy.output_path
-  handler       = "index.handler"
+  handler       = "index.lambda_handler"
   runtime       = "python3.14"
   memory_size   = 256
   timeout       = 300
@@ -659,7 +659,7 @@ resource "aws_lambda_function" "lenstoken_reset" {
   role          = aws_iam_role.backend_role.arn
   package_type  = "Zip"
   filename      = data.archive_file.dummy.output_path
-  handler       = "index.handler"
+  handler       = "index.lambda_handler"
   runtime       = "python3.14"
   memory_size   = 256
   timeout       = 300
