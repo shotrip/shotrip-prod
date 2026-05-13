@@ -33,20 +33,20 @@ resource "aws_sns_topic" "urgent_alert_global" {
 resource "aws_sns_topic_subscription" "aurora_email" {
   topic_arn = aws_sns_topic.aurora_notification.arn
   protocol = "email"
-  endpoint = "alarm@shotrip.jp"
+  endpoint = var.alert_email_address
 }
 
 resource "aws_sns_topic_subscription" "urgent_email" {
   topic_arn = aws_sns_topic.urgent_alert.arn
   protocol = "email"
-  endpoint = "alarm@shotrip.jp"
+  endpoint = var.alert_email_address
 }
 
 resource "aws_sns_topic_subscription" "urgent_global_email" {
   provider = aws.virginia
   topic_arn = aws_sns_topic.urgent_alert_global.arn
   protocol = "email"
-  endpoint = "alarm@shotrip.jp"
+  endpoint = var.alert_email_address
 }
 
 # --- SNS Topic Policies ---

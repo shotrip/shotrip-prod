@@ -50,6 +50,11 @@ variable "bastion_allowed_ip" {
   sensitive   = true
 }
 
+variable "alert_email_address" {
+  type = string
+  sensitive = true
+}
+
 variable "enable_nat_gateway" {
   type = bool
   default = false
