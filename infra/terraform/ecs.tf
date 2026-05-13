@@ -39,6 +39,7 @@ resource "aws_ecs_service" "stamp" {
   desired_count          = 0
   platform_version       = "1.4.0"
   enable_execute_command = false
+  health_check_grace_period_seconds = 120
 
   capacity_provider_strategy {
     capacity_provider = "FARGATE"
