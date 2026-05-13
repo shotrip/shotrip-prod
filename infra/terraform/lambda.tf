@@ -22,7 +22,7 @@ resource "aws_lambda_function" "aurorauser_sync" {
       DB_CLUSTER  = aws_rds_cluster.main.cluster_identifier
       DB_HOST     = aws_rds_cluster.main.endpoint
       DB_NAME     = "postgres"
-      DB_PORT     = "5432"
+      DB_PORT     = tostring(aws_rds_cluster.main.port)
       DB_USER     = "shotrip-prod-stamp"
       SSLMODE     = "verify-full"
       SSLROOTCERT = "/opt/db/root.crt"
