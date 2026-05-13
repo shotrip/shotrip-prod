@@ -14,7 +14,7 @@ I built **Shotrip** to fix this. By leveraging my extensive travel experience, c
 Decision-making focused on the July 2026 release and business viability.
 
 * **Pay-as-you-go Efficiency**: Prioritized serverless architecture to minimize operational costs while maintaining high scalability.
-* **Performance via SSG**: Eschewed SSR in favor of SSG (S3 + CloudFront) to achieve superior SEO performance and zero-server maintenance.
+* **Performance via SSG**: Avoided SSR in favor of SSG (S3 + CloudFront) to achieve superior SEO performance and zero-server maintenance.
 * **Pragmatic Containerization**: Integrated ECS Fargate for specific app components to balance modern container orchestration with serverless simplicity.
 * **Relational Data Integrity**: Selected Aurora for features requiring complex relations (e.g., Stamp Rally/Quiz), ensuring data consistency.
 * **Risk-Based Security**: Utilized IAM authentication for Aurora access; deliberately skipped unnecessary environment variable encryption where IAM roles already ensure secure access.
