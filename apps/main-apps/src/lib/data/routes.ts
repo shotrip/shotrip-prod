@@ -32,9 +32,9 @@ export const STAMP_ROUTES = [
     ],
   },
   {
-    region: "Kinki",
+    region: "Kansai",
     routes: [
-      { key: "aaa-bbb-ccc", label: "AAA BBB CCC" },
+      { key: "Kansai-historic-trip", label: "Kansai Historic Trip" }
     ],
   },
   {

@@ -29,7 +29,7 @@ export const useAuthActions = () => {
   const handleLogout = async () => {
     try {
       await signOut();
-      window.location.reload();
+      window.location.href = "/";
     } catch (error) {
       console.error("Logout error:", error);
     }
