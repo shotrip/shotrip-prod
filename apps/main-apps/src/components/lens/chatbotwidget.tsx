@@ -5,6 +5,7 @@ import { Bot, X } from "lucide-react";
 import Shotrip_Lens_Client from "./shotrip_lens_client";
 import { RemainingTokenClient_for_Widget } from "./remainingTokenClient_for_Widget";
 import AmplifyConfigure from "../en_only/amplifyConfigure";
+import { ENV } from "@/config/env";
 
 
 export default function ChatbotWidget() {
@@ -54,7 +55,13 @@ export default function ChatbotWidget() {
           <div className="flex-1 min-h-0 bg-stone-50">
             <Shotrip_Lens_Client 
               compact 
-              lensContext={{tenantId: "shotrip", namespace: "all", token: "dummy-token"}}
+              lensContext={
+                {
+                  tenantId: ENV.LENS_CONTEXT.tenantId,
+                  namespace: ENV.LENS_CONTEXT.namespace,
+                  token: ENV.LENS_CONTEXT.token,
+                }
+              }
             />
           </div>
         </div>
