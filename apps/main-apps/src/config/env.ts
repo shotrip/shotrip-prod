@@ -21,6 +21,6 @@ export const ENV = {
   },
 
   // Others
-  GAS_URL: process.env.NEXT_PUBLIC_GAS_URL || '',
+  // GAS_URL: process.env.NEXT_PUBLIC_GAS_URL || '',
   BUY_ME_A_COFFEE_URL: process.env.NEXT_PUBLIC_BUY_ME_A_COFFEE_URL || '',
 } as const;

@@ -1,178 +1,185 @@
 "use client";
 
 import React, { useState } from "react";
-import { Send, Loader2, CheckCircle2, AlertCircle } from "lucide-react";
-import { ENV } from "@/config/env";
+import { Copy, Check, Send, AlertCircle } from "lucide-react";
 
-export default function ContactForm() {
-  const [status, setStatus] = useState<
-    "idle" | "loading" | "success" | "error"
-  >("idle");
+export default function DirectContactCard() {
+  const [formData, setFormData] = useState({
+    name: "",
+    subject: "",
+    message: "",
+  });
+  const [copied, setCopied] = useState(false);
 
-  const handleSubmit = async (e: React.SyntheticEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setStatus("loading");
-
-    const form = e.currentTarget;
-    const formData = new FormData(form);
-    const data = {
-      name: formData.get("name"),
-      email: formData.get("email"),
-      subject: formData.get("subject"),
-      message: formData.get("message"),
-    };
-
-    try {
-      const response = await fetch(
-        `${ENV.GAS_URL}`,
-        {
-          method: "POST",
-          body: JSON.stringify(data),
-        },
-      );
-
-      if (response.ok) {
-        setStatus("success");
-        form.reset();
-      } else throw new Error("Network response was not ok");
-    } catch {
-      setStatus("error");
-    }
+  const EMAIL_CONFIG = {
+    address: "contact[at]shotrip.jp",
+    actualEmail: "contact@shotrip.jp",
+    subjectPrefix: "【Inquiry】",
   };
 
-  if (status === "success") {
-    return (
-      <div className="bg-white border border-slate-200 rounded-2xl p-12 text-center shadow-sm animate-in fade-in zoom-in duration-300">
-        <div className="bg-green-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-          <CheckCircle2 className="text-green-500 w-8 h-8" />
-        </div>
-        <h3 className="text-2xl font-bold text-slate-900 mb-2">
-          Message Sent!
-        </h3>
-        <p className="text-slate-600 mb-8">
-          Thank you for reaching out. / お問い合わせありがとうございます。
-          <br />
-          We will get back to you shortly. /
-          内容を確認の上、折り返しご連絡いたします。
-        </p>
-        <button
-          onClick={() => setStatus("idle")}
-          className="px-8 py-3 rounded-full border border-slate-200 text-sm font-semibold text-slate-700 hover:border-brand-red hover:text-brand-red-dark hover:bg-red-50 transition-all shadow-sm active:scale-95"
-        >
-          Send another message / 別のメッセージを送る
-        </button>
-      </div>
-    );
-  }
+  const handleInputChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  ) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const handleSendEmail = () => {
+    const body = `Name: ${formData.name}\n\nMessage:\n${formData.message}`;
+    const mailtoUrl = `mailto:${EMAIL_CONFIG.actualEmail}?subject=${encodeURIComponent(
+      EMAIL_CONFIG.subjectPrefix + formData.subject,
+    )}&body=${encodeURIComponent(body)}`;
+    window.location.href = mailtoUrl;
+  };
+
+  const handleCopyTemplate = () => {
+    const text = `Subject: ${EMAIL_CONFIG.subjectPrefix}${formData.subject}\nName ${formData.name}\nMessage】\n${formData.message}`;
+    navigator.clipboard.writeText(text);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
 
   return (
-    <div className="bg-white border border-slate-100 rounded-2xl p-8 md:p-10 shadow-sm">
-      <form onSubmit={handleSubmit} className="space-y-6">
-        {/* Language Hybrid Info */}
-        <div className="relative overflow-hidden p-6 rounded-2xl border border-indigo-100/50 bg-linear-to-br from-indigo-50/50 via-white to-rose-50/50 shadow-sm">
+    <div className="bg-white border border-slate-100 rounded-2xl p-8 md:p-10 shadow-sm max-w-2xl mx-auto my-6 md:my-20">
+      <div className="space-y-8">
+        {/* Language Hybrid Header (元の色合いを復活) */}
+        <div className="relative overflow-hidden p-8 rounded-2xl border border-indigo-100/50 bg-linear-to-br from-indigo-50/50 via-white to-rose-50/50 shadow-sm">
           <div className="absolute -top-10 -right-10 w-24 h-24 bg-indigo-200/20 rounded-full blur-2xl" />
           <div className="absolute -bottom-10 -left-10 w-24 h-24 bg-rose-200/20 rounded-full blur-2xl" />
 
-          <div className="relative flex flex-col items-center text-center space-y-2">
+          <div className="relative flex flex-col items-center text-center space-y-3">
             <div className="flex items-center gap-2 mb-1">
               <span className="flex h-2 w-2 rounded-full bg-indigo-500 animate-pulse" />
               <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-indigo-500/80">
-                Language Support
+                Direct Contact
               </span>
               <span className="flex h-2 w-2 rounded-full bg-indigo-500 animate-pulse" />
             </div>
 
-            <div className="space-y-1 text-slate-600">
-              <p className="text-sm font-semibold tracking-tight">
-                English & Japanese inquiries are both welcome.
+            <div className="space-y-1">
+              <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
+                Contact Us
+              </h2>
+              <p className="text-sm font-semibold text-slate-600">
+                Please reach out to us directly via the email address below.
               </p>
-              <p className="text-[11px] text-slate-500 font-medium">
-                英語および日本語でのお問い合わせを受け付けております。
+              <p className="text-[11px] text-slate-500 font-medium italic">
+                (直接メールにてお問い合わせを承っております)
               </p>
+            </div>
+
+            <div className="mt-4 px-6 py-2 bg-white/80 backdrop-blur-sm border border-indigo-100 rounded-full text-indigo-600 font-mono font-bold shadow-sm">
+              {EMAIL_CONFIG.address}
             </div>
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        {/* Form Inputs (Drafting area) */}
+        <div className="space-y-5">
           <div className="space-y-2">
-            <label className="text-xs font-bold uppercase tracking-wider text-slate-500 ml-1">
-              Name / お名前
+            <label className="text-[10px] font-bold uppercase tracking-widest text-slate-500 ml-1">
+              Name{" "}
+              <span className="text-[9px] font-medium normal-case tracking-normal text-slate-400">
+                / お名前
+              </span>
             </label>
             <input
               name="name"
-              type="text"
-              placeholder="Your Name / 氏名・会社名"
-              required
-              className="block w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-sm focus:outline-none focus:ring-2 focus:ring-slate-900/5 focus:border-slate-900 transition-all"
+              onChange={handleInputChange}
+              placeholder="Your Name"
+              className="block w-full bg-slate-50 border border-slate-200 rounded-xl p-4 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500/10 focus:border-indigo-500 transition-all"
             />
           </div>
+
           <div className="space-y-2">
-            <label className="text-xs font-bold uppercase tracking-wider text-slate-500 ml-1">
-              Email / メールアドレス
+            <label className="text-[10px] font-bold uppercase tracking-widest text-slate-500 ml-1">
+              Subject{" "}
+              <span className="text-[9px] font-medium normal-case tracking-normal text-slate-400">
+                / 件名
+              </span>
             </label>
             <input
-              name="email"
-              type="email"
-              placeholder="email@example.com"
-              required
-              className="block w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-sm focus:outline-none focus:ring-2 focus:ring-slate-900/5 focus:border-slate-900 transition-all"
+              name="subject"
+              onChange={handleInputChange}
+              placeholder="How can we help you?"
+              className="block w-full bg-slate-50 border border-slate-200 rounded-xl p-4 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500/10 focus:border-indigo-500 transition-all"
+            />
+          </div>
+
+          <div className="space-y-2">
+            <label className="text-[10px] font-bold uppercase tracking-widest text-slate-500 ml-1">
+              Message{" "}
+              <span className="text-[9px] font-medium normal-case tracking-normal text-slate-400">
+                / 本文
+              </span>
+            </label>
+            <textarea
+              name="message"
+              onChange={handleInputChange}
+              rows={5}
+              placeholder="Enter details..."
+              className="block w-full bg-slate-50 border border-slate-200 rounded-xl p-4 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500/10 focus:border-indigo-500 transition-all resize-none"
             />
           </div>
         </div>
 
-        <div className="space-y-2">
-          <label className="text-xs font-bold uppercase tracking-wider text-slate-500 ml-1">
-            Subject / 件名
-          </label>
-          <input
-            name="subject"
-            type="text"
-            placeholder="How can we help you? / お問い合わせ内容の要約"
-            required
-            className="block w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-sm focus:outline-none focus:ring-2 focus:ring-slate-900/5 focus:border-slate-900 transition-all"
-          />
+        {/* Action Buttons */}
+        <div className="grid sm:grid-cols-2 gap-4">
+          <button
+            onClick={handleSendEmail}
+            className="flex items-center justify-center gap-3 bg-slate-900 hover:bg-black text-white font-bold py-5 rounded-xl transition-all shadow-lg active:scale-[0.98] group"
+          >
+            <Send className="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
+            <div className="flex flex-col items-start leading-tight">
+              <span className="text-sm">Compose Email</span>
+              <span className="text-[10px] font-normal opacity-70">
+                メールを作成する
+              </span>
+            </div>
+          </button>
+
+          <button
+            onClick={handleCopyTemplate}
+            className="flex items-center justify-center gap-3 bg-white border-2 border-slate-100 hover:border-indigo-500 hover:bg-indigo-50/30 text-slate-700 font-bold py-5 rounded-xl transition-all active:scale-[0.98]"
+          >
+            {copied ? (
+              <>
+                <Check className="w-4 h-4 text-green-500" />{" "}
+                <span className="text-sm">Copied!</span>
+              </>
+            ) : (
+              <>
+                <Copy className="w-4 h-4 text-indigo-500" />
+                <div className="flex flex-col items-start leading-tight">
+                  <span className="text-sm">Copy Draft</span>
+                  <span className="text-[10px] font-normal opacity-70">
+                    内容をコピー
+                  </span>
+                </div>
+              </>
+            )}
+          </button>
         </div>
 
-        <div className="space-y-2">
-          <label className="text-xs font-bold uppercase tracking-wider text-slate-500 ml-1">
-            Message / 本文
-          </label>
-          <textarea
-            name="message"
-            placeholder="Please enter details. / 具体的な内容をご記入ください。"
-            required
-            rows={5}
-            className="block w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-sm focus:outline-none focus:ring-2 focus:ring-slate-900/5 focus:border-slate-900 transition-all resize-none"
-          />
-        </div>
-
-        <button
-          disabled={status === "loading"}
-          className="w-full bg-slate-900 hover:bg-black text-white font-bold py-4 rounded-xl transition-all flex items-center justify-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed group"
-        >
-          {status === "loading" ? (
-            <>
-              <Loader2 className="w-5 h-5 animate-spin" />
-              <span>Sending... / 送信中...</span>
-            </>
-          ) : (
-            <>
-              <Send className="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
-              <span>Send Message / メッセージを送信</span>
-            </>
-          )}
-        </button>
-
-        {status === "error" && (
-          <div className="flex items-center gap-2 text-red-500 text-sm font-medium animate-pulse justify-center">
-            <AlertCircle className="w-4 h-4" />
-            <p>
-              Oops! Something went wrong. /
-              送信に失敗しました。再度お試しください。
-            </p>
+        {/* Footer Info */}
+        <div className="pt-6 border-t border-slate-100">
+          <div className="bg-amber-50 border border-amber-100 rounded-xl p-4 flex items-start gap-3 shadow-sm">
+            <AlertCircle className="w-5 h-5 text-amber-500 shrink-0 mt-0.5" />
+            <div className="space-y-1">
+              <p className="text-[12px] font-bold text-amber-900 leading-tight">
+                IMPORTANT: Manual Entry Required
+              </p>
+              <p className="text-[11px] text-amber-800 leading-relaxed">
+                Please manually replace <strong>[at]</strong> with{" "}
+                <strong>@</strong> in the email address.
+                <span className="block mt-1 text-[10px] text-amber-700/80 font-medium italic">
+                  (スパム防止のため、[at]を@に書き換えて手動入力をお願いします)
+                </span>
+              </p>
+            </div>
           </div>
-        )}
-      </form>
+        </div>
+      </div>
     </div>
   );
 }
