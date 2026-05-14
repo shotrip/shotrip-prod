@@ -19,7 +19,7 @@ resource "aws_iam_policy" "common_logging" {
 
 resource "aws_iam_policy" "data_access" {
   name = "shotrip-prod-data-access-policy"
-  description = "Policy for S3, DynamoDB, SQS and Aurora access"
+  description = "Policy for S3, DynamoDB, SQS, EventBridge and Aurora access"
   policy = jsonencode({
     Version = "2012-10-17"
     Statement = [
@@ -73,6 +73,12 @@ resource "aws_iam_policy" "data_access" {
             "sqs:GetQueueAttributes"
         ]
         Resource = "arn:aws:sqs:ap-northeast-1:${data.aws_caller_identity.current.account_id}:shotrip-prod-*"
+      },
+      {
+        "Sid" : "PutEventsToEventBridge",
+        "Effect" : "Allow",
+        "Action" : "events:PutEvents",
+        "Resource" : "arn:aws:events:ap-northeast-1:${data.aws_caller_identity.current.account_id}:event-bus/default"
       },
       {
         Sid      = "AuroraIAMAuth"
