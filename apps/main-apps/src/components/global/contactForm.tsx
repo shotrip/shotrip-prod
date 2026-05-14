@@ -33,7 +33,7 @@ export default function DirectContactCard() {
   };
 
   const handleCopyTemplate = () => {
-    const text = `Subject: ${EMAIL_CONFIG.subjectPrefix}${formData.subject}\nName ${formData.name}\nMessage】\n${formData.message}`;
+    const text = `Subject: ${EMAIL_CONFIG.subjectPrefix}${formData.subject}\nName: ${formData.name}\nMessage: \n${formData.message}`;
     navigator.clipboard.writeText(text);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
