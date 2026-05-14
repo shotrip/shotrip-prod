@@ -74,7 +74,7 @@ async def validation_exception_handler(request: Request, exc: RequestValidationE
 class LensContext(BaseModel):
     tenantId: Literal["shotrip"] = Field(...)
     namespace: Literal["shotrip-general"] = Field(...)
-    token: Literal["shotrip-dev"] = Field(...)
+    token: Literal["shotrip-prod"] = Field(...)
 
 
 class ChatRequest(BaseModel):
