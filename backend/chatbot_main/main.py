@@ -398,7 +398,7 @@ async def chat_endpoint(user_data: ChatRequest, raw_request: Request):
             transact_items = [
                 {
                     "Update": {
-                        "TableName": "ChatbotTable",
+                        "TableName": DYNAMODB_TABLE_NAME,
                         "Key": {"PK": f"USER#{user_id}", "SK": "USAGE#ACCOUNT"},
                         "UpdateExpression": (
                             "SET weekly_free_used = weekly_free_used + :inc, updated_at = :now"
@@ -415,7 +415,7 @@ async def chat_endpoint(user_data: ChatRequest, raw_request: Request):
                 },
                 {
                     "Put": {
-                        "TableName": "ChatbotTable",
+                        "TableName": DYNAMODB_TABLE_NAME,
                         "Item": {
                             "PK": f"USER#{user_id}",
                             "SK": f"TRANSACTION#{now_str}#{tx_id}",

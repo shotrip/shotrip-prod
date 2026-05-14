@@ -48,7 +48,8 @@ resource "aws_iam_policy" "data_access" {
             "dynamodb:Query",
             "dynamodb:Scan",
             "dynamodb:BatchWriteItem",
-            "dynamodb:DescribeTable"
+            "dynamodb:DescribeTable",
+            "dynamodb:TransactWriteItems"
         ]
         Resource = "arn:aws:dynamodb:ap-northeast-1:${data.aws_caller_identity.current.account_id}:table/shotrip-prod-*"
       },
