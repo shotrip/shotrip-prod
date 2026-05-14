@@ -27,15 +27,14 @@ export default function ContactForm() {
         `${ENV.GAS_URL}`,
         {
           method: "POST",
-          mode: "no-cors",
-          headers: {
-            "Content-Type": "text/plain",
-          },
           body: JSON.stringify(data),
         },
       );
-      setStatus("success");
-      form.reset();
+
+      if (response.ok) {
+        setStatus("success");
+        form.reset();
+      } else throw new Error("Network response was not ok");
     } catch {
       setStatus("error");
     }
