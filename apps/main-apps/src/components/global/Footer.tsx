@@ -24,7 +24,7 @@ export function Footer({ locale }: FooterProps) {
     { label: text.footer.privacy, href: "/legal/privacy_policy" },
     {
       label: text.footer.transaction,
-      href: "/legal/specified_commercial_transaction_act",
+      href: "/legal/commercial_disclosure",
     },
     { label: text.footer.guideline, href: "/legal/guideline" },
   ];

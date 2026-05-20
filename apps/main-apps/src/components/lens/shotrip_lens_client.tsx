@@ -383,7 +383,7 @@ export default function Shotrip_Lens_Client({
                           onClick={() => openSpotDetail(spot)}
                           className="shrink-0 w-48 bg-white border border-gray-100 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer active:scale-95"
                         >
-                          {/* 画像エリア */}
+                          {/* Pic area */}
                           <div className="h-24 w-full bg-gray-100 relative">
                             {spot.image_url ? (
                               <img

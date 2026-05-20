@@ -93,7 +93,7 @@ def get_openai_client():
     return OpenAI(api_key=OPENAI_API_KEY)
 
 
-WEEKLY_FREE_LIMIT = 10
+WEEKLY_FREE_LIMIT = 5
 
 
 @app.post("/chat")

@@ -120,7 +120,7 @@ def get_routes(
     user_id: str = Depends(get_user_id)
 ):
     
-    routes = db.query(Route).filter(Route.is_active == True).all()
+    routes = db.query(Route).filter(Route.is_active == True).order_by(Route.route_id.asc()).all()
 
     user_routes = db.query(UserStampRoute).filter(UserStampRoute.user_id == user_id).all()
     status_map = {ur.route_id: ur.status.value for ur in user_routes}

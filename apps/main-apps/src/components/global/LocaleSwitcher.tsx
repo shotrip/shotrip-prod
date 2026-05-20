@@ -29,6 +29,10 @@ export default function LocaleSwitcher({ locale }: LocaleSwitcherProps) {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
+  const shouldHide = useMemo(() => {
+    return pathname.startsWith("/legal") || pathname.startsWith("/contact");
+  }, [pathname]);
+
   const CurrentFlag = FLAG_MAP[locale];
   const others = useMemo(() => LOCALES.filter((l) => l !== locale), [locale]);
 
@@ -47,6 +51,8 @@ export default function LocaleSwitcher({ locale }: LocaleSwitcherProps) {
       document.removeEventListener("keydown", handleKeyDown);
     };
   }, []);
+
+  if (shouldHide) return null;
 
   return (
     <div ref={ref} className="relative">

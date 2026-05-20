@@ -20,8 +20,8 @@ export function EnFooter({ locale }: FooterProps) {
     { label: "Terms of Use", href: "/legal/terms_of_use" },
     { label: "Privacy Policy", href: "/legal/privacy_policy" },
     {
-      label: "Specified Commercial Transaction Act",
-      href: "/legal/specified_commercial_transaction_act",
+      label: "Commercial Disclosure",
+      href: "/legal/commercial_disclosure",
     },
     { label: "Community Guideline", href: "/legal/guideline" },
   ];

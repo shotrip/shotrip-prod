@@ -76,21 +76,18 @@ export default function PrivacyPolicyPage() {
           <section className="mb-12">
             <h2 className="text-xl font-bold mb-4 flex items-center text-slate-800">
               <Mail className="w-5 h-5 mr-2 text-blue-600" />
-              1. Personal Information & Authentication
+              1. Personal Information & Third-Party Authentication
             </h2>
             <div className="space-y-4 text-slate-600 leading-relaxed text-sm">
               <p>
-                We collect and use your <strong>email address</strong> for the
-                following specific purposes:
+                When you sign in using Google Authentication via AWS Cognito, we handle specific account details for the following purposes:
               </p>
               <ul className="list-disc ml-6 space-y-2">
                 <li>
-                  <strong>Authentication:</strong> Linking with your JWT (JSON
-                  Web Token) to ensure secure access to your account.
+                  <strong>Authentication & Email:</strong> We collect and use your <strong>email address</strong> to link with your JWT (JSON Web Token), ensuring secure access to your account and responding to your inquiries.
                 </li>
                 <li>
-                  <strong>Contact:</strong> Responding to your inquiries and
-                  providing necessary service updates.
+                  <strong>Identity Provider (IdP) Metadata:</strong> Although the authentication interface may request access to your <strong>profile name and picture</strong> as part of standard Google OAuth requirements, <strong>Shotrip does not utilize, store, or track this profile data</strong> on our servers. It is handled exclusively within the stateless authentication lifecycle.
                 </li>
               </ul>
               <p className="bg-slate-50 p-3 rounded text-xs italic">

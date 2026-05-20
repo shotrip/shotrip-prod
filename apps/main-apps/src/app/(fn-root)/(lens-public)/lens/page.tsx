@@ -149,10 +149,19 @@ export default function LensPage() {
                         </li>
                       ))}
                     </ul>
-                    <div className="mt-6 p-5 bg-stone-50 rounded-2xl border border-stone-100 text-sm text-gray-500 leading-relaxed">
-                      * You get 10 free tokens every Sunday at midnight (JST).
-                      Each question costs 1 token. If you run out, no
-                      worries—you can top up your tokens whenever you like.
+                    <div className="mt-6 p-5 bg-stone-50 rounded-2xl border border-stone-100 text-sm text-gray-500 leading-relaxed space-y-2">
+                      <p>
+                        * You get 5 free tokens every Sunday at midnight (JST).
+                        Each question costs 1 token. If you run out, no
+                        worries—you can top up your tokens whenever you like.
+                      </p>
+                      <p className="text-amber-700 font-medium bg-amber-50/50 p-2 rounded-xl border border-amber-100/50 text-xs">
+                        * Data Retention Note: To ensure data privacy, chat
+                        history older than 10 days will be automatically and
+                        permanently deleted from our system. Please make sure to
+                        save any important travel information or recommendations
+                        elsewhere.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -218,7 +227,7 @@ export default function LensPage() {
                   <div className="flex gap-4 p-5 bg-stone-50 rounded-2xl border border-stone-100 transition-colors hover:bg-white hover:border-stone-200">
                     <span className="text-[#b11f2a] font-bold text-xl">•</span>
                     <p className="text-gray-700 leading-relaxed">
-                      You guys have <strong>10 free tokens</strong> available
+                      You guys have <strong>5 free tokens</strong> available
                       for a week.{" "}
                       <span className="text-sm text-gray-500">
                         (*The free tokens are recharged every Sunday in JST.)
@@ -281,7 +290,10 @@ export default function LensPage() {
                 </div>
 
                 {/* Unlimited */}
-                <div className="flex flex-col border border-stone-100 rounded-2xl p-8 text-center bg-stone-50/50 hover:bg-white hover:shadow-xl transition-all duration-300 sm:col-span-2 lg:col-span-1 w-full sm:max-w-[calc(50%-1rem)] lg:max-w-none sm:justify-self-center">
+                <div className="flex flex-col border-2 border-amber-500/20 rounded-2xl p-8 text-center bg-white shadow-sm hover:shadow-xl transition-all duration-300 relative sm:col-span-2 lg:col-span-1 w-full sm:max-w-[calc(50%-1rem)] lg:max-w-none sm:justify-self-center">
+                  <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-amber-600 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider whitespace-nowrap">
+                    Recommendation
+                  </div>
                   <h3 className="text-lg font-bold mb-2 text-gray-800">
                     Unlimited (1mo)
                   </h3>
