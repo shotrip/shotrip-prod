@@ -94,7 +94,7 @@ resource "aws_route_table_association" "bastion_public" {
 # 5. shotrip-prod-app-private
 resource "aws_subnet" "app_private" {
   vpc_id            = aws_vpc.main.id
-  cidr_block        = "10.0.3.0/24"
+  cidr_block        = "10.0.10.0/24"
   availability_zone = "ap-northeast-1a"
 
   tags = {
@@ -336,7 +336,7 @@ resource "aws_security_group" "vpc_lambda" {
 
 # 4. shotrip-prod-db-sg
 resource "aws_security_group" "db" {
-  name        = "shotrip-prod-db-sg"
+  name        = "shotrip-prod-db-sgv2"
   description = "Allow connection from app"
   vpc_id      = aws_vpc.main.id
 
