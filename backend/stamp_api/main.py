@@ -378,6 +378,6 @@ def delete_user_data(
 
 @app.get("/health")
 def health_check():
-    return {"status": "OK"}
+    return {"status": "ok"}
 
 handler = Mangum(app, lifespan="off")
