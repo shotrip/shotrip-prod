@@ -32,7 +32,7 @@ export function ArticleInfiniteGridForEssentials({
           <Link
             key={article.slug}
             href={`/${locale}/blog/essentials/${category}/${article.slug}`}
-            className="group flex gap-5 p-4 rounded-2xl border border-slate-100 bg-white hover:border-blue-100 hover:shadow-md transition-all duration-300 items-start"
+            className="group flex gap-5 p-4 rounded-2xl border border-slate-100 bg-white hover:border-brand-red hover:shadow-md transition-all duration-300 items-start"
           >
             <div className="relative w-24 h-24 shrink-0 overflow-hidden rounded-xl bg-slate-50">
               <Image
@@ -53,7 +53,7 @@ export function ArticleInfiniteGridForEssentials({
                   {article.tags.map((tag) => (
                     <span 
                       key={tag}
-                      className="inline-flex items-center gap-1 text-[9px] font-bold uppercase tracking-wider text-slate-400 bg-slate-50 px-1.5 py-0.5 rounded-md group-hover:text-blue-500 group-hover:bg-blue-50 transition-colors"
+                      className="inline-flex items-center gap-1 text-[9px] font-bold uppercase tracking-wider text-slate-400 bg-slate-50 px-1.5 py-0.5 rounded-md group-hover:text-brand-red group-hover:bg-red-50 transition-colors"
                     >
                       <Tag size={10} strokeWidth={2.5} className="opacity-70" />
                       {tag}
@@ -62,7 +62,7 @@ export function ArticleInfiniteGridForEssentials({
                 </div>
               </div>
 
-              <h2 className="text-base font-bold text-slate-800 group-hover:text-blue-600 transition-colors line-clamp-1 mb-1">
+              <h2 className="text-base font-bold text-slate-800 group-hover:text-brand-red transition-colors line-clamp-1 mb-1">
                 {article.title}
               </h2>
 
@@ -71,7 +71,7 @@ export function ArticleInfiniteGridForEssentials({
               </p>
 
               <div className="mt-2 flex justify-end">
-                <div className="flex items-center gap-1 text-[9px] font-black tracking-widest text-slate-200 group-hover:text-blue-400 transition-all">
+                <div className="flex items-center gap-1 text-[9px] font-black tracking-widest text-slate-200 group-hover:text-brand-red transition-all">
                   Read More
                   <ArrowRight size={12} className="transform group-hover:translate-x-1 transition-transform" />
                 </div>
@@ -123,7 +123,7 @@ export function ArticleInfiniteGridForPrefectures({
           <Link
             key={article.slug}
             href={`/${locale}/blog/${region}/${prefecture}/${article.slug}`}
-            className="group flex gap-5 p-4 rounded-2xl border border-slate-100 bg-white hover:border-blue-100 hover:shadow-md transition-all duration-300 items-start"
+            className="group flex gap-5 p-4 rounded-2xl border border-slate-100 bg-white hover:border-brand-red hover:shadow-md transition-all duration-300 items-start"
           >
             <div className="relative w-24 h-24 shrink-0 overflow-hidden rounded-xl bg-slate-50">
               <Image
@@ -144,7 +144,7 @@ export function ArticleInfiniteGridForPrefectures({
                   {article.tags.map((tag) => (
                     <span 
                       key={tag}
-                      className="inline-flex items-center gap-1 text-[9px] font-bold uppercase tracking-wider text-slate-400 bg-slate-50 px-1.5 py-0.5 rounded-md group-hover:text-blue-500 group-hover:bg-blue-50 transition-colors"
+                      className="inline-flex items-center gap-1 text-[9px] font-bold uppercase tracking-wider text-slate-400 bg-slate-50 px-1.5 py-0.5 rounded-md group-hover:text-brand-red group-hover:bg-red-50 transition-colors"
                     >
                       <Tag size={10} strokeWidth={2.5} className="opacity-70" />
                       {tag}
@@ -153,7 +153,7 @@ export function ArticleInfiniteGridForPrefectures({
                 </div>
               </div>
 
-              <h2 className="text-base font-bold text-slate-800 group-hover:text-blue-600 transition-colors line-clamp-1 mb-1">
+              <h2 className="text-base font-bold text-slate-800 group-hover:text-brand-red transition-colors line-clamp-1 mb-1">
                 {article.title}
               </h2>
 
@@ -162,7 +162,7 @@ export function ArticleInfiniteGridForPrefectures({
               </p>
 
               <div className="mt-2 flex justify-end">
-                <div className="flex items-center gap-1 text-[9px] font-black tracking-widest text-slate-200 group-hover:text-blue-400 transition-all">
+                <div className="flex items-center gap-1 text-[9px] font-black tracking-widest text-slate-200 group-hover:text-brand-red transition-all">
                   Read More
                   <ArrowRight size={12} className="transform group-hover:translate-x-1 transition-transform" />
                 </div>

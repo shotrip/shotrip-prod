@@ -1,20 +1,18 @@
-FROM python:3.12-slim
+FROM public.ecr.aws/lambda/python:3.12
 
 ENV POETRY_VERSION=2.0.0 \
     POETRY_VIRTUALENVS_CREATE=false \
-    POETRY_NO_INTERACTION=1 \
-    PYTHONUNBUFFERED=1
+    POETRY_NO_INTERACTION=1
 
 RUN pip install "poetry==$POETRY_VERSION"
 
-WORKDIR /app
-
-COPY pyproject.toml poetry.lock ./
-COPY root.crt /root/.postgresql/root.crt
+COPY pyproject.toml poetry.lock ${LAMBDA_TASK_ROOT}/
 RUN poetry install --no-root --only main
+RUN mkdir -p /opt/db/
+COPY root.crt /opt/db/root.crt
+RUN chmod 644 /opt/db/root.crt
 
-COPY . .
+COPY ./main.py ${LAMBDA_TASK_ROOT}/
+COPY app/ ${LAMBDA_TASK_ROOT}/app/
 
-EXPOSE 8000
-
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD [ "main.lambda_handler" ]

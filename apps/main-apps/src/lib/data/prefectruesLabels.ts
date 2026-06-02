@@ -26,7 +26,7 @@ export const PREFECTURES_LIST = {
     { key: "toyama", label: "Toyama" },
     { key: "ishikawa", label: "Ishikawa" },
     { key: "fukui", label: "Fukui" },
-    { key: "nigata", label: "Nigata" },
+    { key: "niigata", label: "Niigata" },
   ],
   chubu: [
     { key: "yamanashi", label: "Yamanashi" },

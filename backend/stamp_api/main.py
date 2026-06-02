@@ -1,6 +1,7 @@
 from fastapi import FastAPI, Depends, HTTPException, Header, status
 from fastapi.middleware.cors import CORSMiddleware
-from sqlalchemy import create_engine, select
+from mangum import Mangum
+from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, Session
 from sqlalchemy.ext.declarative import declarative_base
 from pydantic import BaseModel
@@ -378,3 +379,5 @@ def delete_user_data(
 @app.get("/health")
 def health_check():
     return {"status": "OK"}
+
+handler = Mangum(app, lifespan="off")

@@ -44,8 +44,11 @@ jobs:
     needs: wait-for-terraform
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: aws-actions/configure-aws-credentials@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
           aws-region: ap-northeast-1
@@ -54,37 +57,18 @@ jobs:
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v2
 
-      - name: Build and push
+      - name: Build, tag, and push image to Amazon ECR
+        env:
+          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+          ECR_REPOSITORY: shotrip-prod/shotrip-prod-stamp
+          IMAGE_TAG: latest
+        working-directory: ./backend/stamp_api
         run: |
-          docker build -t ${{ steps.login-ecr.outputs.registry }}/shotrip-prod/shotrip-prod-stamp:latest ./backend/stamp_api
-          docker push ${{ steps.login-ecr.outputs.registry }}/shotrip-prod/shotrip-prod-stamp:latest
+          docker build --provenance=false -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
+          docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
       
-      - name: Update Task Definition with Dynamic DB Host
+      - name: Update Lambda function
         run: |
-          DB_HOST=$(aws rds describe-db-clusters \
-            --db-cluster-identifier shotrip-prod \
-            --query "DBClusters[0].Endpoint" \
-            --output text)
-
-          if [ "$DB_HOST" == "None" ] || [ -z "$DB_HOST" ]; then
-            echo "Error: DB Cluster 'shotrip-prod' not found."
-            exit 1
-          fi
-
-          echo "Target DB_HOST: $DB_HOST"
-
-          jq --arg host "$DB_HOST" \
-            '(.containerDefinitions[0].environment[] | select(.name == "DB_HOST")).value = $host' \
-            backend/stamp_api/app-def.json > backend/stamp_api/app-def.json.tmp
-          
-          mv backend/stamp_api/app-def.json.tmp backend/stamp_api/app-def.json
-
-      - name: Deploy to ECS
-        run: |
-          APP_ARN=$(aws ecs register-task-definition --cli-input-json file://backend/stamp_api/app-def.json --query 'taskDefinition.taskDefinitionArn' --output text)
-
-          aws ecs update-service \
-            --cluster shotrip-prod \
-            --service shotrip-prod-stamp \
-            --task-definition $APP_ARN \
-            --force-new-deployment
+          aws lambda update-function-code \
+            --function-name shotrip-prod-stamp-api \
+            --image-uri ${{ steps.login-ecr.outputs.registry }}/shotrip-prod/shotrip-prod-stamp:latest

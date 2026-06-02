@@ -4,7 +4,7 @@ export const REGIONS = {
     hokkaido: ['central_hokkaido', 'southern_hokkaido', 'northern_hokkaido', 'eastern_hokkaido'],
     tohoku: ['aomori', 'akita', 'iwate', 'miyagi', 'yamagata', 'fukushima'],
     kanto: ['tokyo', 'kanagawa', 'chiba', 'saitama', 'ibaraki', 'tochigi', 'gunma'],
-    hokuriku: ['toyama', 'ishikawa', 'fukui', 'nigata'],
+    hokuriku: ['toyama', 'ishikawa', 'fukui', 'niigata'],
     chubu: ['yamanashi', 'shizuoka', 'nagano', 'aichi', 'gifu'],
     kansai: ['osaka', 'kyoto', 'hyogo', 'shiga', 'mie', 'nara', 'wakayama'],
     chugoku: ['okayama', 'hiroshima', 'yamaguchi', 'tottori', 'shimane'],

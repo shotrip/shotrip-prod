@@ -12,8 +12,8 @@ resource "aws_lambda_function" "aurorauser_sync" {
   reserved_concurrent_executions = 20
 
   vpc_config {
-    subnet_ids         = [aws_subnet.fargate_private.id]
-    security_group_ids = [aws_security_group.fargate.id]
+    subnet_ids         = [aws_subnet.app_private.id]
+    security_group_ids = [aws_security_group.vpc_lambda.id]
   }
 
   environment {
@@ -689,3 +689,56 @@ resource "aws_lambda_event_source_mapping" "lenstoken_reset_sqs" {
   batch_size       = 10
 }
 
+
+# ==========================================
+# 17. shotrip-prod-stamp
+# ==========================================
+resource "aws_lambda_function" "stamp" {
+  function_name = "shotrip-prod-stamp-api"
+  role          = aws_iam_role.backend_role.arn
+  package_type  = "Image"
+  image_uri     = "${aws_ecr_repository.repos["shotrip-prod/shotrip-prod-stamp"].repository_url}:latest"
+  
+  memory_size                    = 1024
+  timeout                        = 29
+  reserved_concurrent_executions = 50
+
+  vpc_config {
+    subnet_ids         = [aws_subnet.app_private.id]
+    security_group_ids = [aws_security_group.vpc_lambda.id]
+  }
+
+  environment {
+    variables = {
+      AWS_REGION  = "ap-northeast-1"
+      BUCKET_NAME = aws_s3_bucket.stamp_pics.bucket
+      DB_HOST     = aws_rds_cluster.main.endpoint
+      DB_NAME     = "postgres"
+      DB_PORT     = tostring(aws_rds_cluster.main.port)
+      DB_USER     = "shotrip-prod-stamp"
+      SSLMODE     = "verify-full"
+      SSLROOTCERT = "/opt/db/root.crt"
+    }
+  }
+
+  tags = {
+    Project = var.project
+    Env     = var.env
+  }
+
+  depends_on = [null_resource.push_dummy_image]
+}
+
+resource "aws_lambda_function_event_invoke_config" "stamp" {
+  function_name                = aws_lambda_function.stamp.function_name
+  maximum_event_age_in_seconds = 21600
+  maximum_retry_attempts       = 2
+}
+
+resource "aws_lambda_permission" "apigw_stamp" {
+  statement_id  = "AllowExecutionFromAPIGateway"
+  action        = "lambda:InvokeFunction"
+  function_name = aws_lambda_function.stamp.function_name
+  principal     = "apigateway.amazonaws.com"
+  source_arn    = "${aws_api_gateway_rest_api.rest_api.execution_arn}/*/*"
+}

@@ -157,7 +157,7 @@ export default function StampHomePage() {
         </main>
 
         <aside className="lg:col-span-4 py-8 lg:py-12">
-          <div className="sticky top-24 border rounded-2xl p-8 bg-gray-50/50 shadow-sm">
+          <div className="top-24 border rounded-2xl p-8 bg-gray-50/50 shadow-sm">
             <h3 className="font-bold text-sm text-gray-400 uppercase tracking-widest mb-6 border-b pb-2">
               Ads Space
             </h3>

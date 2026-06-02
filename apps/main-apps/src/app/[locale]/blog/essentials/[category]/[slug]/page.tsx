@@ -183,7 +183,7 @@ export default async function EssenatialsBlogArticle({
 
       {/* --- Sidebar --- */}
       <aside className="lg:col-span-4 py-8">
-        <div className="sticky top-20 border rounded-lg p-6 bg-gray-50 min-h-125">
+        <div className="top-20 border rounded-lg p-6 bg-gray-50 min-h-125">
           <h3 className="font-semibold text-gray-700 mb-4">Ads Space</h3>
         </div>
       </aside>

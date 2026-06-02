@@ -572,15 +572,10 @@ resource "aws_api_gateway_integration" "stamp_proxy_any" {
   rest_api_id             = aws_api_gateway_rest_api.rest_api.id
   resource_id             = aws_api_gateway_resource.stamp_proxy.id
   http_method             = aws_api_gateway_method.stamp_proxy_any.http_method
-  integration_http_method = "ANY"
+  integration_http_method = "POST"
   
-  type            = "HTTP_PROXY"
-  connection_type = "VPC_LINK"
-  connection_id   = aws_apigatewayv2_vpc_link.vpc_link.id
-
-  integration_target = aws_lb.main.arn
-  
-  uri = "http://${aws_lb.main.dns_name}/stamp/{proxy}"
+  type            = "AWS_PROXY"
+  uri             = "arn:aws:apigateway:${data.aws_region.current.region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${data.aws_region.current.region}:${data.aws_caller_identity.current.account_id}:function:${aws_lambda_function.stamp.function_name}/invocations"
 
   request_parameters = {
     "integration.request.path.proxy" = "method.request.path.proxy"
@@ -1219,15 +1214,15 @@ resource "aws_api_gateway_base_path_mapping" "api_mapping" {
   domain_name = aws_api_gateway_domain_name.api_domain.domain_name
 }
 
-# --- VPC Link ---
-resource "aws_apigatewayv2_vpc_link" "vpc_link" {
-  name        = "shotrip-prod-vpc-links"
-  security_group_ids = [aws_security_group.alb.id]
-  subnet_ids         = [aws_subnet.alb_private_01.id, aws_subnet.alb_private_02.id]
+# # --- VPC Link ---
+# resource "aws_apigatewayv2_vpc_link" "vpc_link" {
+#   name        = "shotrip-prod-vpc-links"
+#   security_group_ids = [aws_security_group.alb.id]
+#   subnet_ids         = [aws_subnet.alb_private_01.id, aws_subnet.alb_private_02.id]
 
-  tags = {
-    Project       = var.project
-    Env           = var.env
-    SecurityLevel = title(var.securitylevel)
-  }
-}
+#   tags = {
+#     Project       = var.project
+#     Env           = var.env
+#     SecurityLevel = title(var.securitylevel)
+#   }
+# }

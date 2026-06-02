@@ -296,7 +296,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
       </main>
 
       <aside className="lg:col-span-4 w-full max-w-4xl mx-auto lg:max-w-none">
-        <div className="sticky top-24 space-y-10">
+        <div className="top-24 space-y-10">
           {latestCategoryArticles.length > 0 && (
             <section>
               <h2 className="text-lg font-bold mb-6 flex items-center justify-between border-b pb-2">

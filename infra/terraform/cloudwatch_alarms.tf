@@ -56,32 +56,32 @@ resource "aws_cloudwatch_metric_alarm" "cf_5xx" {
   }
 }
 
-# ==========================================
-# 3. shotrip-prod-alb-5xx
-# ==========================================
-resource "aws_cloudwatch_metric_alarm" "alb_5xx" {
-  alarm_name          = "shotrip-prod-alb-5xx"
-  comparison_operator = "GreaterThanOrEqualToThreshold"
-  evaluation_periods  = "1"
-  metric_name         = "HTTPCode_ELB_5XX_Count"
-  namespace           = "AWS/ApplicationELB"
-  period              = "60"
-  statistic           = "Average"
-  threshold           = "5"
-  treat_missing_data  = "missing"
+# # ==========================================
+# # 3. shotrip-prod-alb-5xx
+# # ==========================================
+# resource "aws_cloudwatch_metric_alarm" "alb_5xx" {
+#   alarm_name          = "shotrip-prod-alb-5xx"
+#   comparison_operator = "GreaterThanOrEqualToThreshold"
+#   evaluation_periods  = "1"
+#   metric_name         = "HTTPCode_ELB_5XX_Count"
+#   namespace           = "AWS/ApplicationELB"
+#   period              = "60"
+#   statistic           = "Average"
+#   threshold           = "5"
+#   treat_missing_data  = "missing"
 
-  dimensions = {
-    LoadBalancer = aws_lb.main.arn_suffix
-  }
+#   dimensions = {
+#     LoadBalancer = aws_lb.main.arn_suffix
+#   }
 
-  alarm_actions = [aws_sns_topic.urgent_alert.arn]
+#   alarm_actions = [aws_sns_topic.urgent_alert.arn]
 
-  tags = {
-    Env           = var.env
-    Project       = var.project
-    SecurityLevel = title(var.securitylevel)
-  }
-}
+#   tags = {
+#     Env           = var.env
+#     Project       = var.project
+#     SecurityLevel = title(var.securitylevel)
+#   }
+# }
 
 # ==========================================
 # 4. shotrip-prod-apigw-5xx
@@ -110,61 +110,61 @@ resource "aws_cloudwatch_metric_alarm" "apigw_5xx" {
   }
 }
 
-# ==========================================
-# 5. shotrip-prod-ecs-cpu
-# ==========================================
-resource "aws_cloudwatch_metric_alarm" "ecs_cpu" {
-  alarm_name          = "shotrip-prod-ecs-cpu"
-  comparison_operator = "GreaterThanOrEqualToThreshold"
-  evaluation_periods  = "1"
-  metric_name         = "CPUUtilization"
-  namespace           = "AWS/ECS"
-  period              = "300"
-  statistic           = "Average"
-  threshold           = "80"
-  treat_missing_data  = "missing"
+# # ==========================================
+# # 5. shotrip-prod-ecs-cpu
+# # ==========================================
+# resource "aws_cloudwatch_metric_alarm" "ecs_cpu" {
+#   alarm_name          = "shotrip-prod-ecs-cpu"
+#   comparison_operator = "GreaterThanOrEqualToThreshold"
+#   evaluation_periods  = "1"
+#   metric_name         = "CPUUtilization"
+#   namespace           = "AWS/ECS"
+#   period              = "300"
+#   statistic           = "Average"
+#   threshold           = "80"
+#   treat_missing_data  = "missing"
 
-  dimensions = {
-    ClusterName = aws_ecs_cluster.main.name
-    ServiceName = aws_ecs_service.stamp.name
-  }
+#   dimensions = {
+#     ClusterName = aws_ecs_cluster.main.name
+#     ServiceName = aws_ecs_service.stamp.name
+#   }
 
-  alarm_actions = [aws_sns_topic.urgent_alert.arn]
+#   alarm_actions = [aws_sns_topic.urgent_alert.arn]
 
-  tags = {
-    Env           = var.env
-    Project       = var.project
-    SecurityLevel = title(var.securitylevel)
-  }
-}
+#   tags = {
+#     Env           = var.env
+#     Project       = var.project
+#     SecurityLevel = title(var.securitylevel)
+#   }
+# }
 
-# ==========================================
-# 6. shotrip-prod-ecs-mem
-# ==========================================
-resource "aws_cloudwatch_metric_alarm" "ecs_mem" {
-  alarm_name          = "shotrip-prod-ecs-mem"
-  comparison_operator = "GreaterThanOrEqualToThreshold"
-  evaluation_periods  = "1"
-  metric_name         = "MemoryUtilization"
-  namespace           = "AWS/ECS"
-  period              = "300"
-  statistic           = "Average"
-  threshold           = "80"
-  treat_missing_data  = "missing"
+# # ==========================================
+# # 6. shotrip-prod-ecs-mem
+# # ==========================================
+# resource "aws_cloudwatch_metric_alarm" "ecs_mem" {
+#   alarm_name          = "shotrip-prod-ecs-mem"
+#   comparison_operator = "GreaterThanOrEqualToThreshold"
+#   evaluation_periods  = "1"
+#   metric_name         = "MemoryUtilization"
+#   namespace           = "AWS/ECS"
+#   period              = "300"
+#   statistic           = "Average"
+#   threshold           = "80"
+#   treat_missing_data  = "missing"
 
-  dimensions = {
-    ClusterName = aws_ecs_cluster.main.name
-    ServiceName = aws_ecs_service.stamp.name
-  }
+#   dimensions = {
+#     ClusterName = aws_ecs_cluster.main.name
+#     ServiceName = aws_ecs_service.stamp.name
+#   }
 
-  alarm_actions = [aws_sns_topic.urgent_alert.arn]
+#   alarm_actions = [aws_sns_topic.urgent_alert.arn]
 
-  tags = {
-    Env           = var.env
-    Project       = var.project
-    SecurityLevel = title(var.securitylevel)
-  }
-}
+#   tags = {
+#     Env           = var.env
+#     Project       = var.project
+#     SecurityLevel = title(var.securitylevel)
+#   }
+# }
 
 # ==========================================
 # 7. shotrip-prod-lambda-err-aurorauser-sync
@@ -599,7 +599,35 @@ resource "aws_cloudwatch_metric_alarm" "lambda_err_lenstoken_reset" {
 }
 
 # ==========================================
-# 23. shotrip-prod-aurora-cpu
+# 23. shotrip-prod-lambda-err-stamp
+# ==========================================
+resource "aws_cloudwatch_metric_alarm" "lambda_err_stamp" {
+  alarm_name          = "shotrip-prod-lambda-err-stamp"
+  comparison_operator = "GreaterThanOrEqualToThreshold"
+  evaluation_periods  = "1"
+  metric_name         = "Errors"
+  namespace           = "AWS/Lambda"
+  period              = "60"
+  statistic           = "Average"
+  threshold           = "1"
+  treat_missing_data  = "missing"
+
+  dimensions = {
+    # 今回作成したスタンプ用Lambdaの関数名を指定
+    FunctionName = aws_lambda_function.stamp.function_name
+  }
+
+  alarm_actions = [aws_sns_topic.urgent_alert.arn]
+
+  tags = {
+    Env           = var.env
+    Project       = var.project
+    SecurityLevel = title(var.securitylevel)
+  }
+}
+
+# ==========================================
+# 24. shotrip-prod-aurora-cpu
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "aurora_cpu" {
   alarm_name          = "shotrip-prod-aurora-cpu"
@@ -626,7 +654,7 @@ resource "aws_cloudwatch_metric_alarm" "aurora_cpu" {
 }
 
 # ==========================================
-# 24. shotrip-prod-aurora-conn
+# 25. shotrip-prod-aurora-conn
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "aurora_conn" {
   alarm_name          = "shotrip-prod-aurora-conn"
@@ -653,7 +681,7 @@ resource "aws_cloudwatch_metric_alarm" "aurora_conn" {
 }
 
 # ==========================================
-# 25. shotrip-prod-ddb-err
+# 26. shotrip-prod-ddb-err
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "ddb_err" {
   alarm_name          = "shotrip-prod-ddb-err"
@@ -680,7 +708,7 @@ resource "aws_cloudwatch_metric_alarm" "ddb_err" {
 }
 
 # ==========================================
-# 26. shotrip-prod-sqs-delay-aurorauser-sync
+# 27. shotrip-prod-sqs-delay-aurorauser-sync
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "sqs_delay_aurorauser_sync" {
   alarm_name          = "shotrip-prod-sqs-delay-aurorauser-sync"
@@ -707,7 +735,7 @@ resource "aws_cloudwatch_metric_alarm" "sqs_delay_aurorauser_sync" {
 }
 
 # ==========================================
-# 27. shotrip-prod-sqs-delay-rag-otherdata-queue
+# 28. shotrip-prod-sqs-delay-rag-otherdata-queue
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "sqs_delay_rag_otherdata" {
   alarm_name          = "shotrip-prod-sqs-delay-rag-otherdata-queue"
@@ -734,7 +762,7 @@ resource "aws_cloudwatch_metric_alarm" "sqs_delay_rag_otherdata" {
 }
 
 # ==========================================
-# 28. shotrip-prod-sqs-delay-rag-spotdata-queue
+# 29. shotrip-prod-sqs-delay-rag-spotdata-queue
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "sqs_delay_rag_spotdata" {
   alarm_name          = "shotrip-prod-sqs-delay-rag-spotdata-queue"
@@ -761,7 +789,7 @@ resource "aws_cloudwatch_metric_alarm" "sqs_delay_rag_spotdata" {
 }
 
 # ==========================================
-# 29. shotrip-prod-sqs-delay-dynamouser-sync-queue
+# 30. shotrip-prod-sqs-delay-dynamouser-sync-queue
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "sqs_delay_dynamouser_sync" {
   alarm_name          = "shotrip-prod-sqs-delay-dynamouser-sync-queue"
@@ -788,7 +816,7 @@ resource "aws_cloudwatch_metric_alarm" "sqs_delay_dynamouser_sync" {
 }
 
 # ==========================================
-# 30. shotrip-prod-sqs-delay-lenstoken-reset-queue
+# 31. shotrip-prod-sqs-delay-lenstoken-reset-queue
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "sqs_delay_lenstoken_reset" {
   alarm_name          = "shotrip-prod-sqs-delay-lenstoken-reset-queue"
@@ -815,7 +843,7 @@ resource "aws_cloudwatch_metric_alarm" "sqs_delay_lenstoken_reset" {
 }
 
 # ==========================================
-# 31. shotrip-prod-sqs-stag-aurorauser-sync-dlq
+# 32. shotrip-prod-sqs-stag-aurorauser-sync-dlq
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "sqs_dlq_aurorauser_sync" {
   alarm_name          = "shotrip-prod-sqs-stag-aurorauser-sync-dlq"
@@ -842,7 +870,7 @@ resource "aws_cloudwatch_metric_alarm" "sqs_dlq_aurorauser_sync" {
 }
 
 # ==========================================
-# 32. shotrip-prod-sqs-stag-rag-otherdata-dlq
+# 33. shotrip-prod-sqs-stag-rag-otherdata-dlq
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "sqs_dlq_rag_otherdata" {
   alarm_name          = "shotrip-prod-sqs-stag-rag-otherdata-dlq"
@@ -869,7 +897,7 @@ resource "aws_cloudwatch_metric_alarm" "sqs_dlq_rag_otherdata" {
 }
 
 # ==========================================
-# 33. shotrip-prod-sqs-stag-rag-spotdata-dlq
+# 34. shotrip-prod-sqs-stag-rag-spotdata-dlq
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "sqs_dlq_rag_spotdata" {
   alarm_name          = "shotrip-prod-sqs-stag-rag-spotdata-dlq"
@@ -896,7 +924,7 @@ resource "aws_cloudwatch_metric_alarm" "sqs_dlq_rag_spotdata" {
 }
 
 # ==========================================
-# 34. shotrip-prod-sqs-stag-dynamouser-sync-dlq
+# 35. shotrip-prod-sqs-stag-dynamouser-sync-dlq
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "sqs_dlq_dynamouser_sync" {
   alarm_name          = "shotrip-prod-sqs-stag-dynamouser-sync-dlq"
@@ -923,7 +951,7 @@ resource "aws_cloudwatch_metric_alarm" "sqs_dlq_dynamouser_sync" {
 }
 
 # ==========================================
-# 35. shotrip-prod-sqs-stag-lenstoken-reset-dlq
+# 36. shotrip-prod-sqs-stag-lenstoken-reset-dlq
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "sqs_dlq_lenstoken_reset" {
   alarm_name          = "shotrip-prod-sqs-stag-lenstoken-reset-dlq"

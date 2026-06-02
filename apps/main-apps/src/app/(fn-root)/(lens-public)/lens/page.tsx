@@ -326,7 +326,7 @@ export default function LensPage() {
 
         {/* Sidebar Ads */}
         <aside className="lg:col-span-4 py-8 lg:py-12">
-          <div className="lg:sticky lg:top-24 border border-stone-200 rounded-3xl p-8 bg-stone-50 shadow-inner">
+          <div className="lg:top-24 border border-stone-200 rounded-3xl p-8 bg-stone-50 shadow-inner">
             <h3 className="font-bold text-xs text-stone-400 uppercase tracking-widest mb-6 border-b border-stone-200 pb-3">
               Ads Space
             </h3>

@@ -34,7 +34,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const text = INTERNAL_UI_TEXT[locale as keyof typeof INTERNAL_UI_TEXT];
 
-  const title = `Shotrip | ${text.home.title}`; 
+  const title = `Shotrip | ${text.home.title}`;
   const description = text.home.body_1;
 
   const ogLocaleMap: Record<string, string> = {
@@ -100,23 +100,23 @@ export default async function LandingPage({ params }: LandingPageProps) {
 
   return (
     <>
-    <section className="relative h-[calc(60vh+104px)] min-h-100 w-full mt-0 mb-16 overflow-hidden flex items-center justify-center">
-      <Image
-        src="/images/home/hero.jpg"
-        alt="Japan Travel"
-        fill
-        priority
-        style={{ objectFit: "cover" }}
-        className="absolute inset-0 z-0"
-      />
+      <section className="relative h-[calc(60vh+104px)] min-h-100 w-full mt-0 mb-16 overflow-hidden flex items-center justify-center">
+        <Image
+          src="/images/home/hero.jpg"
+          alt="Japan Travel"
+          fill
+          priority
+          style={{ objectFit: "cover" }}
+          className="absolute inset-0 z-0"
+        />
 
-      <div className="absolute inset-0 bg-black/40 z-10" />
+        <div className="absolute inset-0 bg-black/40 z-10" />
 
-      <div className="relative text-center text-white p-8 pt-32.5 z-20">
-        <h1 className="text-4xl font-bold mb-4">{text.home.intro}</h1>
-        <p className="text-lg opacity-90">{text.home.sub_intro}</p>
-      </div>
-    </section>
+        <div className="relative text-center text-white p-8 pt-32.5 z-20">
+          <h1 className="text-4xl font-bold mb-4">{text.home.intro}</h1>
+          <p className="text-lg opacity-90">{text.home.sub_intro}</p>
+        </div>
+      </section>
 
       <div className="mx-auto max-w-7xl px-4 grid grid-cols-1 lg:grid-cols-12 gap-8">
         <main className="lg:col-span-8">
@@ -206,8 +206,12 @@ export default async function LandingPage({ params }: LandingPageProps) {
 
             <div className="lg:hidden w-full py-4 px-2">
               <div className="bg-stone-50 border border-dashed border-stone-200 rounded-2xl h-64 flex flex-col items-center justify-center relative overflow-hidden">
-                <span className="absolute top-2 left-3 text-[9px] font-bold text-stone-400 uppercase tracking-widest">Advertisement</span>
-                <p className="text-stone-300 text-sm font-medium">Ads Placeholder</p>
+                <span className="absolute top-2 left-3 text-[9px] font-bold text-stone-400 uppercase tracking-widest">
+                  Advertisement
+                </span>
+                <p className="text-stone-300 text-sm font-medium">
+                  Ads Placeholder
+                </p>
               </div>
             </div>
 
@@ -271,72 +275,83 @@ export default async function LandingPage({ params }: LandingPageProps) {
           </section>
 
           <div className="lg:hidden w-full py-4 px-2">
-              <div className="bg-stone-50 border border-dashed border-stone-200 rounded-2xl h-64 flex flex-col items-center justify-center relative overflow-hidden">
-                <span className="absolute top-2 left-3 text-[9px] font-bold text-stone-400 uppercase tracking-widest">Advertisement</span>
-                <p className="text-stone-300 text-sm font-medium">Ads Placeholder</p>
-              </div>
+            <div className="bg-stone-50 border border-dashed border-stone-200 rounded-2xl h-64 flex flex-col items-center justify-center relative overflow-hidden">
+              <span className="absolute top-2 left-3 text-[9px] font-bold text-stone-400 uppercase tracking-widest">
+                Advertisement
+              </span>
+              <p className="text-stone-300 text-sm font-medium">
+                Ads Placeholder
+              </p>
             </div>
+          </div>
 
           <section className="mb-16">
-            <h2 className="text-3xl font-bold text-stone-900 mb-6 flex items-center gap-3">
-              <span className="w-10 h-0.5 bg-brand-red"></span>
-              {text.home.region_tiles}
-            </h2>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-              {REGIONS_KEY.map((region) => {
-                const key = region.key as RegionsKey;
-                return (
-                  <div
-                    key={key}
-                    className="flex flex-col rounded-lg border overflow-hidden bg-white shadow-sm hover:shadow-md transition-shadow"
-                  >
-                    <div className="relative h-48 w-full bg-gray-200">
+            <div className="max-w-7xl mx-auto px-4">
+              <h2 className="text-3xl font-bold text-stone-900 flex items-center gap-3 mb-6">
+                <span className="w-10 h-0.5 bg-brand-red"></span>
+                {text.home.region_tiles}
+              </h2>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {REGIONS_KEY.map((region) => {
+                  const key = region.key as RegionsKey;
+                  return (
+                    <div
+                      key={key}
+                      className="group relative h-105 md:h-100 w-full overflow-hidden rounded-2xl bg-stone-950 shadow-md"
+                    >
                       <Image
                         src={`/images/regions/home/${key}.jpg`}
                         alt={text.home.region_names[key]}
                         fill
-                        className="object-cover"
+                        className="object-cover opacity-60 transition-all duration-500 md:opacity-85 md:group-hover:opacity-40 md:group-hover:scale-105"
                       />
-                    </div>
+                      <div className="absolute inset-0 bg-linear-to-t from-stone-950 via-stone-950/70 md:via-stone-950/40 md:group-hover:via-stone-950/70 to-transparent transition-all duration-500" />
 
-                    <div className="flex flex-col p-6 w-full">
-                      <h3 className="text-2xl font-bold text-stone-900">
-                        {text.home.region_names[key]}
-                      </h3>
-                      <p className="mt-4 text-stone-600 mb-8 leading-relaxed grow">
-                        {text.home.regoin_tiles_excerpt[key]}
-                      </p>
+                      <div className="absolute inset-0 flex flex-col justify-end p-6 md:p-8 md:group-hover:translate-y-0 transition-transform duration-500 ease-out">
+                        <h3 className="text-xl md:text-2xl font-bold text-white mb-2 tracking-tight transition-transform duration-500 ease-out md:translate-y-35 md:group-hover:translate-y-0">
+                          {text.home.region_names[key]}
+                        </h3>
 
-                      <div className="flex gap-3 mt-auto">
-                        <Link
-                          href={`/${locale}/blog/${region.key}`}
-                          className="flex-2 bg-stone-900 text-white text-center py-3 text-sm font-semibold rounded-md hover:bg-stone-800 transition-colors"
-                        >
-                          {text.home.explore}
-                        </Link>
-                        <a
-                          href={`https://www.google.com/maps/@${REGION_MAP_CONFIG[key].lat},${REGION_MAP_CONFIG[key].lng},${REGION_MAP_CONFIG[key].zoom}z`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="flex-1 flex items-center p-3 justify-center gap-1 w-full border border-stone-300 text-stone-700 text-center py-3 text-sm font-semibold rounded-md hover:bg-stone-100 transition-colors"
-                        >
-                          <MapPin className="w-4 h-4 shrink-0" />
-                          <span>{text.home.map}</span>
-                        </a>
+                        <p className="text-stone-200 text-sm mb-6 max-w-md leading-relaxed opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-500 delay-75 line-clamp-3 md:line-clamp-4">
+                          {text.home.regoin_tiles_excerpt[key]}
+                        </p>
+
+                        <div className="flex gap-3 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-500 delay-100">
+                          <Link
+                            href={`/${locale}/blog/${region.key}`}
+                            className="flex-1 bg-white text-stone-900 text-center py-3 text-sm font-semibold rounded-lg hover:bg-stone-100 transition-colors"
+                          >
+                            {text.home.explore}
+                          </Link>
+                          <a
+                            href={`https://www.google.com/maps/@${REGION_MAP_CONFIG[key].lat},${REGION_MAP_CONFIG[key].lng},${REGION_MAP_CONFIG[key].zoom}z`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="w-12 h-12 flex items-center justify-center rounded-lg border border-white/30 text-white hover:bg-white/10 transition-colors shrink-0"
+                            aria-label={text.home.map}
+                          >
+                            <MapPin className="w-5 h-5" />
+                          </a>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                );
-              })}
+                  );
+                })}
+              </div>
             </div>
           </section>
 
           <div className="lg:hidden w-full py-4 px-2">
-              <div className="bg-stone-50 border border-dashed border-stone-200 rounded-2xl h-64 flex flex-col items-center justify-center relative overflow-hidden">
-                <span className="absolute top-2 left-3 text-[9px] font-bold text-stone-400 uppercase tracking-widest">Advertisement</span>
-                <p className="text-stone-300 text-sm font-medium">Ads Placeholder</p>
-              </div>
+            <div className="bg-stone-50 border border-dashed border-stone-200 rounded-2xl h-64 flex flex-col items-center justify-center relative overflow-hidden">
+              <span className="absolute top-2 left-3 text-[9px] font-bold text-stone-400 uppercase tracking-widest">
+                Advertisement
+              </span>
+              <p className="text-stone-300 text-sm font-medium">
+                Ads Placeholder
+              </p>
             </div>
+          </div>
 
           <section className="py-10 mb-16">
             <div className="max-w-7xl mx-auto px-4">
@@ -380,11 +395,15 @@ export default async function LandingPage({ params }: LandingPageProps) {
           </section>
 
           <div className="lg:hidden w-full py-4 px-2">
-              <div className="bg-stone-50 border border-dashed border-stone-200 rounded-2xl h-64 flex flex-col items-center justify-center relative overflow-hidden">
-                <span className="absolute top-2 left-3 text-[9px] font-bold text-stone-400 uppercase tracking-widest">Advertisement</span>
-                <p className="text-stone-300 text-sm font-medium">Ads Placeholder</p>
-              </div>
+            <div className="bg-stone-50 border border-dashed border-stone-200 rounded-2xl h-64 flex flex-col items-center justify-center relative overflow-hidden">
+              <span className="absolute top-2 left-3 text-[9px] font-bold text-stone-400 uppercase tracking-widest">
+                Advertisement
+              </span>
+              <p className="text-stone-300 text-sm font-medium">
+                Ads Placeholder
+              </p>
             </div>
+          </div>
 
           <section className="mb-16">
             <div className="max-w-7xl mx-auto px-4">
@@ -402,11 +421,7 @@ export default async function LandingPage({ params }: LandingPageProps) {
                   const href = FEATURE_LINK_MAP[key](locale);
                   const Icon = ICON_MAP[key];
                   return (
-                    <Link
-                      key={key}
-                      href={href}
-                      className="group block"
-                    >
+                    <Link key={key} href={href} className="group block">
                       <div className="flex items-center gap-3">
                         <div className="p-2 bg-stone-100 rounded-md group-hover:bg-amber-100 transition-colors">
                           <Icon className="w-5 h-5 text-stone-700 group-hover:text-brand-red" />
@@ -429,11 +444,15 @@ export default async function LandingPage({ params }: LandingPageProps) {
           </section>
 
           <div className="lg:hidden w-full py-4 px-2">
-              <div className="bg-stone-50 border border-dashed border-stone-200 rounded-2xl h-64 flex flex-col items-center justify-center relative overflow-hidden">
-                <span className="absolute top-2 left-3 text-[9px] font-bold text-stone-400 uppercase tracking-widest">Advertisement</span>
-                <p className="text-stone-300 text-sm font-medium">Ads Placeholder</p>
-              </div>
+            <div className="bg-stone-50 border border-dashed border-stone-200 rounded-2xl h-64 flex flex-col items-center justify-center relative overflow-hidden">
+              <span className="absolute top-2 left-3 text-[9px] font-bold text-stone-400 uppercase tracking-widest">
+                Advertisement
+              </span>
+              <p className="text-stone-300 text-sm font-medium">
+                Ads Placeholder
+              </p>
             </div>
+          </div>
 
           <section className="mb-16 mt-16">
             <h2 className="text-3xl font-bold text-stone-900 mb-8 flex items-center gap-3">
@@ -599,7 +618,7 @@ export default async function LandingPage({ params }: LandingPageProps) {
         </main>
 
         <aside className="lg:col-span-4 w-full max-w-4xl mx-auto lg:max-w-none">
-          <div className="sticky top-24 space-y-10">
+          <div className="top-24 space-y-10">
             {latestArticles.length > 0 && (
               <section>
                 <h2 className="text-lg font-bold mb-6 flex items-center justify-between border-b pb-2">
@@ -631,7 +650,9 @@ export default async function LandingPage({ params }: LandingPageProps) {
                           <h4 className="text-sm font-bold text-gray-900 line-clamp-2 group-hover:text-brand-red transition-colors leading-snug">
                             {article.title}
                           </h4>
-                          <p className="text-[10px] text-gray-400 mt-1">{article.date}</p>
+                          <p className="text-[10px] text-gray-400 mt-1">
+                            {article.date}
+                          </p>
                         </div>
                       </Link>
                     );
@@ -641,7 +662,9 @@ export default async function LandingPage({ params }: LandingPageProps) {
             )}
 
             <div className="w-full max-w-md mx-auto lg:max-w-none border rounded-2xl p-8 bg-gray-50/50 border-dashed flex flex-col items-center justify-center text-center">
-              <span className="text-xs font-bold text-gray-400 uppercase tracking-tighter mb-2">Advertisement</span>
+              <span className="text-xs font-bold text-gray-400 uppercase tracking-tighter mb-2">
+                Advertisement
+              </span>
               <div className="w-full aspect-4/3 bg-white border rounded flex items-center justify-center text-gray-300 text-[10px]">
                 Ads Placeholder
               </div>
