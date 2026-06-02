@@ -337,7 +337,7 @@ resource "aws_security_group" "vpc_lambda" {
 # 4. shotrip-prod-db-sg
 resource "aws_security_group" "db" {
   name        = "shotrip-prod-db-sg"
-  description = "Allow connection from Fargate"
+  description = "Allow connection from app"
   vpc_id      = aws_vpc.main.id
 
   ingress {
