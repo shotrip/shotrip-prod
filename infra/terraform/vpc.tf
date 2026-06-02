@@ -91,7 +91,7 @@ resource "aws_route_table_association" "bastion_public" {
 #   route_table_id = aws_route_table.alb.id
 # }
 
-# 5. shotrip-prod-fargate-private
+# 5. shotrip-prod-app-private
 resource "aws_subnet" "app_private" {
   vpc_id            = aws_vpc.main.id
   cidr_block        = "10.0.3.0/24"
