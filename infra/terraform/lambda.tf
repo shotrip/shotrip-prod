@@ -710,7 +710,6 @@ resource "aws_lambda_function" "stamp" {
 
   environment {
     variables = {
-      AWS_REGION  = "ap-northeast-1"
       BUCKET_NAME = aws_s3_bucket.stamp_pics.bucket
       DB_HOST     = aws_rds_cluster.main.endpoint
       DB_NAME     = "postgres"
