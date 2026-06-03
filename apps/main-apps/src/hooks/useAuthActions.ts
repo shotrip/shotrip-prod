@@ -28,10 +28,16 @@ export const useAuthActions = () => {
 
   const handleLogout = async () => {
     try {
-      await signOut();
-      window.location.href = "/";
+      await signOut({ global: true });
     } catch (error) {
       console.error("Logout error:", error);
+    } finally {
+      Object.keys(localStorage).forEach((key) => {
+        if (key.startsWith("CognitoIdentityServiceProvider.")) {
+          localStorage.removeItem(key);
+        }
+      });
+      window.location.href = "/";
     }
   };
   return { handleLogin, handleLogout, refreshAuthStatus };
