@@ -380,4 +380,4 @@ def delete_user_data(
 def health_check():
     return {"status": "ok"}
 
-handler = Mangum(app, lifespan="off")
+lambda_handler = Mangum(app, lifespan="off")
