@@ -46,7 +46,7 @@ export async function generateMetadata({
       description,
       url: `${ENV.PROD_URL}/${locale}/blog`,
       siteName: "Shotrip",
-      images: ["/images/common/placeholder.jpg"],
+      images: ["/images/common/placeholder.webp"],
       type: "website",
       locale: ogLocaleMap[locale] || "en_US",
     },
@@ -54,7 +54,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title,
       description,
-      images: ["/images/common/placeholder.jpg"],
+      images: ["/images/common/placeholder.webp"],
     },
   };
 }
@@ -96,7 +96,7 @@ export default async function SoleRegionPage({ params }: RegionPageProps) {
                       className="group relative h-105 md:h-100 w-full overflow-hidden rounded-2xl bg-stone-950 shadow-md"
                     >
                       <Image
-                        src={`/images/regions/home/${key}.jpg`}
+                        src={`/images/regions/home/${key}.webp`}
                         alt={text.home.region_names[key]}
                         fill
                         className="object-cover opacity-60 transition-all duration-500 md:opacity-85 md:group-hover:opacity-40 md:group-hover:scale-105"
@@ -168,7 +168,7 @@ export default async function SoleRegionPage({ params }: RegionPageProps) {
                       className="group relative overflow-hidden rounded-2xl aspect-4/3 bg-stone-200 shadow-sm"
                     >
                       <Image
-                        src={`/images/categories/${key}.jpg`}
+                        src={`/images/categories/${key}.webp`}
                         alt={cat.label}
                         fill
                         className="object-cover"

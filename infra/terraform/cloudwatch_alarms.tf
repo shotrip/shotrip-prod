@@ -56,35 +56,8 @@ resource "aws_cloudwatch_metric_alarm" "cf_5xx" {
   }
 }
 
-# # ==========================================
-# # 3. shotrip-prod-alb-5xx
-# # ==========================================
-# resource "aws_cloudwatch_metric_alarm" "alb_5xx" {
-#   alarm_name          = "shotrip-prod-alb-5xx"
-#   comparison_operator = "GreaterThanOrEqualToThreshold"
-#   evaluation_periods  = "1"
-#   metric_name         = "HTTPCode_ELB_5XX_Count"
-#   namespace           = "AWS/ApplicationELB"
-#   period              = "60"
-#   statistic           = "Average"
-#   threshold           = "5"
-#   treat_missing_data  = "missing"
-
-#   dimensions = {
-#     LoadBalancer = aws_lb.main.arn_suffix
-#   }
-
-#   alarm_actions = [aws_sns_topic.urgent_alert.arn]
-
-#   tags = {
-#     Env           = var.env
-#     Project       = var.project
-#     SecurityLevel = title(var.securitylevel)
-#   }
-# }
-
 # ==========================================
-# 4. shotrip-prod-apigw-5xx
+# 3. shotrip-prod-apigw-5xx
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "apigw_5xx" {
   alarm_name          = "shotrip-prod-apigw-5xx"
@@ -110,64 +83,8 @@ resource "aws_cloudwatch_metric_alarm" "apigw_5xx" {
   }
 }
 
-# # ==========================================
-# # 5. shotrip-prod-ecs-cpu
-# # ==========================================
-# resource "aws_cloudwatch_metric_alarm" "ecs_cpu" {
-#   alarm_name          = "shotrip-prod-ecs-cpu"
-#   comparison_operator = "GreaterThanOrEqualToThreshold"
-#   evaluation_periods  = "1"
-#   metric_name         = "CPUUtilization"
-#   namespace           = "AWS/ECS"
-#   period              = "300"
-#   statistic           = "Average"
-#   threshold           = "80"
-#   treat_missing_data  = "missing"
-
-#   dimensions = {
-#     ClusterName = aws_ecs_cluster.main.name
-#     ServiceName = aws_ecs_service.stamp.name
-#   }
-
-#   alarm_actions = [aws_sns_topic.urgent_alert.arn]
-
-#   tags = {
-#     Env           = var.env
-#     Project       = var.project
-#     SecurityLevel = title(var.securitylevel)
-#   }
-# }
-
-# # ==========================================
-# # 6. shotrip-prod-ecs-mem
-# # ==========================================
-# resource "aws_cloudwatch_metric_alarm" "ecs_mem" {
-#   alarm_name          = "shotrip-prod-ecs-mem"
-#   comparison_operator = "GreaterThanOrEqualToThreshold"
-#   evaluation_periods  = "1"
-#   metric_name         = "MemoryUtilization"
-#   namespace           = "AWS/ECS"
-#   period              = "300"
-#   statistic           = "Average"
-#   threshold           = "80"
-#   treat_missing_data  = "missing"
-
-#   dimensions = {
-#     ClusterName = aws_ecs_cluster.main.name
-#     ServiceName = aws_ecs_service.stamp.name
-#   }
-
-#   alarm_actions = [aws_sns_topic.urgent_alert.arn]
-
-#   tags = {
-#     Env           = var.env
-#     Project       = var.project
-#     SecurityLevel = title(var.securitylevel)
-#   }
-# }
-
 # ==========================================
-# 7. shotrip-prod-lambda-err-aurorauser-sync
+# 4. shotrip-prod-lambda-err-aurorauser-sync
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "lambda_err_aurorauser_sync" {
   alarm_name          = "shotrip-prod-lambda-err-aurorauser-sync"
@@ -194,7 +111,7 @@ resource "aws_cloudwatch_metric_alarm" "lambda_err_aurorauser_sync" {
 }
 
 # ==========================================
-# 8. shotrip-prod-lambda-err-chatbot-api
+# 5. shotrip-prod-lambda-err-chatbot-api
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "lambda_err_chatbot_api" {
   alarm_name          = "shotrip-prod-lambda-err-chatbot-api"
@@ -221,7 +138,7 @@ resource "aws_cloudwatch_metric_alarm" "lambda_err_chatbot_api" {
 }
 
 # ==========================================
-# 9. shotrip-prod-lambda-err-chatbot-payment
+# 6. shotrip-prod-lambda-err-chatbot-payment
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "lambda_err_chatbot_payment" {
   alarm_name          = "shotrip-prod-lambda-err-chatbot-payment"
@@ -248,7 +165,7 @@ resource "aws_cloudwatch_metric_alarm" "lambda_err_chatbot_payment" {
 }
 
 # ==========================================
-# 10. shotrip-prod-lambda-err-delete-cognitouser
+# 7. shotrip-prod-lambda-err-delete-cognitouser
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "lambda_err_delete_cognitouser" {
   alarm_name          = "shotrip-prod-lambda-err-delete-cognitouser"
@@ -275,7 +192,7 @@ resource "aws_cloudwatch_metric_alarm" "lambda_err_delete_cognitouser" {
 }
 
 # ==========================================
-# 11. shotrip-prod-lambda-err-lenshistory-archiver
+# 8. shotrip-prod-lambda-err-lenshistory-archiver
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "lambda_err_lenshistory_archiver" {
   alarm_name          = "shotrip-prod-lambda-err-lenshistory-archiver"
@@ -302,7 +219,7 @@ resource "aws_cloudwatch_metric_alarm" "lambda_err_lenshistory_archiver" {
 }
 
 # ==========================================
-# 12. shotrip-prod-lambda-err-rag-otherdata-prep
+# 9. shotrip-prod-lambda-err-rag-otherdata-prep
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "lambda_err_rag_otherdata_prep" {
   alarm_name          = "shotrip-prod-lambda-err-rag-otherdata-prep"
@@ -329,7 +246,7 @@ resource "aws_cloudwatch_metric_alarm" "lambda_err_rag_otherdata_prep" {
 }
 
 # ==========================================
-# 13. shotrip-prod-lambda-err-rag-otherdata-processing
+# 10. shotrip-prod-lambda-err-rag-otherdata-processing
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "lambda_err_rag_otherdata_processing" {
   alarm_name          = "shotrip-prod-lambda-err-rag-otherdata-processing"
@@ -356,7 +273,7 @@ resource "aws_cloudwatch_metric_alarm" "lambda_err_rag_otherdata_processing" {
 }
 
 # ==========================================
-# 14. shotrip-prod-lambda-err-rag-spot-fav
+# 11. shotrip-prod-lambda-err-rag-spot-fav
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "lambda_err_rag_spot_fav" {
   alarm_name          = "shotrip-prod-lambda-err-rag-spot-fav"
@@ -383,7 +300,7 @@ resource "aws_cloudwatch_metric_alarm" "lambda_err_rag_spot_fav" {
 }
 
 # ==========================================
-# 15. shotrip-prod-lambda-err-rag-spotdata-prep
+# 12. shotrip-prod-lambda-err-rag-spotdata-prep
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "lambda_err_rag_spotdata_prep" {
   alarm_name          = "shotrip-prod-lambda-err-rag-spotdata-prep"
@@ -410,7 +327,7 @@ resource "aws_cloudwatch_metric_alarm" "lambda_err_rag_spotdata_prep" {
 }
 
 # ==========================================
-# 16. shotrip-prod-lambda-err-rag-spotdata-processing
+# 13. shotrip-prod-lambda-err-rag-spotdata-processing
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "lambda_err_rag_spotdata_processing" {
   alarm_name          = "shotrip-prod-lambda-err-rag-spotdata-processing"
@@ -437,7 +354,7 @@ resource "aws_cloudwatch_metric_alarm" "lambda_err_rag_spotdata_processing" {
 }
 
 # ==========================================
-# 17. shotrip-prod-lambda-err-delete-dynamodbuser
+# 14. shotrip-prod-lambda-err-delete-dynamodbuser
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "lambda_err_delete_dynamodbuser" {
   alarm_name          = "shotrip-prod-lambda-err-delete-dynamodbuser"
@@ -464,7 +381,7 @@ resource "aws_cloudwatch_metric_alarm" "lambda_err_delete_dynamodbuser" {
 }
 
 # ==========================================
-# 18. shotrip-prod-lambda-err-user-registration
+# 15. shotrip-prod-lambda-err-user-registration
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "lambda_err_user_registration" {
   alarm_name          = "shotrip-prod-lambda-err-user-registration"
@@ -491,7 +408,7 @@ resource "aws_cloudwatch_metric_alarm" "lambda_err_user_registration" {
 }
 
 # ==========================================
-# 19. shotrip-prod-lambda-err-dynamodbuser-sync
+# 16. shotrip-prod-lambda-err-dynamodbuser-sync
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "lambda_err_dynamodbuser_sync" {
   alarm_name          = "shotrip-prod-lambda-err-dynamodbuser-sync"
@@ -518,7 +435,7 @@ resource "aws_cloudwatch_metric_alarm" "lambda_err_dynamodbuser_sync" {
 }
 
 # ==========================================
-# 20. shotrip-prod-lambda-err-dynamodbuser-update
+# 17. shotrip-prod-lambda-err-dynamodbuser-update
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "lambda_err_dynamodbuser_update" {
   alarm_name          = "shotrip-prod-lambda-err-dynamodbuser-update"
@@ -545,7 +462,7 @@ resource "aws_cloudwatch_metric_alarm" "lambda_err_dynamodbuser_update" {
 }
 
 # ==========================================
-# 21. shotrip-prod-lambda-err-lenstoken-scan
+# 18. shotrip-prod-lambda-err-lenstoken-scan
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "lambda_err_lenstoken_scan" {
   alarm_name          = "shotrip-prod-lambda-err-lenstoken-scan"
@@ -572,7 +489,7 @@ resource "aws_cloudwatch_metric_alarm" "lambda_err_lenstoken_scan" {
 }
 
 # ==========================================
-# 22. shotrip-prod-lambda-err-lenstoken-reset
+# 19. shotrip-prod-lambda-err-lenstoken-reset
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "lambda_err_lenstoken_reset" {
   alarm_name          = "shotrip-prod-lambda-err-lenstoken-reset"
@@ -599,7 +516,7 @@ resource "aws_cloudwatch_metric_alarm" "lambda_err_lenstoken_reset" {
 }
 
 # ==========================================
-# 23. shotrip-prod-lambda-err-stamp
+# 20. shotrip-prod-lambda-err-stamp
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "lambda_err_stamp" {
   alarm_name          = "shotrip-prod-lambda-err-stamp"
@@ -627,7 +544,7 @@ resource "aws_cloudwatch_metric_alarm" "lambda_err_stamp" {
 }
 
 # ==========================================
-# 24. shotrip-prod-aurora-cpu
+# 21. shotrip-prod-aurora-cpu
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "aurora_cpu" {
   alarm_name          = "shotrip-prod-aurora-cpu"
@@ -654,7 +571,7 @@ resource "aws_cloudwatch_metric_alarm" "aurora_cpu" {
 }
 
 # ==========================================
-# 25. shotrip-prod-aurora-conn
+# 22. shotrip-prod-aurora-conn
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "aurora_conn" {
   alarm_name          = "shotrip-prod-aurora-conn"
@@ -681,7 +598,7 @@ resource "aws_cloudwatch_metric_alarm" "aurora_conn" {
 }
 
 # ==========================================
-# 26. shotrip-prod-ddb-err
+# 23. shotrip-prod-ddb-err
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "ddb_err" {
   alarm_name          = "shotrip-prod-ddb-err"
@@ -708,7 +625,7 @@ resource "aws_cloudwatch_metric_alarm" "ddb_err" {
 }
 
 # ==========================================
-# 27. shotrip-prod-sqs-delay-aurorauser-sync
+# 24. shotrip-prod-sqs-delay-aurorauser-sync
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "sqs_delay_aurorauser_sync" {
   alarm_name          = "shotrip-prod-sqs-delay-aurorauser-sync"
@@ -735,7 +652,7 @@ resource "aws_cloudwatch_metric_alarm" "sqs_delay_aurorauser_sync" {
 }
 
 # ==========================================
-# 28. shotrip-prod-sqs-delay-rag-otherdata-queue
+# 25. shotrip-prod-sqs-delay-rag-otherdata-queue
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "sqs_delay_rag_otherdata" {
   alarm_name          = "shotrip-prod-sqs-delay-rag-otherdata-queue"
@@ -762,7 +679,7 @@ resource "aws_cloudwatch_metric_alarm" "sqs_delay_rag_otherdata" {
 }
 
 # ==========================================
-# 29. shotrip-prod-sqs-delay-rag-spotdata-queue
+# 26. shotrip-prod-sqs-delay-rag-spotdata-queue
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "sqs_delay_rag_spotdata" {
   alarm_name          = "shotrip-prod-sqs-delay-rag-spotdata-queue"
@@ -789,7 +706,7 @@ resource "aws_cloudwatch_metric_alarm" "sqs_delay_rag_spotdata" {
 }
 
 # ==========================================
-# 30. shotrip-prod-sqs-delay-dynamouser-sync-queue
+# 27. shotrip-prod-sqs-delay-dynamouser-sync-queue
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "sqs_delay_dynamouser_sync" {
   alarm_name          = "shotrip-prod-sqs-delay-dynamouser-sync-queue"
@@ -816,7 +733,7 @@ resource "aws_cloudwatch_metric_alarm" "sqs_delay_dynamouser_sync" {
 }
 
 # ==========================================
-# 31. shotrip-prod-sqs-delay-lenstoken-reset-queue
+# 28. shotrip-prod-sqs-delay-lenstoken-reset-queue
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "sqs_delay_lenstoken_reset" {
   alarm_name          = "shotrip-prod-sqs-delay-lenstoken-reset-queue"
@@ -843,7 +760,7 @@ resource "aws_cloudwatch_metric_alarm" "sqs_delay_lenstoken_reset" {
 }
 
 # ==========================================
-# 32. shotrip-prod-sqs-stag-aurorauser-sync-dlq
+# 29. shotrip-prod-sqs-stag-aurorauser-sync-dlq
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "sqs_dlq_aurorauser_sync" {
   alarm_name          = "shotrip-prod-sqs-stag-aurorauser-sync-dlq"
@@ -870,7 +787,7 @@ resource "aws_cloudwatch_metric_alarm" "sqs_dlq_aurorauser_sync" {
 }
 
 # ==========================================
-# 33. shotrip-prod-sqs-stag-rag-otherdata-dlq
+# 30. shotrip-prod-sqs-stag-rag-otherdata-dlq
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "sqs_dlq_rag_otherdata" {
   alarm_name          = "shotrip-prod-sqs-stag-rag-otherdata-dlq"
@@ -897,7 +814,7 @@ resource "aws_cloudwatch_metric_alarm" "sqs_dlq_rag_otherdata" {
 }
 
 # ==========================================
-# 34. shotrip-prod-sqs-stag-rag-spotdata-dlq
+# 31. shotrip-prod-sqs-stag-rag-spotdata-dlq
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "sqs_dlq_rag_spotdata" {
   alarm_name          = "shotrip-prod-sqs-stag-rag-spotdata-dlq"
@@ -924,7 +841,7 @@ resource "aws_cloudwatch_metric_alarm" "sqs_dlq_rag_spotdata" {
 }
 
 # ==========================================
-# 35. shotrip-prod-sqs-stag-dynamouser-sync-dlq
+# 32. shotrip-prod-sqs-stag-dynamouser-sync-dlq
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "sqs_dlq_dynamouser_sync" {
   alarm_name          = "shotrip-prod-sqs-stag-dynamouser-sync-dlq"
@@ -951,7 +868,7 @@ resource "aws_cloudwatch_metric_alarm" "sqs_dlq_dynamouser_sync" {
 }
 
 # ==========================================
-# 36. shotrip-prod-sqs-stag-lenstoken-reset-dlq
+# 33. shotrip-prod-sqs-stag-lenstoken-reset-dlq
 # ==========================================
 resource "aws_cloudwatch_metric_alarm" "sqs_dlq_lenstoken_reset" {
   alarm_name          = "shotrip-prod-sqs-stag-lenstoken-reset-dlq"

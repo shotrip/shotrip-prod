@@ -11,6 +11,8 @@
   --brand-black-dark: #000000;
 }
 
+@plugin "@tailwindcss/typography";
+
 @layer base {
   button {
     background-color: revert-layer;

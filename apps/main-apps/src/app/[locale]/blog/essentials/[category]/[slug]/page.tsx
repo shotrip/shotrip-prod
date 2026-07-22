@@ -69,15 +69,6 @@ export default async function EssenatialsBlogArticle({
     content: "Content not found.",
   };
 
-  const adHtml = `
-  <div class="my-8 lg:hidden">
-    <div class="bg-stone-50 border border-dashed border-stone-200 rounded-2xl h-32 flex flex-col items-center justify-center relative overflow-hidden">
-      <span class="absolute top-2 left-3 text-[9px] font-bold text-stone-400 uppercase tracking-widest">Advertisement</span>
-      <p class="text-stone-300 text-sm font-medium">Ads Placeholder</p>
-    </div>
-  </div>
-`;
-
   try {
     const fileContents = fs.readFileSync(filePath, "utf8");
     if (!fileContents || fileContents.trim() === "") {
@@ -88,11 +79,9 @@ export default async function EssenatialsBlogArticle({
     let htmlContent = marked.parse(content);
     if (typeof htmlContent !== "string") htmlContent = await htmlContent;
 
-    const contentWithAds = htmlContent.replace(/\[\[AD\]\]/g, adHtml);
-
     postContent = {
       title: data.title,
-      content: contentWithAds
+      content: htmlContent
     };
   } catch (e) {
     console.error("File not found:", e);
@@ -153,7 +142,7 @@ export default async function EssenatialsBlogArticle({
             {/* --- Breadcrumb (Bottom) ---*/}
             <nav
               aria-label="Breadcrumb"
-              className="mt-16 flex justify-end text-xs text-gray-400 uppercase tracking-wider"
+              className="mt-16 justify-end text-xs text-gray-400 uppercase tracking-wider"
             >
               <Link
                 href={`/${locale}`}

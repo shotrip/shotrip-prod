@@ -22,7 +22,7 @@ function generateIndex() {
               slug: file.replace(/\.md$/, ""),
               title: data.title || "",
               excerpt: data.excerpt || "",
-              thumbnail: data.thumbnail || "/images/common/placeholder.jpg",
+              thumbnail: data.thumbnail || "/images/common/placeholder.webp",
               date: data.date || "",
               type: "essentials",
               category: category
@@ -49,7 +49,7 @@ function generateIndex() {
                 slug: file.replace(/\.md$/, ""),
                 title: data.title || "",
                 excerpt: data.excerpt || "",
-                thumbnail: data.thumbnail || "/images/common/placeholder.jpg",
+                thumbnail: data.thumbnail || "/images/common/placeholder.webp",
                 date: data.date || "",
                 type: "regional",
                 region: region,

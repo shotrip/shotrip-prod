@@ -26,7 +26,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "/images/common/placeholder.jpg",
+          url: "/images/common/placeholder.webp",
           width: 1200,
           height: 630,
           alt: "Shotrip Lens - AI Concierge",

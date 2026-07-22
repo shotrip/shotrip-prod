@@ -1213,16 +1213,3 @@ resource "aws_api_gateway_base_path_mapping" "api_mapping" {
   stage_name  = aws_api_gateway_stage.prod.stage_name
   domain_name = aws_api_gateway_domain_name.api_domain.domain_name
 }
-
-# # --- VPC Link ---
-# resource "aws_apigatewayv2_vpc_link" "vpc_link" {
-#   name        = "shotrip-prod-vpc-links"
-#   security_group_ids = [aws_security_group.alb.id]
-#   subnet_ids         = [aws_subnet.alb_private_01.id, aws_subnet.alb_private_02.id]
-
-#   tags = {
-#     Project       = var.project
-#     Env           = var.env
-#     SecurityLevel = title(var.securitylevel)
-#   }
-# }

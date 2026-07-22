@@ -28,7 +28,7 @@ export function EnNavbar({ locale }: NavbarProps) {
       description:
         'Discover Japan\'s hidden gems and travel tips through our stories and travel guides. This would help you find out your interests about Japan and learn "How-To" tips for getting rid of your confusion while in Japan.',
       icon: <BookOpen size={20} />,
-      image: "/images/common/placeholder.jpg",
+      image: "/images/common/placeholder.webp",
     },
     {
       label: "Videos",
@@ -36,7 +36,7 @@ export function EnNavbar({ locale }: NavbarProps) {
       description:
         "Experience the sights and sounds of Japan through high-quality cinematic videos. These videos feature our experiences while reporting spots appearing in Articles and Chatbot. Let us share them with you guys!",
       icon: <Video size={20} />,
-      image: "/images/common/placeholder.jpg",
+      image: "/images/common/placeholder.webp",
     },
     {
       label: "Chatbot",
@@ -44,7 +44,7 @@ export function EnNavbar({ locale }: NavbarProps) {
       description:
         'Our AI-powered concierge "Shotrip Lens" is ready to help you find your own favorites. This is a part of our brain. Please enjoy talking to this and get our insights towards this country!',
       icon: <MessageSquare size={20} />,
-      image: "/images/common/placeholder.jpg",
+      image: "/images/common/placeholder.webp",
     },
     {
       label: "Stamp Rally",
@@ -52,7 +52,7 @@ export function EnNavbar({ locale }: NavbarProps) {
       description:
         "Join our digital stamp collection and earn rewards by completing exploring local spots. Digital Stamp is designed by Japanese traditional arts, which may make you fild your own new favorite drawing...?",
       icon: <Ticket size={20} />,
-      image: "/images/common/placeholder.jpg",
+      image: "/images/common/placeholder.webp",
     },
     { label: "Contact Info", href: "/contact" },
     { label: "About Us", href: `/${locale}/about` },

@@ -49,7 +49,7 @@ export async function generateMetadata({
       description,
       url: `${ENV.PROD_URL}/${locale}/blog/${region}/${prefecture}`,
       siteName: "Shotrip",
-      images: [`/images/prefectures/${prefecture}/thumb.jpg`],
+      images: [`/images/prefectures/${prefecture}/thumb.webp`],
       type: "website",
       locale: ogLocaleMap[locale] || "en_US",
     },
@@ -57,7 +57,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title,
       description,
-      images: [`/images/prefectures/${prefecture}/thumb.jpg`],
+      images: [`/images/prefectures/${prefecture}/thumb.webp`],
     },
   };
 }
@@ -163,16 +163,10 @@ export default async function PrefPage({ params }: PrefPageProps) {
         {/* 3. Image Section */}
         <section className="mb-12 grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className="relative aspect-4/3 overflow-hidden rounded-xl bg-gray-100">
-            <div className="absolute inset-0 flex items-center justify-center text-gray-400 text-sm italic">
-              Image: Scenic View 1
-            </div>
-            {/* <Image src={`/images/prefectures/${prefecture}/img1.jpg`} fill className="object-cover" alt="Scenic view" /> */}
+            <Image src={`/images/prefectures/${prefecture}/hero/hero1.webp`} fill className="object-cover" alt="Scenic view" />
           </div>
           <div className="relative aspect-4/3 overflow-hidden rounded-xl bg-gray-100">
-            <div className="absolute inset-0 flex items-center justify-center text-gray-400 text-sm italic">
-              Image: Local Food 1
-            </div>
-            {/* <Image src={`/images/prefectures/${prefecture}/img2.jpg`} fill className="object-cover" alt="Local food" /> */}
+            <Image src={`/images/prefectures/${prefecture}/hero/hero2.webp`} fill className="object-cover" alt="Local food" />
           </div>
         </section>
 

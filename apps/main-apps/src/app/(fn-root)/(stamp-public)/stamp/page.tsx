@@ -23,7 +23,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "/images/stamp/hero2.jpg",
+          url: "/images/stamp/hero2.webp",
           width: 1200,
           height: 630,
           alt: "Discovery Rally Japan - Digital Stamp Experience",
@@ -34,7 +34,7 @@ export async function generateMetadata(): Promise<Metadata> {
       card: "summary_large_image",
       title,
       description,
-      images: ["/images/stamp/hero2.jpg"],
+      images: ["/images/stamp/hero2.webp"],
     },
     robots: {
       index: true,
@@ -48,7 +48,7 @@ export default function StampHomePage() {
     <>
         <section className="relative h-[calc(60vh+104px)] min-h-100 w-full mt-0 mb-16 overflow-hidden flex items-center justify-center">
           <Image
-            src="/images/stamp/hero.jpg"
+            src="/images/stamp/hero.webp"
             alt="Japan Travel"
             fill
             priority

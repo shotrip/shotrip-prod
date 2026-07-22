@@ -31,7 +31,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "/images/lens/hero.jpg",
+          url: "/images/lens/hero.webp",
           width: 1200,
           height: 630,
           alt: "Shotrip Lens - AI Travel Concierge",
@@ -42,7 +42,7 @@ export async function generateMetadata(): Promise<Metadata> {
       card: "summary_large_image",
       title,
       description,
-      images: ["/images/lens/hero.jpg"],
+      images: ["/images/lens/hero.webp"],
     },
   };
 }
@@ -52,7 +52,7 @@ export default function LensPage() {
     <>
       <section className="relative h-[calc(60vh+104px)] min-h-100 w-full mt-0 mb-16 overflow-hidden flex items-center justify-center">
         <Image
-          src="/images/lens/hero.jpg"
+          src="/images/lens/hero.webp"
           alt="Japan Travel"
           fill
           priority

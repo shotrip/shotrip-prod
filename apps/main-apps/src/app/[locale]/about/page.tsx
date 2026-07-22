@@ -39,7 +39,7 @@ export async function generateMetadata({
       type: "website",
       images: [
         {
-          url: "/images/common/placeholder.jpg",
+          url: "/images/common/placeholder.webp",
           width: 1200,
           height: 630,
           alt: "About Shotrip",

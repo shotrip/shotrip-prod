@@ -805,7 +805,7 @@ export const INTERNAL_UI_TEXT = {
         },
         ishikawa: {
           1: "Kanazawa Gold Leaf Ice Cream",
-          2: "Kaga-料理 (Traditional Kaiseki)",
+          2: "Kaga-Cuisine (Traditional Kaiseki)",
           3: "Jibuni (Thick Duck Stew)",
           4: "Kanazawa Curry",
         },
@@ -813,7 +813,7 @@ export const INTERNAL_UI_TEXT = {
           1: "Echizen Gani (Snow Crab)",
           2: "Sauce Katsu-don",
           3: "Oroshi Soba (Radish Soba)",
-          4: "Habutai Mochi",
+          4: "Habutae Mochi",
         },
         yamanashi: {
           1: "Houtou (Thick Noodle Stew)",
@@ -2100,7 +2100,7 @@ export const INTERNAL_UI_TEXT = {
           1: "Echizen Gani (crabe des neiges)",
           2: "Sauce Katsu-don",
           3: "Oroshi Soba (soba au radis blanc)",
-          4: "Habutai Mochi",
+          4: "Habutae Mochi",
         },
         yamanashi: {
           1: "Houtou (ragoût de nouilles épaisses)",
@@ -3387,7 +3387,7 @@ export const INTERNAL_UI_TEXT = {
           1: "Echizen Gani (Schneekrabbe)",
           2: "Sauce Katsu-don",
           3: "Oroshi Soba (Rettich-Soba)",
-          4: "Habutai Mochi",
+          4: "Habutae Mochi",
         },
         yamanashi: {
           1: "Houtou (Dicker Nudeleintopf)",
@@ -4674,7 +4674,7 @@ export const INTERNAL_UI_TEXT = {
           1: "Echizen Gani (cangrejo de las nieves)",
           2: "Sauce Katsu-don",
           3: "Oroshi Soba (soba con rábano daikon)",
-          4: "Habutai Mochi",
+          4: "Habutae Mochi",
         },
         yamanashi: {
           1: "Houtou (estofado de fideos gruesos)",
@@ -5009,7 +5009,7 @@ export const INTERNAL_UI_TEXT = {
             title: "Tipo de comida",
             mode_1: "Tiendas especializadas",
             mode_2: "Izakaya (Pubs)",
-            mode_3: "Tiendas 24h (Konbini)",
+            mode_3: "Tiendas 24h (Conbini)",
           },
           pros: {
             title: "Pros",
@@ -5961,7 +5961,7 @@ export const INTERNAL_UI_TEXT = {
           1: "Echizen Gani (granchio delle nevi)",
           2: "Sauce Katsu-don",
           3: "Oroshi Soba (soba con ravanello daikon)",
-          4: "Habutai Mochi",
+          4: "Habutae Mochi",
         },
         yamanashi: {
           1: "Houtou (stufato di spaghetti spessi)",
@@ -6296,7 +6296,7 @@ export const INTERNAL_UI_TEXT = {
             title: "Tipo di pasto",
             mode_1: "Negozi specializzati",
             mode_2: "Izakaya (Pub)",
-            mode_3: "Konbini",
+            mode_3: "Conbini",
           },
           pros: {
             title: "Pro",
@@ -8535,7 +8535,7 @@ export const INTERNAL_UI_TEXT = {
           1: "Cua tuyết Echizen (Echizen Gani)",
           2: "Sauce Katsu-don (Cơm rưới sốt thịt chiên)",
           3: "Oroshi Soba (Mì soba kèm củ cải mài)",
-          4: "Bánh Habutai Mochi",
+          4: "Bánh Habutae Mochi",
         },
         yamanashi: {
           1: "Houtou (Canh mỳ sợi to hầm bí ngô)",

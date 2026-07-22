@@ -27,7 +27,7 @@ export async function generateMetadata({
 
   const title = `${text.essentials.category[category]} | Shotrip Essentials`;
   const description = text.essentials[category].detail;
-  const ogImage = `/images/categories/${category}/hero-1.jpg`;
+  const ogImage = `/images/categories/${category}/hero-1.webp`;
   const hrefLangMetadata = buildHrefLang(`/blog/essentials/${category}`);
 
   return {
@@ -180,7 +180,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
           <div className="flex flex-row lg:flex-col gap-4 h-full">
             <div className="relative flex-1 min-h-50 overflow-hidden rounded-2xl shadow-md">
               <Image
-                src={`/images/categories/${category}/hero-1.jpg`}
+                src={`/images/categories/${category}/hero/hero-1.webp`}
                 alt="Urban train in Japan"
                 fill
                 className="object-cover"
@@ -188,7 +188,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
             </div>
             <div className="relative flex-1 min-h-50 overflow-hidden rounded-2xl shadow-md">
               <Image
-                src={`/images/categories/${category}/hero-2.jpg`}
+                src={`/images/categories/${category}/hero/hero-2.webp`}
                 alt="Rural scenery or bus"
                 fill
                 className="object-cover"

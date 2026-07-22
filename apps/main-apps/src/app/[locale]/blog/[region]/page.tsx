@@ -47,7 +47,7 @@ export async function generateMetadata({
       description,
       url: `${ENV.PROD_URL}/${locale}/blog/${region}`,
       siteName: "Shotrip",
-      images: [`/images/regions/${region}/main.jpg`],
+      images: [`/images/regions/${region}/main.webp`],
       type: "website",
       locale: ogLocaleMap[locale] || "en_US",
     },
@@ -55,7 +55,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title,
       description,
-      images: [`/images/regions/${region}/main.jpg`],
+      images: [`/images/regions/${region}/main.webp`],
     },
   };
 }
@@ -109,7 +109,7 @@ export default async function RegionPage({ params }: RegionPageProps) {
         <div className="hidden md:grid grid-cols-4 gap-3 mb-10 overflow-hidden rounded-2xl">
           <div className="col-span-2 row-span-2 relative bg-gray-200">
             <Image
-              src={`/images/regions/${region}/main.jpg`}
+              src={`/images/regions/${region}/main.webp`}
               fill
               className="object-cover"
               alt={region}
@@ -118,7 +118,7 @@ export default async function RegionPage({ params }: RegionPageProps) {
 
           <div className="relative aspect-square bg-gray-200">
             <Image
-              src={`/images/regions/${region}/sub1.jpg`}
+              src={`/images/regions/${region}/sub1.webp`}
               fill
               className="object-cover"
               alt={region}
@@ -127,7 +127,7 @@ export default async function RegionPage({ params }: RegionPageProps) {
 
           <div className="relative aspect-square bg-gray-200">
             <Image
-              src={`/images/regions/${region}/sub2.jpg`}
+              src={`/images/regions/${region}/sub2.webp`}
               fill
               className="object-cover"
               alt={region}
@@ -136,7 +136,7 @@ export default async function RegionPage({ params }: RegionPageProps) {
 
           <div className="col-span-2 relative aspect-[2/0.7] bg-gray-200">
             <Image
-              src={`/images/regions/${region}/sub3.jpg`}
+              src={`/images/regions/${region}/sub3.webp`}
               fill
               className="object-cover"
               alt={region}
@@ -167,7 +167,7 @@ export default async function RegionPage({ params }: RegionPageProps) {
               <div key={i} className="group">
                 <div className="relative aspect-video rounded-xl overflow-hidden bg-gray-100 mb-4">
                   <Image
-                    src={`/images/regions/${region}/activity-${i}.jpg`}
+                    src={`/images/regions/${region}/activity-${i}.webp`}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform"
                     alt="Activity"
@@ -216,7 +216,7 @@ export default async function RegionPage({ params }: RegionPageProps) {
                 >
                   <div className="w-16 h-16 relative rounded-lg overflow-hidden bg-gray-100 mr-4 shrink-0">
                     <Image
-                      src={`/images/prefectures/${key}/thumb.jpg`}
+                      src={`/images/prefectures/${key}/thumb.webp`}
                       fill
                       className="object-cover"
                       alt={pref.label}

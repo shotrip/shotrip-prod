@@ -30,7 +30,7 @@ export function Navbar({ locale }: NavbarProps) {
       href: `/${locale}/blog`,
       description: text.nav.articles.description,
       icon: <BookOpen size={20} />,
-      image: "/images/common/placeholder.jpg",
+      image: "/images/common/placeholder.webp",
     },
     {
       id: "videos",
@@ -38,7 +38,7 @@ export function Navbar({ locale }: NavbarProps) {
       href: "https://www.youtube.com/",
       description: text.nav.videos.description,
       icon: <Video size={20} />,
-      image: "/images/common/placeholder.jpg",
+      image: "/images/common/placeholder.webp",
     },
     {
       id: "lens",
@@ -46,7 +46,7 @@ export function Navbar({ locale }: NavbarProps) {
       href: "/lens",
       description: text.nav.lens.description,
       icon: <MessageSquare size={20} />,
-      image: "/images/common/placeholder.jpg",
+      image: "/images/common/placeholder.webp",
     },
     {
       id: "stamp",
@@ -54,7 +54,7 @@ export function Navbar({ locale }: NavbarProps) {
       href: "/stamp",
       description: text.nav.stampRally.description,
       icon: <Ticket size={20} />,
-      image: "/images/common/placeholder.jpg",
+      image: "/images/common/placeholder.webp",
     },
     { id: "contact", label: text.nav.contact, href: "/contact" },
     { id: "about", label: text.nav.about, href: `/${locale}/about` },

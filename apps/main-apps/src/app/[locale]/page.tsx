@@ -60,7 +60,7 @@ export async function generateMetadata({
       siteName: "Shotrip",
       images: [
         {
-          url: "/images/common/placeholder.jpg",
+          url: "/images/common/placeholder.webp",
           width: 1200,
           height: 630,
           alt: "Shotrip - Japan Travel Guide",
@@ -73,7 +73,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title,
       description,
-      images: ["/images/common/placeholder.jpg"],
+      images: ["/images/common/placeholder.webp"],
     },
     robots: {
       index: true,
@@ -102,7 +102,7 @@ export default async function LandingPage({ params }: LandingPageProps) {
     <>
       <section className="relative h-[calc(60vh+104px)] min-h-100 w-full mt-0 mb-16 overflow-hidden flex items-center justify-center">
         <Image
-          src="/images/home/hero.jpg"
+          src="/images/home/hero.webp"
           alt="Japan Travel"
           fill
           priority
@@ -174,7 +174,7 @@ export default async function LandingPage({ params }: LandingPageProps) {
                 <div className="grid grid-cols-3 gap-4 pt-3">
                   <div className="relative aspect-square w-full">
                     <Image
-                      src="/images/home/founder-1.jpg"
+                      src="/images/home/founder-1.webp"
                       alt="Founder activity 1"
                       fill
                       className="object-cover rounded-lg"
@@ -182,7 +182,7 @@ export default async function LandingPage({ params }: LandingPageProps) {
                   </div>
                   <div className="relative aspect-square w-full">
                     <Image
-                      src="/images/home/founder-2.jpg"
+                      src="/images/home/founder-2.webp"
                       alt="Founder activity 2"
                       fill
                       className="object-cover rounded-lg"
@@ -190,7 +190,7 @@ export default async function LandingPage({ params }: LandingPageProps) {
                   </div>
                   <div className="relative aspect-square w-full">
                     <Image
-                      src="/images/home/founder-3.jpg"
+                      src="/images/home/founder-3.webp"
                       alt="Founder activity 3"
                       fill
                       className="object-cover rounded-lg"
@@ -226,7 +226,7 @@ export default async function LandingPage({ params }: LandingPageProps) {
 
               <div className="relative w-full aspect-square mb-10 overflow-hidden">
                 <Image
-                  src="/images/home/japan-map.jpg"
+                  src="/images/home/japan-map.webp"
                   alt="Map of Japan"
                   fill
                   className="object-cover"
@@ -301,7 +301,7 @@ export default async function LandingPage({ params }: LandingPageProps) {
                       className="group relative h-105 md:h-100 w-full overflow-hidden rounded-2xl bg-stone-950 shadow-md"
                     >
                       <Image
-                        src={`/images/regions/home/${key}.jpg`}
+                        src={`/images/regions/home/${key}.webp`}
                         alt={text.home.region_names[key]}
                         fill
                         className="object-cover opacity-60 transition-all duration-500 md:opacity-85 md:group-hover:opacity-40 md:group-hover:scale-105"
@@ -370,7 +370,7 @@ export default async function LandingPage({ params }: LandingPageProps) {
                       className="group relative overflow-hidden rounded-2xl aspect-4/3 bg-stone-200 shadow-sm"
                     >
                       <Image
-                        src={`/images/categories/${key}.jpg`}
+                        src={`/images/categories/${key}.webp`}
                         alt={cat.label}
                         fill
                         className="object-cover"

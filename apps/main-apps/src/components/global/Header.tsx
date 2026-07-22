@@ -13,7 +13,7 @@ export async function Header({ locale }: HeaderProps) {
       <div className="mx-auto flex h-14 max-w-7xl items-center justify-between px-4 overflow-visible">
         <Link href={`/${locale}`} className="flex items-center">
             <Image
-              src="/images/logo/logo13.png"
+              src="/images/logo/logo.png"
               alt="Shotrip Logo"
               width={200}
               height={109}
