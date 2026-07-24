@@ -16,7 +16,7 @@ variable "project" {
 
 variable "securitylevel" {
   type = string
-  default = "admin"
+  default = "Admin"
 }
 
 variable "stripe_price_tokens_100" {
