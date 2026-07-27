@@ -131,7 +131,7 @@ def get_routes(
             id=r.route_id,
             label=r.name,
             description=r.description,
-            key=r.s3_key.replace("routes/", "").replace(".jpg", ""),
+            key=r.s3_key.replace("routes/", "").replace(".webp", ""),
             region=r.region,
             thumbnail_url=get_s3_predigned_url(r.s3_key),
             status=status_map.get(r.route_id, "not-started")
@@ -164,10 +164,10 @@ def get_checkpoints(
     
     def get_clean_id(s3_key: str) -> str:
         filename = s3_key.split("/")[-1]
-        return filename[:-4] if filename.endswith(".jpg") else filename
+        return filename[:-4] if filename.endswith(".webp") else filename
     
-    base_key = route_key.replace(".jpg", "")
-    search_key = f"routes/{base_key}.jpg"
+    base_key = route_key.replace(".webp", "")
+    search_key = f"routes/{base_key}.webp"
     route = db.query(Route).filter(Route.s3_key == search_key).first()
 
     if not route:
@@ -307,7 +307,7 @@ def check_in(
         for c in db.query(UserCheckPoint).filter(UserCheckPoint.user_route_id == user_route.user_route_id).all():
             cp_record = db.query(RouteCheckPoint).filter(RouteCheckPoint.checkpoint_id == c.checkpoint_id).first()
             if cp_record:
-                frontend_id = cp_record.s3_key.split('/')[-1].replace('.jpg', '')
+                frontend_id = cp_record.s3_key.split('/')[-1].replace('.webp', '')
                 stamped_ids.append(frontend_id)
 
 
