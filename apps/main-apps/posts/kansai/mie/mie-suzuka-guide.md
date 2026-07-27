@@ -37,7 +37,7 @@ tags: ["mie", "suzuka", "motorsport", "transit", "heritage"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.2613268098676!2d136.53942487477198!3d34.874783572858355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60038b1bbb08fe53%3A0xb55c7e009169d5fe!2z5bmz55Sw55S66aeF!5e0!3m2!1s!2sjp!4v1782736245563!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.2613268098676!2d136.53942487477198!3d34.874783572858355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60038b1bbb08fe53%3A0xb55c7e009169d5fe!2z5bmz55Sw55S66aeF!5e0!3m2!1sen!2sjp!4v1782736245563!5m2!1sen!2sjp]]
 
 ---
 
@@ -92,7 +92,7 @@ tags: ["mie", "suzuka", "motorsport", "transit", "heritage"]
 * **Closures:** Sundays.
 * **Local Access:** A 5-minute walk from Hiratacho Station on the Kintetsu Suzuka Line.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.3194737710523!2d136.54425107477184!3d34.8733231728589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60038b03232b5543%3A0xf6bbd180618a415e!2z44GK6Iy25YemIOa4heiKs-WckiDpiLTpub_jg4_jg7Pjgr_jg7zlupc!5e0!3m2!1s!2sjp!4v1782736349815!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.3194737710523!2d136.54425107477184!3d34.8733231728589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60038b03232b5543%3A0xf6bbd180618a415e!2z44GK6Iy25YemIOa4heiKs-WckiDpiLTpub_jg4_jg7Pjgr_jg7zlupc!5e0!3m2!1sen!2sjp!4v1782736349815!5m2!1sen!2sjp]]
 
 ### 🍗 WakaKARA Main Store
 * **Overview:** A local restaurant specializing in dishes made with Suzuka-sourced ingredients, including mature chicken (Hinedori) and eggs sourced directly from poultry farms, alongside fresh local farm vegetables.
@@ -100,7 +100,7 @@ tags: ["mie", "suzuka", "motorsport", "transit", "heritage"]
 * **Closures:** Sundays.
 * **Local Access:** A 5-minute walk from Kintetsu Hiratacho Station.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.264798805349!2d136.54315987477207!3d34.874696372858324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60038b0359fd67df%3A0x1a856471a29730f2!2z44KP44GLS0FSQSDlubPnlLDmnKzlupc!5e0!3m2!1s!2sjp!4v1782736395218!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.264798805349!2d136.54315987477207!3d34.874696372858324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60038b0359fd67df%3A0x1a856471a29730f2!2z44KP44GLS0FSQSDlubPnlLDmnKzlupc!5e0!3m2!1sen!2sjp!4v1782736395218!5m2!1sen!2sjp]]
 
 ### 🏨 Japanese Cuisine & Inn Isuzu
 * **Overview:** A small Japanese-style inn and restaurant serving nutritionally balanced Japanese meals. It caters to tourists, business travelers, and sports groups, with flexible menu adjustments and meal times for athletic training camps.
@@ -109,7 +109,7 @@ tags: ["mie", "suzuka", "motorsport", "transit", "heritage"]
   * *Closures:* Sundays.
 * **Local Access:** A 10-minute walk from Kintetsu Hiratacho Station, or a 20-minute bus ride from JR Kasado Station.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.2781651208384!2d136.53088427477198!3d34.87436067285844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60038b3d2dedc0d5%3A0x9a2b256445851d3e!2z5pel5pys5paZ55CG5peF6aSo44GE44GZ44Ke!5e0!3m2!1s!2sjp!4v1782736430491!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.2781651208384!2d136.53088427477198!3d34.87436067285844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60038b3d2dedc0d5%3A0x9a2b256445851d3e!2z5pel5pys5paZ55CG5peF6aSo44GE44GZ44Ke!5e0!3m2!1sen!2sjp!4v1782736430491!5m2!1sen!2sjp]]
 
 ---
 

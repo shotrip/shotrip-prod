@@ -35,7 +35,7 @@ tags: ["shiga", "takashima", "biwako", "transit", "nature"]
 
 * **Logistical Note:** When traveling from Tokyo, it is easiest to take the Tokaido Shinkansen to Kyoto Station and transfer to the JR Kosei Line.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.536205237877!2d136.00782807479536!3d35.29265587271516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60019a67b2eb6adb%3A0x8deecdd2188eb68f!2z6L-R5rGf6auY5bO26aeF!5e0!3m2!1s!2sjp!4v1782734935631!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.536205237877!2d136.00782807479536!3d35.29265587271516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60019a67b2eb6adb%3A0x8deecdd2188eb68f!2z6L-R5rGf6auY5bO26aeF!5e0!3m2!1sen!2sjp!4v1782734935631!5m2!1sen!2sjp]]
 
 ---
 
@@ -49,7 +49,7 @@ tags: ["shiga", "takashima", "biwako", "transit", "nature"]
 * **Safety Rules for Visitors:** Parking and stopping vehicles on the road near the trees is prohibited. Visitors must watch for cars and secure their footing when taking photos. The surrounding roads are used for daily life, so drivers must reduce speed and watch for pedestrians.
 * **Local Access:** Take the Makino Kogen Line bus from JR Makino Station for approximately 6 minutes and get off at the "Makino Pickland" stop. Drivers can use the free parking lot at Makino Pickland.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.504918523591!2d136.03330657480515!3d35.46704927265715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001ed004fed8081%3A0x7b98f5aa10295420!2z44Oh44K_44K744Kz44Kk44Ki5Lim5pyo6LW354K5!5e0!3m2!1s!2sjp!4v1782733118090!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.504918523591!2d136.03330657480515!3d35.46704927265715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001ed004fed8081%3A0x7b98f5aa10295420!2z44Oh44K_44K744Kz44Kk44Ki5Lim5pyo6LW354K5!5e0!3m2!1sen!2sjp!4v1782733118090!5m2!1sen!2sjp]]
 
 ### 🫐 Agricultural Park Makino Pickland
 ![Makino Pickland](/images/prefectures/shiga/makino_pickland.webp)
@@ -70,7 +70,7 @@ tags: ["shiga", "takashima", "biwako", "transit", "nature"]
 * **Safety Rules:** Walking across National Route 161 in front of the shrine is prohibited. To photograph the torii gate inside the lake, visitors must use the observation platform named "Omi Shirahigedai" located in front of the shrine office.
 * **Local Access:** Located approximately 3 kilometers from JR Omi-Takashima Station. Walking takes about 40 minutes one way. Rental bicycles are available in limited numbers at the tourist information center inside JR Omi-Takashima Station.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51995.38035787775!2d136.04981000723603!3d35.46194180556295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60018d590c8f9185%3A0x5ca5582a43db0a59!2z44Oe44Kt44OO6aeF!5e0!3m2!1s!2sjp!4v1782734885437!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51995.38035787775!2d136.04981000723603!3d35.46194180556295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60018d590c8f9185%3A0x5ca5582a43db0a59!2z44Oe44Kt44OO6aeF!5e0!3m2!1sen!2sjp!4v1782734885437!5m2!1sen!2sjp]]
 
 ---
 

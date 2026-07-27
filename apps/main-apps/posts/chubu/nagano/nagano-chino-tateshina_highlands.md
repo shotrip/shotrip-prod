@@ -32,7 +32,7 @@ tags: ["nagano", "tateshina", "chino", "geography", "transit"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12912.2774534054!2d138.13381183328798!3d35.99417174822521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601c572face72717%3A0xa0bb18028c6988dc!2z6IyF6YeO6aeF!5e0!3m2!1s!2sjp!4v1782706884599!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12912.2774534054!2d138.13381183328798!3d35.99417174822521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601c572face72717%3A0xa0bb18028c6988dc!2z6IyF6YeO6aeF!5e0!3m2!1sen!2sjp!4v1782706884599!5m2!1sen!2sjp]]
 
 ### 🚌 Secondary Local Transit from Chino Station
 

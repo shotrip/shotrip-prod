@@ -36,7 +36,7 @@ tags: ["fukui", "obama", "craft", "history"]
 ### 🚗 Local Station Transfer
 * **From Obama Station:** The destination is a 10-minute drive from JR Obama Station. Taxis and rental bicycles are available at the station terminal.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3248.505051984062!2d135.74293497412478!3d35.491787940360176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001d073c8fce7cd%3A0x81624a1fcc1e26b3!2z5bCP5rWc6aeF!5e0!3m2!1s!2sjp!4v1782702406157!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3248.505051984062!2d135.74293497412478!3d35.491787940360176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001d073c8fce7cd%3A0x81624a1fcc1e26b3!2z5bCP5rWc6aeF!5e0!3m2!1sen!2sjp!4v1782702406157!5m2!1sen!2sjp]]
 
 ---
 
@@ -59,7 +59,7 @@ tags: ["fukui", "obama", "craft", "history"]
     * **Regular Closures:** Thursday *(Postponed to Friday if Thursday matches a public holiday)* and the New Year holiday period.
 * **Official Website:** https://wakasa-hashi.com/
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3247.269982101635!2d135.74894107412663!3d35.522325338689576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001d09e05f9738d%3A0x222f877ae915a3dc!2z566444Gu44G144KL44GV44Go6aSoV0FLQVNB!5e0!3m2!1s!2sjp!4v1782704912230!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3247.269982101635!2d135.74894107412663!3d35.522325338689576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001d09e05f9738d%3A0x222f877ae915a3dc!2z566444Gu44G144KL44GV44Go6aSoV0FLQVNB!5e0!3m2!1sen!2sjp!4v1782704912230!5m2!1sen!2sjp]]
 
 ---
 

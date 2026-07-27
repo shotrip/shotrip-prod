@@ -33,7 +33,7 @@ tags: ["tokushima", "iya", "oboke", "bridge", "guide"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26508.844012848334!2d133.7644286984078!3d33.84828296330295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355220625691d6b5%3A0x4a7c7be32d9b36da!2z5aSn5q2p5Y2x!5e0!3m2!1s!2sjp!4v1782973013823!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26508.844012848334!2d133.7644286984078!3d33.84828296330295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355220625691d6b5%3A0x4a7c7be32d9b36da!2z5aSn5q2p5Y2x!5e0!3m2!1sen!2sjp!4v1782973013823!5m2!1sen!2sjp]]
 
 ---
 
@@ -102,7 +102,7 @@ tags: ["tokushima", "iya", "oboke", "bridge", "guide"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.835233839806!2d133.90377777459025!3d33.86813692743106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355224f7f0c9fb03%3A0x218444c9e218dd05!2z5p2x56WW6LC35q205Y-y5rCR5L-X6LOH5paZ6aSo!5e0!3m2!1s!2sjp!4v1782973175742!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.835233839806!2d133.90377777459025!3d33.86813692743106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355224f7f0c9fb03%3A0x218444c9e218dd05!2z5p2x56WW6LC35q205Y-y5rCR5L-X6LOH5paZ6aSo!5e0!3m2!1sen!2sjp!4v1782973175742!5m2!1sen!2sjp]]
 
 ### 🌊 Iya no Kazurabashi & Biwa Falls
 ![Biwa Falls](/images/prefectures/tokushima/oboke_biwa_fall.webp)

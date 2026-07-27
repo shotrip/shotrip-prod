@@ -35,7 +35,7 @@ tags: ["chiba", "matsudo", "tokyo-skytree", "transit"]
 * **Standard Route B (Via Train):** Hokuso Railway Yagiri Station → Walk toward the Edogawa River embankment → Total walking time: Approx. 30 minutes.
 * **Special Weekend Service:** On Saturdays, Sundays, and select national holiday hours, a direct local bus route runs from the West Exit of JR Matsudo Station directly to the "Yagiri no Watashi" ferry landing bus stop.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12950.588976309162!2d139.86531573192855!3d35.75947420355003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601885bae9dec051%3A0x8bb6ba96b2a322d9!2z55-i5YiH44Gu5rih44GX77yI55-i5YiH5YG077yJ!5e0!3m2!1s!2sjp!4v1782647431307!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12950.588976309162!2d139.86531573192855!3d35.75947420355003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601885bae9dec051%3A0x8bb6ba96b2a322d9!2z55-i5YiH44Gu5rih44GX77yI55-i5YiH5YG077yJ!5e0!3m2!1sen!2sjp!4v1782647431307!5m2!1sen!2sjp]]
 
 ---
 

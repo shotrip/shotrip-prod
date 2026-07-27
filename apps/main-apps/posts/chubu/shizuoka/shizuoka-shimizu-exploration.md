@@ -41,7 +41,7 @@ tags: ["shizuoka", "shimizu", "geography", "transit", "port"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13077.581193354185!2d138.37044392742405!3d34.9717619877852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601a49f9fe2a0c5f%3A0x9dd547860b23cb0b!2z6Z2Z5bKh6aeF!5e0!3m2!1s!2sjp!4v1782713181697!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13077.581193354185!2d138.37044392742405!3d34.9717619877852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601a49f9fe2a0c5f%3A0x9dd547860b23cb0b!2z6Z2Z5bKh6aeF!5e0!3m2!1sen!2sjp!4v1782713181697!5m2!1sen!2sjp]]
 
 ---
 
@@ -108,7 +108,7 @@ tags: ["shizuoka", "shimizu", "geography", "transit", "port"]
 * **Access:** JR Shizuoka Station → Tokaido Line → JR Shimizu Station → Local Bus (Miho Yamanote Line) → Manseicho → Walk (6 minutes).
 * **Official Website:** https://www.dream-plaza.co.jp/shimizu-sushi-yokocho/
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.8468944672777!2d138.49017017409608!3d35.01053756652817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601a315b4c3262e5%3A0xdf0a3754635fb3c9!2z5riF5rC044GZ44GX5qiq5LiB!5e0!3m2!1s!2sjp!4v1782713223170!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.8468944672777!2d138.49017017409608!3d35.01053756652817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601a315b4c3262e5%3A0xdf0a3754635fb3c9!2z5riF5rC044GZ44GX5qiq5LiB!5e0!3m2!1sen!2sjp!4v1782713223170!5m2!1sen!2sjp]]
 
 ### 🍦 Nanaya Shizuoka Store
 * **Product Line:** Specializes in Shizuoka matcha gelato featuring seven progressive levels of flavor intensity, developed by Marushichi Seicha, a wholesale tea merchant operating since 1907.
@@ -116,11 +116,11 @@ tags: ["shizuoka", "shimizu", "geography", "transit", "port"]
 * **Hours:** Open 11:00 AM – 7:00 PM. Closed on Wednesdays.
 * **Access:** Walk 10 minutes from JR Shizuoka Station.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.295580991239!2d138.3811085740939!3d34.97426026848852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601a49f58a8bce6f%3A0x90ea0667fe37c95b!2z44Gq44Gq44KEIOmdmeWyoeW6lw!5e0!3m2!1s!2sjp!4v1782713253939!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.295580991239!2d138.3811085740939!3d34.97426026848852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601a49f58a8bce6f%3A0x90ea0667fe37c95b!2z44Gq44Gq44KEIOmdmeWyoeW6lw!5e0!3m2!1sen!2sjp!4v1782713253939!5m2!1sen!2sjp]]
 
 ### 🍢 Aoba Yokocho Oden Alley
 * **Socio-Cultural Context:** Replaces the historic Aoba Park street corridor, which originally hosted over 200 outdoor oden food carts in the past. The location functions as a concentrated indoor alley housing multiple independent stalls serving regional Shizuoka Oden.
 * **Hours:** Depending on restaurants inside the street.
 * **Access:** Walk 12 minutes from JR Shizuoka Station.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.388242444174!2d138.37902232409388!3d34.97193876861395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601a49d6923486e3%3A0xd2a3a850d5fa49e8!2z6Z2S6JGJ44GK44Gn44KT6KGX!5e0!3m2!1s!2sjp!4v1782713298285!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.388242444174!2d138.37902232409388!3d34.97193876861395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601a49d6923486e3%3A0xd2a3a850d5fa49e8!2z6Z2S6JGJ44GK44Gn44KT6KGX!5e0!3m2!1sen!2sjp!4v1782713298285!5m2!1sen!2sjp]]

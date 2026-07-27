@@ -47,7 +47,7 @@ tags: ["ibaraki", "kashima", "infrastructure", "logistics", "shrine"]
 * **Route B (Sobu Main Line / Airport Narita):** Tokyo Station → Sobu Main Line (Airport Narita) → Narita Station → Narita Line → Sawara Station → Kashima Line → Kashima-Jingu Station → Walk (10 minutes). Total transit time: Approx. 2 hours 30 minutes.
 * **Operational Constraints:** Kashima Line operations run at an approximate frequency of one train per hour, with transfer points varying by time schedule. Integrated smart cards (Suica, PASMO) are non-functional on the Kashima Rinkai Railway Oarai-Kashima Line between Mito Station and Kashima-Jingu Station.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3229.106917998881!2d140.62894247415346!3d35.96881141412564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x602255996c6b2ecf%3A0x85605a5cdf5f7178!2z6bm_5bO256We5a6u!5e0!3m2!1s!2sjp!4v1782547932374!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3229.106917998881!2d140.62894247415346!3d35.96881141412564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x602255996c6b2ecf%3A0x85605a5cdf5f7178!2z6bm_5bO256We5a6u!5e0!3m2!1sen!2sjp!4v1782547932374!5m2!1sen!2sjp]]
 
 ---
 

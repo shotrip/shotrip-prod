@@ -23,7 +23,7 @@ tags: ["tochigi", "ashikaga", "travel", "park"]
 * **Route Segment:** JR Ueno Station → Tohoku Main Line (Ueno-Tokyo Line / Utsunomiya Line direct) → Oyama Station → Ryomo Line → Ashikaga Flower Park Station → Walk (3 minutes).
 * **Total Time:** Approx. 2 hours.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3214.9235633084504!2d139.51744727417463!3d36.314160394949546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601f24a910deedd3%3A0x631a0f5f26b9c043!2z44GC44GX44GL44GM44OV44Op44Ov44O844OR44O844Kv!5e0!3m2!1s!2sjp!4v1782549260096!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3214.9235633084504!2d139.51744727417463!3d36.314160394949546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601f24a910deedd3%3A0x631a0f5f26b9c043!2z44GC44GX44GL44GM44OV44Op44Ov44O844OR44O844Kv!5e0!3m2!1sen!2sjp!4v1782549260096!5m2!1sen!2sjp]]
 
 ---
 
@@ -86,4 +86,4 @@ Admission fees change every day based on how the flowers are blooming. The rules
 * **Local Food Characteristics:** The traditional Ashikaga Shumai is very different from regular meat dumplings. It uses only minced onions and potato starch wrapped in a dumpling skin. It has a chewy, sticky texture, and people eat it with local savory sauce instead of soy sauce.
 * **Optional Food Route:** A recommended optional route involves traveling 5 minutes by car or 15 minutes on foot from JR Ashikaga Station to Dainichi Chaya, located inside the Banna-ji Temple grounds. This shop serves local potato fried noodles (a unique local dish with soft potato pieces mixed into the noodles) and real Ashikaga Shumai.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3213.9884528820726!2d139.44926927417592!3d36.33682969368542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601f2225d8529dc1%3A0x5954a7834f7fb0e3!2z5aSn5pel6Iy25bGL!5e0!3m2!1s!2sjp!4v1782549148682!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3213.9884528820726!2d139.44926927417592!3d36.33682969368542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601f2225d8529dc1%3A0x5954a7834f7fb0e3!2z5aSn5pel6Iy25bGL!5e0!3m2!1sen!2sjp!4v1782549148682!5m2!1sen!2sjp]]

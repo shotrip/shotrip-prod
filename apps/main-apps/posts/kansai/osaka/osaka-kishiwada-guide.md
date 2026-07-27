@@ -31,7 +31,7 @@ tags: ["osaka", "kishiwada", "castle", "transit", "local-food"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.675772523754!2d135.37556507462065!3d34.46037739607165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000c5e373297933%3A0x35e338f93ec6e75a!2z5bK45ZKM55Sw6aeF!5e0!3m2!1s!2sjp!4v1782741693185!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.675772523754!2d135.37556507462065!3d34.46037739607165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000c5e373297933%3A0x35e338f93ec6e75a!2z5bK45ZKM55Sw6aeF!5e0!3m2!1sen!2sjp!4v1782741693185!5m2!1sen!2sjp]]
 
 ---
 
@@ -125,7 +125,7 @@ tags: ["osaka", "kishiwada", "castle", "transit", "local-food"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.5585305911386!2d135.3687606746207!3d34.46335279591298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000c60b3ea0ffff%3A0x85d52f4e17713dfb!2z6bOl576O!5e0!3m2!1s!2sjp!4v1782741756614!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.5585305911386!2d135.3687606746207!3d34.46335279591298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000c60b3ea0ffff%3A0x85d52f4e17713dfb!2z6bOl576O!5e0!3m2!1sen!2sjp!4v1782741756614!5m2!1sen!2sjp]]
 
 ---
 

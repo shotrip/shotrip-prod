@@ -44,7 +44,7 @@ tags: ["aichi", "toyohashi", "geography", "transit", "infrastructure"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.708924125292!2d137.37934637408154!3d34.76292447987447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6004d20f4aac7e1f%3A0xd5065fcb6efebd0d!2z6LGK5qmL6aeF!5e0!3m2!1s!2sjp!4v1782718211949!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.708924125292!2d137.37934637408154!3d34.76292447987447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6004d20f4aac7e1f%3A0xd5065fcb6efebd0d!2z6LGK5qmL6aeF!5e0!3m2!1sen!2sjp!4v1782718211949!5m2!1sen!2sjp]]
 
 ---
 
@@ -168,7 +168,7 @@ tags: ["aichi", "toyohashi", "geography", "transit", "infrastructure"]
 
 * **Local Access:** Located a 6-minute walk from Toyohashi Station, positioned past the Tokiwa Arcade corridor.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6555.086151676064!2d137.3796452063685!3d34.76710128414504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6004d209c7317819%3A0x8ace03100ba6b5c!2z6JWO6bqm5Yyg44G-44Gk44KE!5e0!3m2!1s!2sjp!4v1782718318178!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6555.086151676064!2d137.3796452063685!3d34.76710128414504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6004d209c7317819%3A0x8ace03100ba6b5c!2z6JWO6bqm5Yyg44G-44Gk44KE!5e0!3m2!1sen!2sjp!4v1782718318178!5m2!1sen!2sjp]]
 
 ### 🍱 Hitsumabushi (Grilled Eel Rice Bowls)
 ![Toyohashi Hitsumabushi](/images/prefectures/aichi/toyohashi_hitsumabushi.webp)
@@ -193,4 +193,4 @@ tags: ["aichi", "toyohashi", "geography", "transit", "infrastructure"]
 * **Local Access:** A 3-minute walk from the East Exit of JR Tokaido Main Line Toyohashi Station (approximately 110 meters from Shin-Toyohashi Station).
 * **Official Website:** https://hitsumabushi-cyouraku.com/
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52440.64329300852!2d137.34359498921256!3d34.767173560395385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6004d3b9cbe66223%3A0x6209b149932cc00f!2z44Gy44Gk44G-44G244GXIOmVt-alvQ!5e0!3m2!1s!2sjp!4v1782718369749!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52440.64329300852!2d137.34359498921256!3d34.767173560395385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6004d3b9cbe66223%3A0x6209b149932cc00f!2z44Gy44Gk44G-44G244GXIOmVt-alvQ!5e0!3m2!1sen!2sjp!4v1782718369749!5m2!1sen!2sjp]]

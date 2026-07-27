@@ -48,7 +48,7 @@ The history of Kamo Aquarium, affectionately known as "Kamosui," developed throu
 
 * **Shonai Kotsu Local Bus:** Board the Shonai Airport Shuttle Bus bound for Yunohama Onsen (via Kamo) from JR Tsuruoka Station. The transit runtime is approximately 40 minutes, and passengers should disembark at the "Kamo Shuizokukan" bus stop situated immediately outside the facility.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.0890827899707!2d139.7220928743288!3d38.76166075470441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8c176b9473e611%3A0x4d46ac965a931577!2z5p2x5YyX44Ko44OX44K944Oz44Ki44Kv44Ki44Oq44Km44Og44GL44KC44GZ44GE77yI6ba05bKh5biC56uL5Yqg6IyC5rC05peP6aSo77yJ!5e0!3m2!1s!2sjp!4v1782534032842!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.0890827899707!2d139.7220928743288!3d38.76166075470441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8c176b9473e611%3A0x4d46ac965a931577!2z5p2x5YyX44Ko44OX44K944Oz44Ki44Kv44Ki44Oq44Km44Og44GL44KC44GZ44GE77yI6ba05bKh5biC56uL5Yqg6IyC5rC05peP6aSo77yJ!5e0!3m2!1sen!2sjp!4v1782534032842!5m2!1sen!2sjp]]
 
 [[AD]]
 

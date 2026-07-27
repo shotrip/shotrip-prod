@@ -34,7 +34,7 @@ The park coordinates sit within the Nakatsu River district near the urban center
 * **Boarding Location:** Iwate Kenkoku Bus terminals located immediately outside the East Exit of Morioka Station.
 * **Transit Specs & Frequency:** The bus transit to the Prefectural Office (Kenchomae) stop requires 4 to 5 minutes, with departures occurring continuously at intervals ranging from 5 to 10 minutes. The subsequent walking distance from the bus stop to the park takes 1 to 2 minutes.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3069.764369267131!2d141.14824607439053!3d39.70000159895248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f857628cafea903%3A0xbf7a069ec2247fc6!2z55ub5bKh5Z-O6Leh!5e0!3m2!1s!2sjp!4v1782532211257!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3069.764369267131!2d141.14824607439053!3d39.70000159895248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f857628cafea903%3A0xbf7a069ec2247fc6!2z55ub5bKh5Z-O6Leh!5e0!3m2!1sen!2sjp!4v1782532211257!5m2!1sen!2sjp]]
 
 [[AD]]
 

@@ -36,7 +36,7 @@ tags: ["koji", "konan", "zoo", "museum", "guide"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.668760905681!2d133.69555607457482!3d33.561981543460355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354e02126ff91435%3A0xbee67b1b98e0040f!2z44Gu44GE44Gh6aeF!5e0!3m2!1s!2sjp!4v1782981168819!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.668760905681!2d133.69555607457482!3d33.561981543460355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354e02126ff91435%3A0xbee67b1b98e0040f!2z44Gu44GE44Gh6aeF!5e0!3m2!1sen!2sjp!4v1782981168819!5m2!1sen!2sjp]]
 
 ---
 
@@ -158,7 +158,7 @@ tags: ["koji", "konan", "zoo", "museum", "guide"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.588673542046!2d133.68832007457365!3d33.5380784447065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354e03b4ae1fdac3%3A0x8bbc17e323acddc3!2z5aSp54S26Imy5biC5aC0!5e0!3m2!1s!2sjp!4v1782981312031!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.588673542046!2d133.68832007457365!3d33.5380784447065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354e03b4ae1fdac3%3A0x8bbc17e323acddc3!2z5aSp54S26Imy5biC5aC0!5e0!3m2!1sen!2sjp!4v1782981312031!5m2!1sen!2sjp]]
 
 ---
 

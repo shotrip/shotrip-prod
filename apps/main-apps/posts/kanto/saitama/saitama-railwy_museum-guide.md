@@ -30,7 +30,7 @@ tags: ["saitama", "omiya", "museum", "railway", "transit"]
 
 * **Route Configuration:** JR Ueno Station → JR Tohoku Main Line (Utsunomiya Line / Takasaki Line) → Omiya Station → New Shuttle → Tetsudo-Hakubutsukan Station → Walk (1 minute).
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6462.087509924491!2d139.61534477415066!3d35.92142901674458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018c6ad142e3493%3A0x6648f29dfd38004e!2z6YmE6YGT5Y2a54mp6aSo!5e0!3m2!1s!2sjp!4v1782649763174!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6462.087509924491!2d139.61534477415066!3d35.92142901674458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018c6ad142e3493%3A0x6648f29dfd38004e!2z6YmE6YGT5Y2a54mp6aSo!5e0!3m2!1sen!2sjp!4v1782649763174!5m2!1sen!2sjp]]
 
 ---
 

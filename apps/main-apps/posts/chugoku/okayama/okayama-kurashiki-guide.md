@@ -35,7 +35,7 @@ While walking through the streets to hunt for your very own pair of vintage jean
 
 * **Travel Note:** While the Sanyo Main Line connects Osaka or Kyoto to Okayama and might make you think local lines are fine, the train operating systems are split along the way, requiring a significant amount of transfer time. For this reason, the author highly recommends utilizing the Shinkansen for this specific section.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.5834866363443!2d133.8051025747492!3d34.46271947300515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3553e21fb58d3533%3A0x5dc61ee8199a10cb!2z5YWQ5bO26aeF!5e0!3m2!1s!2sjp!4v1782799207537!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.5834866363443!2d133.8051025747492!3d34.46271947300515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3553e21fb58d3533%3A0x5dc61ee8199a10cb!2z5YWQ5bO26aeF!5e0!3m2!1sen!2sjp!4v1782799207537!5m2!1sen!2sjp]]
 
 ---
 

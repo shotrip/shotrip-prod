@@ -29,7 +29,7 @@ tags: ["niigata", "tokamachi", "geography", "transit", "agriculture"]
 * **Primary Transit Route:** Tokyo Station → JR Joetsu Shinkansen (approx. 1 hour 20 minutes) → Echigo-Yuzawa Station → Hokuetsu Express Hokuhoku Line (approx. 40 minutes) → Tokamachi Station or Matsudai Station.
 * **Transit Recommendation:** Visitors arriving via the rail network are advised to secure a rental vehicle directly at the destination station to optimize regional mobility.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3180.748256224157!2d138.75413537422526!3d37.13490384876367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff5ee9eee3684f1%3A0x3605dc054430460d!2z5Y2B5pel55S66aeF!5e0!3m2!1s!2sjp!4v1782695239905!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3180.748256224157!2d138.75413537422526!3d37.13490384876367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff5ee9eee3684f1%3A0x3605dc054430460d!2z5Y2B5pel55S66aeF!5e0!3m2!1sen!2sjp!4v1782695239905!5m2!1sen!2sjp]]
 
 ---
 
@@ -83,7 +83,7 @@ tags: ["niigata", "tokamachi", "geography", "transit", "agriculture"]
     * **Operating Hours:** 11:00 AM – 8:00 PM (Last Order). Subject to temporary irregular closures.
     * **Access Route:** Located 5 kilometers (a 10-minute drive) from Tokamachi Station. Alternatively accessible within 30 minutes from Muikamachi IC or 20 minutes from Echigo-Kawaguchi IC.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3179.423255937163!2d138.73440157422715!3d37.16641114697348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff5ebc03122ad5d%3A0x4bae9fb3913b272b!2z5bCP5baL5bGL57eP5pys5bqX!5e0!3m2!1s!2sjp!4v1782696484106!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3179.423255937163!2d138.73440157422715!3d37.16641114697348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff5ebc03122ad5d%3A0x4bae9fb3913b272b!2z5bCP5baL5bGL57eP5pys5bqX!5e0!3m2!1sen!2sjp!4v1782696484106!5m2!1sen!2sjp]]
 
 ### 🍙 Kome no Eki
 * **Operational Profile:** A specialized takeout retail shop specializing in Japanese rice balls (Onigiri) made from locally cultivated Uonuma Koshikari rice. It acts as the closest Onigiri retail outlet to Kiyotsu Gorge. Freshly harvested local agricultural vegetables are sold on-site.
@@ -92,7 +92,7 @@ tags: ["niigata", "tokamachi", "geography", "transit", "agriculture"]
     * **Regular Closures:** Wednesdays and Thursdays.
     * **Access Route:** A 20-minute drive from Kiyotsu Gorge, or a 45-minute drive from Shiozawa-Ishiuchi IC.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3184.765168953297!2d138.69823267421935!3d37.03924515419075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff5fb0041f1423b%3A0x6b1ee312185b126f!2z57Gz44Gu6aeF!5e0!3m2!1s!2sjp!4v1782696640640!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3184.765168953297!2d138.69823267421935!3d37.03924515419075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff5fb0041f1423b%3A0x6b1ee312185b126f!2z57Gz44Gu6aeF!5e0!3m2!1sen!2sjp!4v1782696640640!5m2!1sen!2sjp]]
 
 ---
 

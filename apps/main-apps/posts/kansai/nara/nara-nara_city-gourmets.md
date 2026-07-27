@@ -21,7 +21,7 @@ tags: ["nara", "gourmet", "transit", "udon", "shaved-ice", "sushi"]
 * While the Kintetsu Line is great, if the timing works out, you should definitely try the "JR Mahoroba." It is a newly established JR limited express train designed for Nara sightseeing, and its modern Japanese interior and spacious seating upgrade the luxury of your journey.
 * For peace of mind, budget about 1 hour from central Osaka to the Nara urban area, and about 2 hours to Yoshino-cho.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210060.86507410245!2d135.73068923236457!3d34.649626011048944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600137c578a70cc1%3A0x4afed9b0b9492622!2z5aWI6Imv55yM5aWI6Imv5biC!5e0!3m2!1s!2sjp!4v1782744313549!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210060.86507410245!2d135.73068923236457!3d34.649626011048944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600137c578a70cc1%3A0x4afed9b0b9492622!2z5aWI6Imv55yM5aWI6Imv5biC!5e0!3m2!1sen!2sjp!4v1782744313549!5m2!1sen!2sjp]]
 
 ---
 
@@ -47,7 +47,7 @@ tags: ["nara", "gourmet", "transit", "udon", "shaved-ice", "sushi"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.9221561207055!2d135.82635637463218!3d34.68191408422248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60013988123b6e97%3A0x88c2c2a48d5e64f1!2z6bq66ZeY5bq1!5e0!3m2!1s!2sjp!4v1782744387152!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.9221561207055!2d135.82635637463218!3d34.68191408422248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60013988123b6e97%3A0x88c2c2a48d5e64f1!2z6bq66ZeY5bq1!5e0!3m2!1sen!2sjp!4v1782744387152!5m2!1sen!2sjp]]
 
 ### 🍣 Kakinoha-zushi (Persimmon Leaf Sushi)
 ![Kakinoha-zushi](/images/prefectures/nara/nara_kakinoha_sushi.webp)
@@ -69,7 +69,7 @@ tags: ["nara", "gourmet", "transit", "udon", "shaved-ice", "sushi"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3293.3253130849525!2d135.85710077461584!3d34.36764540101242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6006c6365947583f%3A0x6dbc8a031b3599e7!2z44GK6aOf5LqL5Yem44KE44Gj44GT!5e0!3m2!1s!2sjp!4v1782744490415!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3293.3253130849525!2d135.85710077461584!3d34.36764540101242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6006c6365947583f%3A0x6dbc8a031b3599e7!2z44GK6aOf5LqL5Yem44KE44Gj44GT!5e0!3m2!1sen!2sjp!4v1782744490415!5m2!1sen!2sjp]]
 
 ### 🍧 Nara Shaved Ice (Kakigori)
 ![Nara Shaved Ice](/images/prefectures/nara/nara_shaved_ice.webp)

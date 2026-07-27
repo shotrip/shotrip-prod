@@ -46,7 +46,7 @@ The city is positioned approximately 2 hours from the Tokyo metropolitan area vi
   * Route A: Local bus from Terminal No. 3 (Kawadaira direction) to Amidadow bus stop, followed by pedestrian transit (Transit time: Approx. 25 minutes).
   * Route B: JR Joban Line to Uchigo Station, board local bus at Uchigo Ekimae bus stop to Amidadow bus stop, followed by pedestrian transit (Transit time: Approx. 20 minutes).
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101952.63714620705!2d140.88028014664155!3d37.009321355264625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x602110f731fea137%3A0xb8d4f5b635f7847b!2z44GE44KP44GN6aeF!5e0!3m2!1sja!2sjp!4v1782538843993!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101952.63714620705!2d140.88028014664155!3d37.009321355264625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x602110f731fea137%3A0xb8d4f5b635f7847b!2z44GE44KP44GN6aeF!5e0!3m2!1sja!2sjp!4v1782538843993!5m2!1sen!2sjp]]
 
 ---
 

@@ -38,7 +38,7 @@ What we are delivering this time is an ultra-efficient street route that require
 
 * **Travel Note:** From an author's perspective, people holding a Japan Rail Pass should just zoom over on the Shinkansen, but even if you don't have one, the JR Special Rapid (Shinkaisoku)  Service is incredibly fast. Instead of forcing yourself to take the Shinkansen and paying extra fees, it is highly recommended to take the Special Rapid Service to Himeji and spend that money on local sightseeing and food instead.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.170852007035!2d134.68566167745064!3d34.8267966029353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3554e012b2ee3f1d%3A0x37c7f3d803653755!2z5aer6Lev6aeF!5e0!3m2!1s!2sjp!4v1782797207318!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.170852007035!2d134.68566167745064!3d34.8267966029353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3554e012b2ee3f1d%3A0x37c7f3d803653755!2z5aer6Lev6aeF!5e0!3m2!1sen!2sjp!4v1782797207318!5m2!1sen!2sjp]]
 
 ---
 
@@ -133,7 +133,7 @@ What we are delivering this time is an ultra-efficient street route that require
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.123909600111!2d134.6892751747693!3d34.827976972874666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3554e00d9d8e2b85%3A0x708a54b7776c6d85!2z44GY44GU44KNIOWwj-W7ow!5e0!3m2!1s!2sjp!4v1782797283450!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.123909600111!2d134.6892751747693!3d34.827976972874666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3554e00d9d8e2b85%3A0x708a54b7776c6d85!2z44GY44GU44KNIOWwj-W7ow!5e0!3m2!1sen!2sjp!4v1782797283450!5m2!1sen!2sjp]]
 
 ---
 

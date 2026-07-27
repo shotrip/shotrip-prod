@@ -33,7 +33,7 @@ tags: ["fortress", "history", "hokkaido", "hakodate", "sakura"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5948.995130050867!2d140.7489490394414!3d41.796040633616826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9ef46b8aa78d3d%3A0xff86c0991c51132a!2z44CSMDQwLTAwMDEg5YyX5rW36YGT5Ye96aSo5biC5LqU56ic6YOt55S6!5e0!3m2!1s!2sjp!4v1782376122982!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5948.995130050867!2d140.7489490394414!3d41.796040633616826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9ef46b8aa78d3d%3A0xff86c0991c51132a!2z44CSMDQwLTAwMDEg5YyX5rW36YGT5Ye96aSo5biC5LqU56ic6YOt55S6!5e0!3m2!1sen!2sjp!4v1782376122982!5m2!1sen!2sjp]]
 
 ---
 
@@ -65,7 +65,7 @@ tags: ["fortress", "history", "hokkaido", "hakodate", "sakura"]
   </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1487.281893265729!2d140.7531403501583!3d41.79461375551765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9ef46c282056e1%3A0x81cef8f11c42a428!2z44Op44OD44Kt44O844OU44Ko44OtIOS6lOeonOmDreWFrOWckuWJjeW6lw!5e0!3m2!1s!2sjp!4v1783414317943!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1487.281893265729!2d140.7531403501583!3d41.79461375551765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9ef46c282056e1%3A0x81cef8f11c42a428!2z44Op44OD44Kt44O844OU44Ko44OtIOS6lOeonOmDreWFrOWckuWJjeW6lw!5e0!3m2!1sen!2sjp!4v1783414317943!5m2!1sen!2sjp]]
 
 <div class="not-prose my-6 overflow-hidden rounded-xl border border-stone-200 shadow-sm
   [&_table]:w-full [&_table]:border-collapse

@@ -35,7 +35,7 @@ tags: ["kyoto", "kyotango", "geopark", "transit", "infrastructure"]
 
 * **Logistical Note:** Travelers from Tokyo must transit through the stations listed above. Because the total travel distance is significant, starting the itinerary from a base in the Kansai region is recommended.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207506.17153780555!2d134.87944417179654!3d35.645375639653224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5fffbb65b4fd4e4f%3A0xfb5ed58877581d49!2z5Lqs6YO95bqc5Lqs5Li55b6M5biC!5e0!3m2!1s!2sjp!4v1782737959628!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207506.17153780555!2d134.87944417179654!3d35.645375639653224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5fffbb65b4fd4e4f%3A0xfb5ed58877581d49!2z5Lqs6YO95bqc5Lqs5Li55b6M5biC!5e0!3m2!1sen!2sjp!4v1782737959628!5m2!1sen!2sjp]]
 
 ---
 
@@ -157,7 +157,7 @@ tags: ["kyoto", "kyotango", "geopark", "transit", "infrastructure"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.0474088029587!2d134.8798828748156!3d35.651203572596856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5fffb76caed8ce83%3A0x701d6f9726b525d6!2z54mh6KCj5bCP5bGLIOmiqOiYreOBrumkqA!5e0!3m2!1s!2sjp!4v1782738027823!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.0474088029587!2d134.8798828748156!3d35.651203572596856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5fffb76caed8ce83%3A0x701d6f9726b525d6!2z54mh6KCj5bCP5bGLIOmiqOiYreOBrumkqA!5e0!3m2!1sen!2sjp!4v1782738027823!5m2!1sen!2sjp]]
 
 ### 🦀 Kani-Ichiban Kumihama Store
 ![Kani-Ichiban](/images/prefectures/kyoto/kyotango_snow_crab.webp)
@@ -178,7 +178,7 @@ tags: ["kyoto", "kyotango", "geopark", "transit", "infrastructure"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3244.2215497041616!2d134.8868502748125!3d35.59760117261434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5fffc77e65619019%3A0x105e235c569bd039!2z44GL44Gr5LiA55WqIOS5hee-jua1nOW6lw!5e0!3m2!1s!2sjp!4v1782738095480!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3244.2215497041616!2d134.8868502748125!3d35.59760117261434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5fffc77e65619019%3A0x105e235c569bd039!2z44GL44Gr5LiA55WqIOS5hee-jua1nOW6lw!5e0!3m2!1sen!2sjp!4v1782738095480!5m2!1sen!2sjp]]
 
 ---
 

@@ -36,7 +36,7 @@ However, Kure's charm goes beyond the weight of its heavy history. As dusk falls
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3298.1514358399895!2d132.55503817473715!3d34.2446792730851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3550082c4f466e05%3A0xd26af82a1533a0f5!2z5ZGJ6aeF!5e0!3m2!1s!2sjp!4v1782801334512!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3298.1514358399895!2d132.55503817473715!3d34.2446792730851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3550082c4f466e05%3A0xd26af82a1533a0f5!2z5ZGJ6aeF!5e0!3m2!1sen!2sjp!4v1782801334512!5m2!1sen!2sjp]]
 
 ---
 
@@ -152,7 +152,7 @@ However, Kure's charm goes beyond the weight of its heavy history. As dusk falls
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2764.4275341661532!2d132.56235988840055!3d34.247435498475326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3550092cfe576e07%3A0x25baab516d6c5130!2z6JS15pys6YCa44KK44Gu5bGL5Y-w!5e0!3m2!1s!2sjp!4v1782801427850!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2764.4275341661532!2d132.56235988840055!3d34.247435498475326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3550092cfe576e07%3A0x25baab516d6c5130!2z6JS15pys6YCa44KK44Gu5bGL5Y-w!5e0!3m2!1sen!2sjp!4v1782801427850!5m2!1sen!2sjp]]
 
 ---
 

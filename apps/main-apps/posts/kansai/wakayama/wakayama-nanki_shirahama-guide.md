@@ -30,7 +30,7 @@ tags: ["wakayama", "shirahama", "onsen", "transit", "resort"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.280244755937!2d135.38230427682544!3d33.675806968694516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6007a6a4cbfeecf3%3A0x38d753cb1614ee3b!2z55m95rWc6aeF!5e0!3m2!1s!2sjp!4v1782747897619!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.280244755937!2d135.38230427682544!3d33.675806968694516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6007a6a4cbfeecf3%3A0x38d753cb1614ee3b!2z55m95rWc6aeF!5e0!3m2!1sen!2sjp!4v1782747897619!5m2!1sen!2sjp]]
 
 * **Logistical Note:** From an author's perspective, accessing the area by rail with Osaka as a starting point and renting a car locally is highly recommended (as the train windows offer beautiful scenic views along the route).
 
@@ -120,7 +120,7 @@ tags: ["wakayama", "shirahama", "onsen", "transit", "resort"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.0646186472572!2d135.37262197401907!3d33.68139093722421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6007a6cadac00001%3A0x87bb01f94ef18524!2z44Go44KM44Go44KM5biC5aC0!5e0!3m2!1s!2sjp!4v1783512796619!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.0646186472572!2d135.37262197401907!3d33.68139093722421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6007a6cadac00001%3A0x87bb01f94ef18524!2z44Go44KM44Go44KM5biC5aC0!5e0!3m2!1sen!2sjp!4v1783512796619!5m2!1sen!2sjp]]
 
 ### 🐟 Izakaya Mon (Specialty Diner)
 * **Overview:** A local izakaya restaurant preparing regional marine products including longtooth grouper (local specialty).
@@ -140,7 +140,7 @@ tags: ["wakayama", "shirahama", "onsen", "transit", "resort"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.1022437140496!2d135.34504627458085!3d33.68041663727424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6007a11b62158f87%3A0x9a232a208f3f8af2!2zSVpBS0FZQeOCguOCkw!5e0!3m2!1s!2sjp!4v1782747974719!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.1022437140496!2d135.34504627458085!3d33.68041663727424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6007a11b62158f87%3A0x9a232a208f3f8af2!2zSVpBS0FZQeOCguOCkw!5e0!3m2!1sen!2sjp!4v1782747974719!5m2!1sen!2sjp]]
 
 ---
 

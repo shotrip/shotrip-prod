@@ -39,7 +39,7 @@ tags: ["gifu", "ogaki", "hydrology", "transit", "infrastructure"]
 </div>
 </div>
 
-[[MAP:<https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3253.551237102405!2d136.61525097411732!3d35.36678184718632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6003b162213027d1%3A0x916dad43dff86f3e!2z5aSn5Z6j6aeF!5e0!3m2!1s!2sjp!4v1782724222427!5m2!1s!2sjp]]
+[[MAP:<https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3253.551237102405!2d136.61525097411732!3d35.36678184718632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6003b162213027d1%3A0x916dad43dff86f3e!2z5aSn5Z6j6aeF!5e0!3m2!1sen!2sjp!4v1782724222427!5m2!1sen!2sjp]]
 
 ---
 
@@ -210,4 +210,4 @@ tags: ["gifu", "ogaki", "hydrology", "transit", "infrastructure"]
 
 * **Local Access:** Positioned immediately adjacent to the main exit corridor of JR Ogaki Station.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13014.195995636072!2d136.6075261275232!3d35.366837377730484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6003b163d3a27ddf%3A0x1a11720afed5f014!2z6YeR6J225ZyS57eP5pys5a62IOWkp-Weo-mnheWJjeacrOW6lw!5e0!3m2!1s!2sjp!4v1782724515922!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13014.195995636072!2d136.6075261275232!3d35.366837377730484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6003b163d3a27ddf%3A0x1a11720afed5f014!2z6YeR6J225ZyS57eP5pys5a62IOWkp-Weo-mnheWJjeacrOW6lw!5e0!3m2!1sen!2sjp!4v1782724515922!5m2!1sen!2sjp]]

@@ -37,7 +37,7 @@ This is not just a sightseeing resort. The beauty of this island is an overwhelm
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.4717807999955!2d125.29505797428374!3d24.779293777982392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34f4541b64feb267%3A0x66cbfb20b4301fe7!2z5a6u5Y-k56m65riv!5e0!3m2!1s!2sjp!4v1783167345560!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.4717807999955!2d125.29505797428374!3d24.779293777982392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34f4541b64feb267%3A0x66cbfb20b4301fe7!2z5a6u5Y-k56m65riv!5e0!3m2!1sen!2sjp!4v1783167345560!5m2!1sen!2sjp]]
 
 ---
 
@@ -184,7 +184,7 @@ This is not just a sightseeing resort. The beauty of this island is an overwhelm
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.1118533599165!2d125.16850807428553!3d24.825848177951872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34f5abe7c156d651%3A0x57ed6e2a9ec77f11!2z44Ok44Oz44OQ44O844Ks44O85a6u5Y-k5bO277yIWUFNQlVSR0VSLk1JWUFLT--8iQ!5e0!3m2!1s!2sjp!4v1783166862339!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.1118533599165!2d125.16850807428553!3d24.825848177951872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34f5abe7c156d651%3A0x57ed6e2a9ec77f11!2z44Ok44Oz44OQ44O844Ks44O85a6u5Y-k5bO277yIWUFNQlVSR0VSLk1JWUFLT--8iQ!5e0!3m2!1sen!2sjp!4v1783166862339!5m2!1sen!2sjp]]
 
 ### 🛍️ Yard miyakojima
 * **Overview:** A commercial complex containing 8 individual units for dining, shopping, and regional experiences.
@@ -204,7 +204,7 @@ This is not just a sightseeing resort. The beauty of this island is an overwhelm
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.9068417729404!2d125.25598867428447!3d24.798643277969667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34f45500383f876b%3A0x9fb56cf01c0cb913!2sYard%20miyakojima!5e0!3m2!1s!2sjp!4v1783166906073!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.9068417729404!2d125.25598867428447!3d24.798643277969667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34f45500383f876b%3A0x9fb56cf01c0cb913!2sYard%20miyakojima!5e0!3m2!1sen!2sjp!4v1783166906073!5m2!1sen!2sjp]]
 
 ---
 

@@ -34,7 +34,7 @@ tags: ["ehime", "imabari", "castle", "shimanami", "guide"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.2069220158396!2d132.99106057460028!3d34.064209517100224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35503a596c798ac9%3A0x45214b6b3b8d4fd4!2z5LuK5rK76aeF!5e0!3m2!1s!2sjp!4v1782968731555!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.2069220158396!2d132.99106057460028!3d34.064209517100224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35503a596c798ac9%3A0x45214b6b3b8d4fd4!2z5LuK5rK76aeF!5e0!3m2!1sen!2sjp!4v1782968731555!5m2!1sen!2sjp]]
 
 ---
 
@@ -189,7 +189,7 @@ tags: ["ehime", "imabari", "castle", "shimanami", "guide"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.146975074081!2d132.9936440746004!3d34.06574641701912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35503a5c675ee79f%3A0x99c12afae64ee1cf!2z6bOl5p6X!5e0!3m2!1s!2sjp!4v1782968952109!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.146975074081!2d132.9936440746004!3d34.06574641701912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35503a5c675ee79f%3A0x99c12afae64ee1cf!2z6bOl5p6X!5e0!3m2!1sen!2sjp!4v1782968952109!5m2!1sen!2sjp]]
 
 ### 🐟 Michi-no-Eki Yoshiumi Ikiiki-kan
 * **Overview:** A roadside rest station equipped with a large free parking area, located adjacent to the Kurushima Kaikyo Bridge.
@@ -211,7 +211,7 @@ tags: ["ehime", "imabari", "castle", "shimanami", "guide"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3302.7379394963027!2d133.01946587460358!3d34.127458113756866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35503786fda86015%3A0x3025998e42c28018!2z6YGT44Gu6aeFIOOCiOOBl-OBhuOBv-OBhOOBjeOBhOOBjemkqA!5e0!3m2!1s!2sjp!4v1782968906891!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3302.7379394963027!2d133.01946587460358!3d34.127458113756866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35503786fda86015%3A0x3025998e42c28018!2z6YGT44Gu6aeFIOOCiOOBl-OBhuOBv-OBhOOBjeOBhOOBjemkqA!5e0!3m2!1sen!2sjp!4v1782968906891!5m2!1sen!2sjp]]
 
 ---
 

@@ -83,7 +83,7 @@ The gorge is located in northern Japan, tracking northward from Lake Towada alon
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.335584264378!2d140.94767767973013!3d40.48996169775653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9b3d0dafc37479%3A0xabeb8a2430fcbc1a!2z5aWl5YWl54Cs5riT5rWB!5e0!3m2!1s!2sjp!4v1782520564752!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.335584264378!2d140.94767767973013!3d40.48996169775653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9b3d0dafc37479%3A0xabeb8a2430fcbc1a!2z5aWl5YWl54Cs5riT5rWB!5e0!3m2!1sen!2sjp!4v1782520564752!5m2!1sen!2sjp]]
 
 ---
 
@@ -93,7 +93,7 @@ The gorge is located in northern Japan, tracking northward from Lake Towada alon
 ### 🥩 Recommended Restaurant: Kamikochi Shokudo
 This local eatery is a highly famous dining spot specializing in Towada Barayaki, a beloved regional comfort food. The clear standout menu item here is the Beef Barayaki Set Meal, priced at 1,300 yen. The dish is served in a traditional, highly interactive style where thin slices of beef and a mountain of sweet onions are cooked on a dedicated tabletop iron griddle directly by the diner. This layout allows you to stir-fry the ingredients to your exact preference, caramelizing the rich, savory soy-based sauce right at your table.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3030.3300654978993!2d140.99232727511168!3d40.57846927141404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9b159f2e579661%3A0xc8b37b4e65494172!2z6aOf5aCCIOS4iumrmOWcsA!5e0!3m2!1s!2sjp!4v1782520653968!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3030.3300654978993!2d140.99232727511168!3d40.57846927141404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9b159f2e579661%3A0xc8b37b4e65494172!2z6aOf5aCCIOS4iumrmOWcsA!5e0!3m2!1sen!2sjp!4v1782520653968!5m2!1sen!2sjp]]
 
 [[AD]]
 

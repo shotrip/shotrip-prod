@@ -35,7 +35,7 @@ tags: ["oita", "beppu", "hotspring", "hells", "guide"]
 
 > **Alternative Sea Route from Osaka:** Visitors can also travel from Osaka Nanko Port to Beppu International Tourism Port via the "Sunflower" ferry, which takes approximately 12 hours.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106724.11396994704!2d131.36717698661187!3d33.289299465533134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a618509f24c7%3A0x89c8f818256b6722!2z5aSn5YiG55yM5Yil5bqc5biC!5e0!3m2!1s!2sjp!4v1782995968460!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106724.11396994704!2d131.36717698661187!3d33.289299465533134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a618509f24c7%3A0x89c8f818256b6722!2z5aSn5YiG55yM5Yil5bqc5biC!5e0!3m2!1sen!2sjp!4v1782995968460!5m2!1sen!2sjp]]
 
 ---
 

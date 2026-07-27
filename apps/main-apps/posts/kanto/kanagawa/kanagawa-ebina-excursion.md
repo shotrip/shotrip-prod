@@ -28,7 +28,7 @@ tags: ["kanagawa", "ebina", "geography", "transit", "museum"]
 * **Primary Transit Route:** Shinjuku Station → Odakyu Odawara Line → Ebina Station or Atsugi Station.
 * **Travel Time Parameter:** Approximately 40 minutes under standard operating conditions.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6500.1683518399095!2d139.3885383741224!3d35.45271044249626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185566f3180ff7%3A0x96fc7ee7f9444241!2z5rW36ICB5ZCN6aeF!5e0!3m2!1s!2sjp!4v1782653912906!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6500.1683518399095!2d139.3885383741224!3d35.45271044249626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185566f3180ff7%3A0x96fc7ee7f9444241!2z5rW36ICB5ZCN6aeF!5e0!3m2!1sen!2sjp!4v1782653912906!5m2!1sen!2sjp]]
 
 ---
 
@@ -76,7 +76,7 @@ tags: ["kanagawa", "ebina", "geography", "transit", "museum"]
     * **Regular Closures:** Tuesdays *(Operates if Tuesday falls on a public holiday; subject to temporary irregular closures)*.
     * **Access Route:** A 6-minute walk from Atsugi Station.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3250.603910304116!2d139.3766713741216!3d35.439840743199255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185547162544d3%3A0xadd9b5220ea16c6e!2z5b6h6I-T5a2Q5Y-4IOWxseWPo-Wxiw!5e0!3m2!1s!2sjp!4v1782654433236!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3250.603910304116!2d139.3766713741216!3d35.439840743199255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185547162544d3%3A0xadd9b5220ea16c6e!2z5b6h6I-T5a2Q5Y-4IOWxseWPo-Wxiw!5e0!3m2!1sen!2sjp!4v1782654433236!5m2!1sen!2sjp]]
 
 ### 🍜 Ebina Hanten
 * **Culinary Infrastructure:** Uses a house-made golden whole-chicken broth for its ramen and Tan-Tan noodle bases.
@@ -89,4 +89,4 @@ tags: ["kanagawa", "ebina", "geography", "transit", "museum"]
     * **Regular Closures:** Saturdays, Sundays, National Holidays, and the New Year holiday period.
     * **Access Route:** An 11-minute walk from Ebina Station (East Exit).
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3250.343528518308!2d139.38811047412207!3d35.44628884284715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185500b536c275%3A0xc122e8e1c744c92!2z44KR44Gz44Gq6aOv5bqX!5e0!3m2!1s!2sjp!4v1782654468298!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3250.343528518308!2d139.38811047412207!3d35.44628884284715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185500b536c275%3A0xc122e8e1c744c92!2z44KR44Gz44Gq6aOv5bqX!5e0!3m2!1sen!2sjp!4v1782654468298!5m2!1sen!2sjp]]

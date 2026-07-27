@@ -28,7 +28,7 @@ tags: ["ishikawa", "hakusan", "geography", "transit", "geopark"]
 ### 🚗 Primary Road Route
 * **Central Corridor:** Route 157 runs south from the Hakusan Interchange (IC) on the Hokuriku Expressway, serving as the main arterial link to all major geographical and cultural stations.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d411557.9144076565!2d136.4559759663554!3d36.30512324198549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff85d5de0b731c9%3A0x5637b4d680e63b86!2z55-z5bed55yM55m95bGx5biC!5e0!3m2!1s!2sjp!4v1782699651389!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d411557.9144076565!2d136.4559759663554!3d36.30512324198549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff85d5de0b731c9%3A0x5637b4d680e63b86!2z55-z5bed55yM55m95bGx5biC!5e0!3m2!1sen!2sjp!4v1782699651389!5m2!1sen!2sjp]]
 
 ---
 
@@ -86,4 +86,4 @@ tags: ["ishikawa", "hakusan", "geography", "transit", "geopark"]
     * **Access Route:** 80 minutes south from Hakusan IC via Route 157.
 * **Official Website:** https://www.shiramine-m.com/
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.680216412944!2d136.62406547416606!3d36.174335602731986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8885d253f681f%3A0x89027665b23d562b!2z55m95bOw5rip5rOJIOe3j-a5rw!5e0!3m2!1s!2sjp!4v1782701571958!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.680216412944!2d136.62406547416606!3d36.174335602731986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8885d253f681f%3A0x89027665b23d562b!2z55m95bOw5rip5rOJIOe3j-a5rw!5e0!3m2!1sen!2sjp!4v1782701571958!5m2!1sen!2sjp]]

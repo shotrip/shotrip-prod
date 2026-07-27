@@ -65,7 +65,7 @@ This dedicated exhibition space preserves artifacts, clothing, and historical do
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116458.90276152434!2d139.72250367413326!3d39.91211057945079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f903d6706edd2e5%3A0xba9981268e483fc6!2z55S36bm_5Y2K5bO2!5e0!3m2!1s!2sjp!4v1783228105281!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116458.90276152434!2d139.72250367413326!3d39.91211057945079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f903d6706edd2e5%3A0xba9981268e483fc6!2z55S36bm_5Y2K5bO2!5e0!3m2!1sen!2sjp!4v1783228105281!5m2!1sen!2sjp]]
 
 ### 🚕 Mt. Kanpuzan Sightseeing Taxi Service
 For independent travelers arriving at Oga Station via rail, a dedicated charter taxi service named the "Kanpuzan-go" is available for booking. This service connects the station and local lodging areas with the Mount Kanpuzan Rotating Observatory, providing passengers with entry ticket discounts and gift shop markdowns.
@@ -116,7 +116,7 @@ This local dining establishment features a full menu of regional specialties, in
   * From Akita Station: About 1 hour
 * **Address**: 2-69 Kobura, Kitaura Nyudozaki, Oga-shi, Akita Prefecture
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3056.229042236275!2d139.69990927507556!3d40.00333117150913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f90156d89d32c3f%3A0xc51c55d209e3d98e!2z44Gq44G-44Gv44GS5b6h5q6_ICjjg4vjg6Xjg7znlaDlhbwp!5e0!3m2!1s!2sjp!4v1782525367018!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3056.229042236275!2d139.69990927507556!3d40.00333117150913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f90156d89d32c3f%3A0xc51c55d209e3d98e!2z44Gq44G-44Gv44GS5b6h5q6_ICjjg4vjg6Xjg7znlaDlhbwp!5e0!3m2!1sen!2sjp!4v1782525367018!5m2!1sen!2sjp]]
 
 ---
 

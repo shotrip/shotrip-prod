@@ -35,7 +35,7 @@ tags: ["shimane", "matsue", "shinji", "sunset", "guide"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.6269287612486!2d133.061320774805!3d35.46402947265812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355704e4bb24addb%3A0x1ba36a3a6ca73e9b!2z5p2-5rGf6aeF!5e0!3m2!1s!2sjp!4v1782823180439!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.6269287612486!2d133.061320774805!3d35.46402947265812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355704e4bb24addb%3A0x1ba36a3a6ca73e9b!2z5p2-5rGf6aeF!5e0!3m2!1sen!2sjp!4v1782823180439!5m2!1sen!2sjp]]
 
 ---
 
@@ -92,7 +92,7 @@ tags: ["shimane", "matsue", "shinji", "sunset", "guide"]
 * **Operation Note:** Preparation of Kamameshi requires advanced cooking time; placing orders via telephone prior to arrival is recommended.
 * **Access:** 15-minute walk from JR Matsue Station.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.4211166087084!2d133.05559537480528!3d35.46912327265648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3557050283ae8b5d%3A0x4195f56890d6ebc!2z5ZGz5YemIOe5gQ!5e0!3m2!1s!2sjp!4v1782823250840!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.4211166087084!2d133.05559537480528!3d35.46912327265648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3557050283ae8b5d%3A0x4195f56890d6ebc!2z5ZGz5YemIOe5gQ!5e0!3m2!1sen!2sjp!4v1782823250840!5m2!1sen!2sjp]]
 
 ---
 

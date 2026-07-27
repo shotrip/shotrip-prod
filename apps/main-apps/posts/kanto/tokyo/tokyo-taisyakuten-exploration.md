@@ -43,7 +43,7 @@ tags: ["tokyo", "shibamata", "temple", "architecture", "transit"]
 3. **Main Gate Arrival:** The commercial path terminates directly at the wooden Nitenmon gate of the temple.
 
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12950.760230051459!2d139.85998373192268!3d35.75842210379736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601885a32dacd473%3A0x550a90c0da0aaf97!2z5p-05Y-I5bid6YeI5aSp!5e0!3m2!1s!2sjp!4v1782648071100!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12950.760230051459!2d139.85998373192268!3d35.75842210379736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601885a32dacd473%3A0x550a90c0da0aaf97!2z5p-05Y-I5bid6YeI5aSp!5e0!3m2!1sen!2sjp!4v1782648071100!5m2!1sen!2sjp]]
 
 ---
 

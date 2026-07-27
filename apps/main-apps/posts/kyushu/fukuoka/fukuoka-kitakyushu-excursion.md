@@ -35,7 +35,7 @@ tags: ["fukuoka", "kitakyushu", "mojiko", "castle", "guide"]
 
 > **Author's View on Rail Travel:** The Shinkansen ride from Hakata to Kokura is just one station, making the fare relatively inexpensive. Conventional local trains have numerous stops and take a significant amount of time, so it is highly recommended to take the Shinkansen for a quick, direct trip.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.1041153127962!2d130.88000087459125!3d33.88697232644107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3543bf4bf949501b%3A0x6918bbd9f307b06c!2z5bCP5YCJ6aeF!5e0!3m2!1s!2sjp!4v1782985086176!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.1041153127962!2d130.88000087459125!3d33.88697232644107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3543bf4bf949501b%3A0x6918bbd9f307b06c!2z5bCP5YCJ6aeF!5e0!3m2!1sen!2sjp!4v1782985086176!5m2!1sen!2sjp]]
 
 ---
 
@@ -138,7 +138,7 @@ tags: ["fukuoka", "kitakyushu", "mojiko", "castle", "guide"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.1157047380266!2d130.87953777459134!3d33.88667382645668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3543bf4c093d37e1%3A0x6d12b2384a8c7699!2z5bu76Lui5a-_5Y-45bmz5Zub6YOOIOOCouODn-ODpeODl-ODqeOCtuW6lw!5e0!3m2!1s!2sjp!4v1782985201069!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.1157047380266!2d130.87953777459134!3d33.88667382645668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3543bf4c093d37e1%3A0x6d12b2384a8c7699!2z5bu76Lui5a-_5Y-45bmz5Zub6YOOIOOCouODn-ODpeODl-ODqeOCtuW6lw!5e0!3m2!1sen!2sjp!4v1782985201069!5m2!1sen!2sjp]]
 
 ### 🍛 Baked Curry
 ![Baked Curry](/images/prefectures/fukuoka/kokura_baked_curry.webp)
@@ -160,7 +160,7 @@ tags: ["fukuoka", "kitakyushu", "mojiko", "castle", "guide"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.818782942623!2d130.95879027459432!3d33.945788723345856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35439711d4e5d465%3A0x64864d7d01a53938!2z44Of44Or44Kv44Ob44O844Or6ZaA5Y-45riv!5e0!3m2!1s!2sjp!4v1782985252475!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.818782942623!2d130.95879027459432!3d33.945788723345856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35439711d4e5d465%3A0x64864d7d01a53938!2z44Of44Or44Kv44Ob44O844Or6ZaA5Y-45riv!5e0!3m2!1sen!2sjp!4v1782985252475!5m2!1sen!2sjp]]
 
 ---
 

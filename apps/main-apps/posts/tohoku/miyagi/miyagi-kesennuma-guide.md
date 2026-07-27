@@ -34,7 +34,7 @@ The harbor infrastructure accommodates large pelagic and coastal commercial fish
 
 * **Alternative Route:** Sendai Station to Kesennuma Station via the local JR Tohoku Main Line, Ishinomaki Line, and the Kesennuma Line BRT (Bus Rapid Transit) requires approximately 4 hours of travel time.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12418.708227403133!2d141.55860179548085!3d38.90849973476949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8894fc8974feff%3A0xfa46a4d62b7e87bb!2z5rCX5LuZ5rK86aeF!5e0!3m2!1s!2sjp!4v1782537153618!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12418.708227403133!2d141.55860179548085!3d38.90849973476949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8894fc8974feff%3A0xfa46a4d62b7e87bb!2z5rCX5LuZ5rK86aeF!5e0!3m2!1sen!2sjp!4v1782537153618!5m2!1sen!2sjp]]
 
 ---
 

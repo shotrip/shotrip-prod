@@ -32,7 +32,7 @@ tags: ["kagoshima", "ibusuki", "onsen", "sand-bath", "guide"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3411.414409485155!2d130.64001127457865!3d31.236949374344977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x353c2ab7223d2f45%3A0xc0dfb295805d0711!2z5oyH5a6_6aeF!5e0!3m2!1s!2sjp!4v1783071697312!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3411.414409485155!2d130.64001127457865!3d31.236949374344977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x353c2ab7223d2f45%3A0xc0dfb295805d0711!2z5oyH5a6_6aeF!5e0!3m2!1sen!2sjp!4v1783071697312!5m2!1sen!2sjp]]
 
 ---
 
@@ -143,7 +143,7 @@ tags: ["kagoshima", "ibusuki", "onsen", "sand-bath", "guide"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3411.369933826923!2d130.6401506745789!3d31.238180974344345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x353c2ab72c1cd0d1%3A0x76d172364a045da0!2z6buS6LGa44Go6YO35Zyf5paZ55CGIOmdkuiRiQ!5e0!3m2!1s!2sjp!4v1783071850344!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3411.369933826923!2d130.6401506745789!3d31.238180974344345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x353c2ab72c1cd0d1%3A0x76d172364a045da0!2z6buS6LGa44Go6YO35Zyf5paZ55CGIOmdkuiRiQ!5e0!3m2!1sen!2sjp!4v1783071850344!5m2!1sen!2sjp]]
 
 ### 🥢 Tosenkyo Flowing Somen Noodles
 ![Flowing Somen Noodles](/images/prefectures/kagoshima/ibusuki_flowing_somen_noodles.webp)
@@ -166,7 +166,7 @@ tags: ["kagoshima", "ibusuki", "onsen", "sand-bath", "guide"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3412.037361571347!2d130.54050627457792!3d31.219694274352996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x353dd6b1e41f1283%3A0xa579fcdf587936d1!2z6ZW35a-_5bq1IOmWi-iBnuWUkOiIueWzoeW6lw!5e0!3m2!1s!2sjp!4v1783071892308!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3412.037361571347!2d130.54050627457792!3d31.219694274352996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x353dd6b1e41f1283%3A0xa579fcdf587936d1!2z6ZW35a-_5bq1IOmWi-iBnuWUkOiIueWzoeW6lw!5e0!3m2!1sen!2sjp!4v1783071892308!5m2!1sen!2sjp]]
 
 ---
 

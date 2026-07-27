@@ -32,7 +32,7 @@ By using the local city of Yonago as your base, you can access the core area of 
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3252.4488697366983!2d133.52789120204687!3d35.394122886514836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355661b7038e5a3d%3A0xb715b7ffd0abd698!2z5aSn5bGx44OK44K344On44OK44Or44OR44O844Kv44K744Oz44K_44O8!5e0!3m2!1s!2sjp!4v1782821847607!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3252.4488697366983!2d133.52789120204687!3d35.394122886514836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355661b7038e5a3d%3A0xb715b7ffd0abd698!2z5aSn5bGx44OK44K344On44OK44Or44OR44O844Kv44K744Oz44K_44O8!5e0!3m2!1sen!2sjp!4v1782821847607!5m2!1sen!2sjp]]
 
 ---
 
@@ -47,7 +47,7 @@ By using the local city of Yonago as your base, you can access the core area of 
   * **Pacing Breakdown:** Natsuyama Trailhead → *(60 mins)* → 3rd Station → *(60 mins)* → 6th Station → *(60 mins)* → Mount Daisen Summit.
 
 **Gear Rental Service (Daisen Tourism Bureau):**
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13009.91268423032!2d133.51091472982392!3d35.39339638944982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355661b7038e5a3d%3A0xb4de915eaba0f82a!2z5aSn5bGx55S66Kaz5YWJ5qGI5YaF5omA!5e0!3m2!1s!2sjp!4v1783340148584!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13009.91268423032!2d133.51091472982392!3d35.39339638944982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355661b7038e5a3d%3A0xb4de915eaba0f82a!2z5aSn5bGx55S66Kaz5YWJ5qGI5YaF5omA!5e0!3m2!1sen!2sjp!4v1783340148584!5m2!1sen!2sjp]]
 * **Rental Counter:** Daisen Tourism Information Office
 * **Hours:** 8:30 - 17:00 *(Same-day rentals only. Items must be returned by 17:00)*.
 * **Important Note:** On-site rental is available, but advance booking is highly recommended to guarantee stock availability.
@@ -81,7 +81,7 @@ By using the local city of Yonago as your base, you can access the core area of 
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3252.493643005501!2d133.52824717480104!3d35.3930127726817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355661b79edbb4e3%3A0x78d2b24347ad5c86!2z6LGq5YaG5rmv6Zmi!5e0!3m2!1s!2sjp!4v1782821904855!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3252.493643005501!2d133.52824717480104!3d35.3930127726817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355661b79edbb4e3%3A0x78d2b24347ad5c86!2z6LGq5YaG5rmv6Zmi!5e0!3m2!1sen!2sjp!4v1782821904855!5m2!1sen!2sjp]]
 
 ---
 

@@ -33,7 +33,7 @@ tags: ["miyazaki", "nichinan", "obi", "shrine", "guide"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3386.6635860868923!2d131.42940127461333!3d31.91573667403548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3538b75cc4d68f89%3A0x4b00f89c05e21ac4!2z5a6u5bSO6aeF!5e0!3m2!1s!2sjp!4v1783064709965!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3386.6635860868923!2d131.42940127461333!3d31.91573667403548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3538b75cc4d68f89%3A0x4b00f89c05e21ac4!2z5a6u5bSO6aeF!5e0!3m2!1sen!2sjp!4v1783064709965!5m2!1sen!2sjp]]
 
 ---
 
@@ -174,4 +174,4 @@ I highly recommend doing a day trip by renting a car from downtown Miyazaki. If 
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3398.941721635034!2d131.39708107459626!3d31.580645974186393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3538d63368afad6d%3A0x87c1fcac0668136e!2z6a2a5paZ55CGIOOBs-OBs-OCk-OChA!5e0!3m2!1s!2sjp!4v1783065227856!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3398.941721635034!2d131.39708107459626!3d31.580645974186393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3538d63368afad6d%3A0x87c1fcac0668136e!2z6a2a5paZ55CGIOOBs-OBs-OCk-OChA!5e0!3m2!1sen!2sjp!4v1783065227856!5m2!1sen!2sjp]]

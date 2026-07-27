@@ -37,7 +37,7 @@ In the square right across the bridge, for some reason, famous soft-serve ice cr
 * **Shinkansen Note:** Not all Shinkansen trains stop at Shin-Iwakuni Station.
 * **Train Transfer Note:** Using Nishi-Iwakuni Station requires a train transfer at Iwakuni Station. Taking a bus directly from Iwakuni Station is easier.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.1690277494945!2d132.1758355747329!3d34.167595873113704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3545343e6b6e661d%3A0x6654b3733cf09708!2z6Yym5biv5qmL!5e0!3m2!1s!2sjp!4v1782825740803!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.1690277494945!2d132.1758355747329!3d34.167595873113704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3545343e6b6e661d%3A0x6654b3733cf09708!2z6Yym5biv5qmL!5e0!3m2!1sen!2sjp!4v1782825740803!5m2!1sen!2sjp]]
 
 ---
 

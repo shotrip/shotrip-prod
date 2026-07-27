@@ -33,7 +33,7 @@ tags: ["toyama", "takaoka", "coast", "transit", "geography"]
 ### 🚌 Seasonal Bus Infrastructure
 * **Operational Window:** The "Toyama Buri Kani Bus" specialized transit link operates seasonal routes servicing the area from October through March.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3194.0843974841387!2d137.0348542742055!3d36.81649746678333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff7769d33853ea1%3A0xa94c3a8ee9881657!2z6Zuo5pm06aeF!5e0!3m2!1s!2sjp!4v1782697461358!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3194.0843974841387!2d137.0348542742055!3d36.81649746678333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff7769d33853ea1%3A0xa94c3a8ee9881657!2z6Zuo5pm06aeF!5e0!3m2!1sen!2sjp!4v1782697461358!5m2!1sen!2sjp]]
 
 ---
 
@@ -64,4 +64,4 @@ The Michi-no-Eki Amaharashi roadside station features elevated public observatio
     * **Regular Closures:** Alternating Tuesdays. *(Note: To align systematically with the scheduled closures of the Himi Wholesale Market, operations are temporarily shifted to every Wednesday until further notice).*
     * **Transit Route:** Amaharashi Station → Local Bus (Fushiki Station-Himi Route) → Yanagida Bus Stop → Walk (15 minutes).
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3193.8892521134753!2d136.99192307420563!3d36.82117366651969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff776b58a18688b%3A0x6c997dc626fe6cec!2z5rC36KaL44GN44Go44GN44Go5a-_44GXIOawt-imi-acrOW6lw!5e0!3m2!1s!2sjp!4v1782697839861!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3193.8892521134753!2d136.99192307420563!3d36.82117366651969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff776b58a18688b%3A0x6c997dc626fe6cec!2z5rC36KaL44GN44Go44GN44Go5a-_44GXIOawt-imi-acrOW6lw!5e0!3m2!1sen!2sjp!4v1782697839861!5m2!1sen!2sjp]]

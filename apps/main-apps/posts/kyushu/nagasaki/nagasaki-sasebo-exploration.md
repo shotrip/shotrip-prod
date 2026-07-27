@@ -34,7 +34,7 @@ tags: ["nagasaki", "sasebo", "kujukushima", "port", "guide"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3339.9124791330783!2d129.7230708746789!3d33.16392447350438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356a942dbb85d065%3A0x8a3d23d32e7f9f04!2z5L2Q5LiW5L-d6aeF!5e0!3m2!1s!2sjp!4v1783054294156!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3339.9124791330783!2d129.7230708746789!3d33.16392447350438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356a942dbb85d065%3A0x8a3d23d32e7f9f04!2z5L2Q5LiW5L-d6aeF!5e0!3m2!1sen!2sjp!4v1783054294156!5m2!1sen!2sjp]]
 
 ---
 

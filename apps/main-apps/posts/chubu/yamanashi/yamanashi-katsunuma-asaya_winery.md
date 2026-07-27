@@ -28,7 +28,7 @@ tags: ["yamanashi", "katsunuma", "winery", "history", "transit"]
 * **Primary Station:** JR Chuo Main Line Katsunuma-budogou Station → Taxi transfer (approx. 8 minutes).
 * **Express Rail Options:** Select Limited Express "Azusa" trains operating from JR Shinjuku Station make scheduled stops directly at Katsunuma-budogou Station.
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.465746281291!2d138.71250707413515!3d35.66553233083902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601bfd868bd750ed%3A0x999f0053dfd385ca!2z6bq75bGL6JGh6JCE6YWS!5e0!3m2!1s!2sjp!4v1782705281531!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.465746281291!2d138.71250707413515!3d35.66553233083902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601bfd868bd750ed%3A0x999f0053dfd385ca!2z6bq75bGL6JGh6JCE6YWS!5e0!3m2!1sen!2sjp!4v1782705281531!5m2!1sen!2sjp]]
 
 ---
 

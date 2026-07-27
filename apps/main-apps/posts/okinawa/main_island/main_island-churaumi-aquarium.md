@@ -49,7 +49,7 @@ tags: ["okinawa", "churaumi", "aquarium", "whale-shark", "guide"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3564.566671044869!2d127.87543817436473!3d26.694337976778023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34e4fa3152619e3d%3A0xea08a6700fdd9ffe!2z5rKW57iE576O44KJ5rW35rC05peP6aSo!5e0!3m2!1s!2sjp!4v1783165067263!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3564.566671044869!2d127.87543817436473!3d26.694337976778023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34e4fa3152619e3d%3A0xea08a6700fdd9ffe!2z5rKW57iE576O44KJ5rW35rC05peP6aSo!5e0!3m2!1sen!2sjp!4v1783165067263!5m2!1sen!2sjp]]
 
 ---
 

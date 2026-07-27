@@ -34,7 +34,7 @@ tags: ["kumamoto", "amakusa", "sakitsu", "church", "guide"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3366.69928829324!2d130.1915650746413!3d32.45398297380034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x353fee5703c4aba7%3A0x95f78fc42fa8132f!2z5pys5rih44OQ44K544K744Oz44K_44O8!5e0!3m2!1s!2sjp!4v1783069657867!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3366.69928829324!2d130.1915650746413!3d32.45398297380034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x353fee5703c4aba7%3A0x95f78fc42fa8132f!2z5pys5rih44OQ44K544K744Oz44K_44O8!5e0!3m2!1sen!2sjp!4v1783069657867!5m2!1sen!2sjp]]
 
 ---
 
@@ -151,7 +151,7 @@ tags: ["kumamoto", "amakusa", "sakitsu", "church", "guide"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3364.7727842316344!2d130.30312677464408!3d32.505501573778226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x353ff34a4d66c5ff%3A0x4e7e1fdf1eb8d420!2z6YGT44Gu6aeFIOacieaYjg!5e0!3m2!1s!2sjp!4v1783069728380!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3364.7727842316344!2d130.30312677464408!3d32.505501573778226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x353ff34a4d66c5ff%3A0x4e7e1fdf1eb8d420!2z6YGT44Gu6aeFIOacieaYjg!5e0!3m2!1sen!2sjp!4v1783069728380!5m2!1sen!2sjp]]
 
 ---
 

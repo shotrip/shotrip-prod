@@ -34,7 +34,7 @@ tags: ["hokkaido", "otoineppu", "soya-line", "railway", "guide"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2834.537852726625!2d142.25733267522276!3d44.72904268218986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0e0131d6f524c3%3A0x368f70019fabb490!2z6Z-z5aiB5a2Q5bqc6aeF!5e0!3m2!1s!2sjp!4v1783147490733!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2834.537852726625!2d142.25733267522276!3d44.72904268218986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0e0131d6f524c3%3A0x368f70019fabb490!2z6Z-z5aiB5a2Q5bqc6aeF!5e0!3m2!1sen!2sjp!4v1783147490733!5m2!1sen!2sjp]]
 
 ---
 
@@ -104,7 +104,7 @@ tags: ["hokkaido", "otoineppu", "soya-line", "railway", "guide"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2834.5767977590194!2d142.26124597522266!3d44.728247982242316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0e012e0157710b%3A0x9a149d09322a152f!2z6Z-z5aiB5a2Q5bqc5p2RIOWxseadkeODu-mDveW4guS6pOa1geOCu-ODs-OCv-ODvCDmnKjpgYrppKg!5e0!3m2!1s!2sjp!4v1783147786321!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2834.5767977590194!2d142.26124597522266!3d44.728247982242316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0e012e0157710b%3A0x9a149d09322a152f!2z6Z-z5aiB5a2Q5bqc5p2RIOWxseadkeODu-mDveW4guS6pOa1geOCu-ODs-OCv-ODvCDmnKjpgYrppKg!5e0!3m2!1sen!2sjp!4v1783147786321!5m2!1sen!2sjp]]
 
 ---
 
