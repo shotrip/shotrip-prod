@@ -33,7 +33,7 @@ tags: ["hokkaido", "yotei", "hiking", "makkari", "guide"]
 </div>
 </div>
 
-[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2927.6002641157706!2d140.7835450752553!3d42.796799771155605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0ab2742d79e7fd%3A0xbb4ade1e50977382!2z576K6LmE5bGxIOecn-eLqeOCs-ODvOOCueeZu-WxseWPow!5e0!3m2!1s!2sjp!4v1783153497640!5m2!1s!2sjp]]
+[[MAP:https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2927.6002641157706!2d140.7835450752553!3d42.796799771155605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0ab2742d79e7fd%3A0xbb4ade1e50977382!2z576K6LmE5bGxIOecn-eLqeOCs-ODvOOCueeZu-WxseWPow!5e0!3m2!1sen!2sjp!4v1783153497640!5m2!1sen!2sjp]]
 
 ---
 
